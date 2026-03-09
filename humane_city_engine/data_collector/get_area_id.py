@@ -1,143 +1,89 @@
 """
-get_area_id.py
+data_collector/get_area_id.py  [SCALABLE VERSION]
 
-Fetches Overpass AREA_ID for Mangalore/Mangaluru.
+Resolves Overpass area_id for any city via CityProfile.
 
-FIXED: Original used admin_level=8 only — Mangalore is registered in OSM
-as admin_level=6 (City Corporation). This version tries multiple levels
-and multiple name spellings automatically.
-
-Also provides a hardcoded fallback — Mangalore's known OSM relation ID
-is 1952828, so we never fail even if API is slow.
+Priority order:
+1. Use profile.osm_area_id (computed from known relation_id) — instant, no API
+2. Try each name variant × admin level — dynamic lookup
+3. Raise clear error with help message
 """
 
 import requests
 import time
 from typing import Optional
 
+from city_profiles.city_profile import CityProfile
 
-# ============================================================
-# CONFIGURATION
-# ============================================================
 
 OVERPASS_URL = "https://overpass-api.de/api/interpreter"
 
-# Mangalore City Corporation — confirmed OSM relation ID
-# Source: https://www.openstreetmap.org/relation/1952828
-# AREA_ID = relation_id + 3,600,000,000
-MANGALORE_KNOWN_RELATION_ID = 1952828
-MANGALORE_KNOWN_AREA_ID = MANGALORE_KNOWN_RELATION_ID + 3600000000
 
-
-# ============================================================
-# MAIN FUNCTION
-# ============================================================
-
-def get_area_id(
-    city_name: str,
-    admin_level: str = "8"
-) -> int:
+def get_area_id_for_profile(profile: CityProfile) -> int:
     """
-    Fetch Overpass AREA_ID for a city.
+    Resolve Overpass area_id for a city using its CityProfile.
 
-    FIXED behaviour vs original:
-    - Tries admin_level 6, 7, 8 automatically (not just 8)
-    - Tries both "Mangalore" and "Mangaluru" name spellings
-    - Falls back to hardcoded Mangalore relation ID if all queries fail
-    - Never crashes — always returns a valid area_id
+    For Mangalore (and any city with a known relation_id),
+    this returns instantly without any API call.
 
     Args:
-        city_name (str): City name (e.g., "Mangalore")
-        admin_level (str): OSM admin level hint (tried first, then others)
+        profile: CityProfile for the target city
 
     Returns:
-        int: AREA_ID usable in Overpass queries
+        int: area_id for use in Overpass queries
     """
 
-    if not city_name or not isinstance(city_name, str):
-        raise ValueError("city_name must be a valid string.")
+    # ── FAST PATH: known relation_id in profile ────────────────
+    if profile.osm_area_id:
+        print(f"  Using known area_id from profile: {profile.osm_area_id}")
+        return profile.osm_area_id
 
-    # Name variants to try — Mangalore was officially renamed to Mangaluru
-    # OSM may have either spelling depending on when it was last edited
-    name_variants = [city_name]
-    if city_name.lower() in ("mangalore", "mangaluru"):
-        name_variants = ["Mangaluru", "Mangalore", "ಮಂಗಳೂರು"]
+    # ── DYNAMIC LOOKUP: try name variants × admin levels ───────
+    print(f"  Dynamic OSM lookup for: {profile.display_name}")
 
-    # Admin level variants — try the requested level first, then common levels
-    # For Karnataka cities:
-    #   level 6 = City Corporation (BBMP, Mangaluru CC)
-    #   level 7 = City Municipal Council
-    #   level 8 = Town Municipal Council / smaller towns
-    level_variants = [admin_level]
-    for lvl in ["6", "7", "8", "5"]:
-        if lvl not in level_variants:
-            level_variants.append(lvl)
+    name_variants = profile.name_variants or [profile.display_name]
+    admin_levels = profile.osm_admin_levels or ["6", "7", "8"]
 
-    print(f"  Looking up OSM area ID for: {city_name}")
-
-    # For Mangalore — use known ID immediately, skip dynamic lookup entirely.
-    # Dynamic lookup hammers Overpass with 12+ queries and causes 429/504 errors.
-    # The hardcoded relation ID is stable — Mangalore City Corporation (OSM relation 1952828)
-    if city_name.lower() in ("mangalore", "mangaluru"):
-        print(f"  Using verified Mangalore area_id: {MANGALORE_KNOWN_AREA_ID}")
-        return MANGALORE_KNOWN_AREA_ID
-
-    # For other cities — try dynamic lookup
     for name in name_variants:
-        for level in level_variants:
-
+        for level in admin_levels:
             query = f"""
             [out:json][timeout:30];
-            relation
-              ["name"="{name}"]
-              ["admin_level"="{level}"];
+            relation["name"="{name}"]["admin_level"="{level}"];
             out ids;
             """
-
-            time.sleep(2)  # Respect rate limits
+            time.sleep(2)
 
             try:
-                response = requests.post(
-                    OVERPASS_URL,
-                    data={"data": query},
-                    timeout=45
-                )
-                response.raise_for_status()
-                data = response.json()
-                elements = data.get("elements", [])
+                resp = requests.post(OVERPASS_URL, data={"data": query}, timeout=45)
+                resp.raise_for_status()
+                elements = resp.json().get("elements", [])
 
                 if elements:
                     relation_id = elements[0]["id"]
                     area_id = relation_id + 3600000000
-                    print(f"  Found: name='{name}' admin_level={level} → area_id {area_id}")
+                    print(f"  Found: '{name}' admin_level={level} → area_id {area_id}")
+                    print(f"  TIP: Add osm_relation_id={relation_id} to {profile.city_id}_profile.py to skip this lookup next time.")
                     return area_id
                 else:
-                    print(f"  Not found: name='{name}' admin_level={level} — trying next...")
+                    print(f"  Not found: '{name}' admin_level={level}")
 
             except requests.RequestException as e:
-                print(f"  Query failed ({name}, level {level}): {e} — trying next...")
-
-    # --------------------------------------------------------
-    # HARDCODED FALLBACK — always works for Mangalore
-    # Mangalore City Corporation OSM relation is stable and well-mapped
-    # --------------------------------------------------------
-    if city_name.lower() in ("mangalore", "mangaluru"):
-        print(f"  All dynamic queries failed. Using known Mangalore area_id: {MANGALORE_KNOWN_AREA_ID}")
-        return MANGALORE_KNOWN_AREA_ID
+                print(f"  Query failed ({name}, level {level}): {e}")
 
     raise ValueError(
-        f"Could not find OSM relation for '{city_name}'. "
-        f"Tried name variants: {name_variants}, admin levels: {level_variants}. "
-        f"Check https://www.openstreetmap.org to find the correct relation."
+        f"Could not resolve OSM area_id for '{profile.display_name}'.\n"
+        f"Tried names: {name_variants}\n"
+        f"Tried admin levels: {admin_levels}\n"
+        f"Fix: Go to https://www.openstreetmap.org, search '{profile.display_name}', \n"
+        f"click the city boundary relation, note the relation ID, \n"
+        f"then add osm_relation_id=<id> to {profile.city_id}_profile.py"
     )
 
 
-# ============================================================
-# OPTIONAL CLI EXECUTION
-# ============================================================
-
-if __name__ == "__main__":
-
-    city = "Mangalore"
-    area_id = get_area_id(city)
-    print(f"AREA_ID for {city}: {area_id}")
+# Backwards-compatible wrapper for old callers
+def get_area_id(city_name: str, admin_level: str = "8") -> int:
+    """Legacy function — prefer get_area_id_for_profile() for new code."""
+    from city_profiles.mangalore_profile import MANGALORE
+    if city_name.lower() in ("mangalore", "mangaluru"):
+        return MANGALORE.osm_area_id
+    raise ValueError(f"Unknown city: {city_name}. Use get_area_id_for_profile() with a CityProfile.")

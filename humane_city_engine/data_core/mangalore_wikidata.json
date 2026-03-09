@@ -1,0 +1,1363 @@
+{
+  "city": "Mangalore",
+  "state": "Karnataka",
+  "city_qid": "Q42941",
+  "generated_at": "2026-03-09T15:22:59.172315+00:00",
+  "source": "Wikidata",
+  "license": "CC0",
+  "heritage_structures": [
+    {
+      "item": "http://www.wikidata.org/entity/Q124759438",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Mankameshwar%20Temple%20Metro%204.jpg",
+      "itemLabel": "Mankameshwar Mandir metro station",
+      "typeLabel": "underground station",
+      "data_type": "heritage_structure"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q123191284",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/The%20Great%20gate%20%28Darwaza-i%20rauza%29%2C%20Agra.jpg",
+      "itemLabel": "Darwaza-i-Rauza",
+      "typeLabel": "monument",
+      "data_type": "heritage_structure"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q97881912",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Agra%20Fort%20-%20Diwan-e%20Khas.jpg",
+      "itemLabel": "Diwan-i-Khas",
+      "typeLabel": "building",
+      "data_type": "heritage_structure"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q16919556",
+      "itemLabel": "Eklavya Sports Stadium",
+      "typeLabel": "cricket field",
+      "inception": "1990-01-01T00:00:00Z",
+      "data_type": "heritage_structure"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q6127147",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Jami%20Masjid%2C%20Agra.jpg",
+      "itemLabel": "Jama Masjid",
+      "typeLabel": "mosque",
+      "data_type": "heritage_structure"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q4693674",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/WAP4-22538%20Agra%20Fort.jpg",
+      "itemLabel": "Agra Fort railway station",
+      "typeLabel": "railway station",
+      "inception": "1874-01-01T00:00:00Z",
+      "data_type": "heritage_structure"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q416646",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/AkbarTombExterior.JPG",
+      "itemLabel": "Akbar's Tomb",
+      "typeLabel": "mausoleum",
+      "inception": "1604-01-01T00:00:00Z",
+      "data_type": "heritage_structure"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q3634740",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Agra%20Cantonment%20railway%20station%20-%20Visit%20During%20WCI%202016%20%282%29.jpg",
+      "itemLabel": "Agra Cantt railway station",
+      "typeLabel": "railway station",
+      "inception": "1904-01-01T00:00:00Z",
+      "data_type": "heritage_structure"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q116728045",
+      "itemLabel": "Agra Cantonment Cemetery",
+      "typeLabel": "cemetery",
+      "data_type": "heritage_structure"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q15271403",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Raja%20ki%20mandi.jpg",
+      "itemLabel": "Raja ki Mandi railway station",
+      "typeLabel": "station located on surface",
+      "inception": "1904-01-01T00:00:00Z",
+      "data_type": "heritage_structure"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q97815529",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Great%20Idgah%20of%20Agra.jpg",
+      "itemLabel": "Great Idgah",
+      "typeLabel": "Eidgah",
+      "data_type": "heritage_structure"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q9141",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Taj%20Mahal%2C%20Agra%2C%20India%20edit3.jpg",
+      "itemLabel": "Taj Mahal",
+      "typeLabel": "tomb",
+      "inception": "1631-01-01T00:00:00Z",
+      "architectLabel": "Ahmad Lahori",
+      "data_type": "heritage_structure"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q124759438",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Mankameshwar%20Temple%20Metro%204.jpg",
+      "itemLabel": "Mankameshwar Mandir metro station",
+      "typeLabel": "metro station",
+      "data_type": "heritage_structure"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1849321",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Agra%20Airport%20image.png",
+      "itemLabel": "Agra Civil Enclave",
+      "typeLabel": "airport",
+      "data_type": "heritage_structure"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q3612475",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Agra%20Fort%2005%20%28Friar%27s%20Balsam%20Flickr%29.jpg",
+      "itemLabel": "Jahangiri Mahal",
+      "typeLabel": "palace",
+      "data_type": "heritage_structure"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q5988564",
+      "itemLabel": "Idgah railway station",
+      "typeLabel": "railway station",
+      "data_type": "heritage_structure"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q5988557",
+      "itemLabel": "Idgah Bus Stand",
+      "typeLabel": "bus station",
+      "data_type": "heritage_structure"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q9141",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Taj%20Mahal%2C%20Agra%2C%20India%20edit3.jpg",
+      "itemLabel": "Taj Mahal",
+      "typeLabel": "mausoleum",
+      "inception": "1631-01-01T00:00:00Z",
+      "architectLabel": "Ahmad Lahori",
+      "data_type": "heritage_structure"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q15648841",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Agra%20Fort%2C%20India%20%2821001488178%29.jpg",
+      "itemLabel": "Diwan-i-Am",
+      "typeLabel": "building",
+      "data_type": "heritage_structure"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q15271403",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Raja%20ki%20mandi.jpg",
+      "itemLabel": "Raja ki Mandi railway station",
+      "typeLabel": "railway station",
+      "inception": "1904-01-01T00:00:00Z",
+      "data_type": "heritage_structure"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q97815691",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Catholic%20Cemetery%20Agra%207.jpg",
+      "itemLabel": "Roman Catholic Cemetery with all its tombs, Boundary Walls, gateways and gardens",
+      "typeLabel": "cemetery",
+      "data_type": "heritage_structure"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q74851369",
+      "itemLabel": "Q74851369",
+      "typeLabel": "building",
+      "data_type": "heritage_structure"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q16933896",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Agra%20Fort%2020180908%20143411.jpg",
+      "itemLabel": "Mina Mosque",
+      "typeLabel": "mosque",
+      "data_type": "heritage_structure"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q133099892",
+      "itemLabel": "Agra Cemetery",
+      "typeLabel": "cemetery",
+      "data_type": "heritage_structure"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q3585487",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Agra%2C%20Akbar%27s%20church.JPG",
+      "itemLabel": "Akbar's Church",
+      "typeLabel": "church building",
+      "inception": "1772-01-01T00:00:00Z",
+      "data_type": "heritage_structure"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q5988564",
+      "itemLabel": "Idgah railway station",
+      "typeLabel": "station located on surface",
+      "data_type": "heritage_structure"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q124759439",
+      "itemLabel": "Dr. Ambedkar Chowk",
+      "typeLabel": "metro station",
+      "data_type": "heritage_structure"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q98776252",
+      "itemLabel": "Arch Bridge No. 13",
+      "typeLabel": "railway bridge",
+      "data_type": "heritage_structure"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q98776275",
+      "itemLabel": "Bridge No. 162",
+      "typeLabel": "railway bridge",
+      "data_type": "heritage_structure"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q98776291",
+      "itemLabel": "Strachey Bridge No. 167",
+      "typeLabel": "railway bridge",
+      "data_type": "heritage_structure"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q17058919",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/IAshishTripathi%20Mankameshwar-Temple-Agra.jpg",
+      "itemLabel": "Mankameshwar Temple",
+      "typeLabel": "Hindu temple",
+      "data_type": "heritage_structure"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q98780770",
+      "itemLabel": "Belanganj Tunnel",
+      "typeLabel": "railway tunnel",
+      "data_type": "heritage_structure"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q97881918",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Agra%2003-2016%2013%20Agra%20Fort.jpg",
+      "itemLabel": "John Russell Colvin's tomb",
+      "typeLabel": "tomb",
+      "data_type": "heritage_structure"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q12061618",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Mehtab%20Bagh%20lawn.jpg",
+      "itemLabel": "Mehtab Bagh",
+      "typeLabel": "garden",
+      "data_type": "heritage_structure"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1318766",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/I%27tim%C4%81d-ud-Daulah%2C%20Agra.jpg",
+      "itemLabel": "Tomb of I'timād-ud-Daulah",
+      "typeLabel": "mausoleum",
+      "data_type": "heritage_structure"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q4693674",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/WAP4-22538%20Agra%20Fort.jpg",
+      "itemLabel": "Agra Fort railway station",
+      "typeLabel": "station located on surface",
+      "inception": "1874-01-01T00:00:00Z",
+      "data_type": "heritage_structure"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q9141",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Taj%20Mahal%2C%20Agra%2C%20India%20edit3.jpg",
+      "itemLabel": "Taj Mahal",
+      "typeLabel": "tourist attraction",
+      "inception": "1631-01-01T00:00:00Z",
+      "architectLabel": "Ahmad Lahori",
+      "data_type": "heritage_structure"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1849321",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Agra%20Airport%20image.png",
+      "itemLabel": "Agra Civil Enclave",
+      "typeLabel": "commercial traffic aerodrome",
+      "data_type": "heritage_structure"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q3634740",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Agra%20Cantonment%20railway%20station%20-%20Visit%20During%20WCI%202016%20%282%29.jpg",
+      "itemLabel": "Agra Cantt railway station",
+      "typeLabel": "station located on surface",
+      "inception": "1904-01-01T00:00:00Z",
+      "data_type": "heritage_structure"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q132528738",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Battis%20Khamba%2C%20Agra.jpg",
+      "itemLabel": "Q132528738",
+      "typeLabel": "tower",
+      "inception": "1610-01-01T00:00:00Z",
+      "data_type": "heritage_structure"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q124759443",
+      "itemLabel": "Taj East Gate",
+      "typeLabel": "metro station",
+      "data_type": "heritage_structure"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q97881897",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Akbari%20Mahal.jpg",
+      "itemLabel": "Akbari Mahal",
+      "typeLabel": "palace",
+      "data_type": "heritage_structure"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q97881907",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Agra%20Fort%20Mina%20Mahal.JPG",
+      "itemLabel": "Chitor Gates",
+      "typeLabel": "gate",
+      "data_type": "heritage_structure"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q22934359",
+      "itemLabel": "Hotel Clarks Shiraz",
+      "typeLabel": "hotel",
+      "data_type": "heritage_structure"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q124759439",
+      "itemLabel": "Dr. Ambedkar Chowk",
+      "typeLabel": "underground station",
+      "data_type": "heritage_structure"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q124759443",
+      "itemLabel": "Taj East Gate",
+      "typeLabel": "elevated station",
+      "data_type": "heritage_structure"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q171857",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Agra%2003-2016%2016%20Agra%20Fort.jpg",
+      "itemLabel": "Agra Fort",
+      "typeLabel": "fort",
+      "inception": "1565-01-01T00:00:00Z",
+      "data_type": "heritage_structure"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q97881928",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Khas%20Mahal%20-%20Western%20Facade%20-%20Agra%20Fort%20-%20Agra%202014-05-14%204183.JPG",
+      "itemLabel": "Khas Mahal",
+      "typeLabel": "building",
+      "data_type": "heritage_structure"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q23035864",
+      "itemLabel": "Sadar Bazar Stadium",
+      "typeLabel": "stadium",
+      "inception": "1934-01-01T00:00:00Z",
+      "data_type": "heritage_structure"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138493716",
+      "itemLabel": "Blue Line (Agra Metro)",
+      "typeLabel": "rapid transit line",
+      "data_type": "heritage_structure"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q97881922",
+      "itemLabel": "Amar Singh Gate",
+      "typeLabel": "gate",
+      "data_type": "heritage_structure"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q97881899",
+      "itemLabel": "Anguri Bagh",
+      "typeLabel": "garden",
+      "data_type": "heritage_structure"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q97881957",
+      "itemLabel": "Shish Mahal",
+      "typeLabel": "palace",
+      "data_type": "heritage_structure"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q97881963",
+      "itemLabel": "Well (Baoli) in the Akbari Mahal",
+      "typeLabel": "water well",
+      "data_type": "heritage_structure"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75153090",
+      "itemLabel": "Punjab And Sind Bank, Agra Rajpur Chungi Branch",
+      "typeLabel": "Punjab and Sind Bank branch",
+      "data_type": "heritage_structure"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75153250",
+      "itemLabel": "Punjab And Sind Bank, Agra Ghatia Azam Khan Agra Mont School Branch",
+      "typeLabel": "Punjab and Sind Bank branch",
+      "data_type": "heritage_structure"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75153251",
+      "itemLabel": "Punjab And Sind Bank, Agra Gurudwara Guru Ka Tal Branch",
+      "typeLabel": "Punjab and Sind Bank branch",
+      "data_type": "heritage_structure"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75152124",
+      "itemLabel": "Punjab And Sind Bank, Hing Ki Mandi, Agra Branch",
+      "typeLabel": "Punjab and Sind Bank branch",
+      "data_type": "heritage_structure"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75153092",
+      "itemLabel": "Punjab And Sind Bank, Ibd Agra Branch",
+      "typeLabel": "Punjab and Sind Bank branch",
+      "data_type": "heritage_structure"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75152439",
+      "itemLabel": "Punjab And Sind Bank, New Agra Branch",
+      "typeLabel": "Punjab and Sind Bank branch",
+      "data_type": "heritage_structure"
+    }
+  ],
+  "places_of_worship": [
+    {
+      "item": "http://www.wikidata.org/entity/Q9141",
+      "inception": "1631-01-01T00:00:00Z",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Taj%20Mahal%2C%20Agra%2C%20India%20edit3.jpg",
+      "itemLabel": "Taj Mahal",
+      "religionLabel": "Islam",
+      "data_type": "place_of_worship"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q6127147",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Jami%20Masjid%2C%20Agra.jpg",
+      "itemLabel": "Jama Masjid",
+      "religionLabel": "Islam",
+      "data_type": "place_of_worship"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q11737313",
+      "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Agra%2C%20Cathedral%20of%20the%20Immaculate%20Conception.JPG",
+      "itemLabel": "Cathedral of the Immaculate Conception of Agra",
+      "religionLabel": "Catholicism",
+      "data_type": "place_of_worship"
+    }
+  ],
+  "educational_institutions": [
+    {
+      "item": "http://www.wikidata.org/entity/Q4693672",
+      "inception": "1823-01-01T00:00:00Z",
+      "itemLabel": "Agra College",
+      "typeLabel": "higher education institution",
+      "data_type": "educational_institution"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q42895817",
+      "inception": "2009-01-01T00:00:00Z",
+      "itemLabel": "CBS College of Engineering & Management",
+      "typeLabel": "college",
+      "data_type": "educational_institution"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q5243021",
+      "inception": "1917-01-01T00:00:00Z",
+      "itemLabel": "Dayalbagh Educational Institute",
+      "typeLabel": "deemed university",
+      "data_type": "educational_institution"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7591070",
+      "inception": "1980-01-01T00:00:00Z",
+      "itemLabel": "St. Paul's College, Agra",
+      "typeLabel": "school",
+      "data_type": "educational_institution"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7285407",
+      "inception": "1885-01-01T00:00:00Z",
+      "itemLabel": "Raja Balwant Singh College",
+      "typeLabel": "engineering college",
+      "data_type": "educational_institution"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7424452",
+      "inception": "1854-01-01T00:00:00Z",
+      "itemLabel": "Sarojini Naidu Medical College",
+      "typeLabel": "medical college in India",
+      "data_type": "educational_institution"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q4794238",
+      "itemLabel": "Army School, Agra",
+      "typeLabel": "school",
+      "data_type": "educational_institution"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7588644",
+      "inception": "1850-01-01T00:00:00Z",
+      "itemLabel": "St. John's College",
+      "typeLabel": "college",
+      "data_type": "educational_institution"
+    }
+  ],
+  "notable_persons": [
+    {
+      "person": "http://www.wikidata.org/entity/Q106306740",
+      "birthdate": "1844-01-01T00:00:00Z",
+      "personLabel": "Shah Akbar Danapuri",
+      "occupationLabel": "ulema",
+      "data_type": "notable_person"
+    },
+    {
+      "person": "http://www.wikidata.org/entity/Q106306740",
+      "birthdate": "1843-01-01T00:00:00Z",
+      "personLabel": "Shah Akbar Danapuri",
+      "occupationLabel": "ulema",
+      "data_type": "notable_person"
+    },
+    {
+      "person": "http://www.wikidata.org/entity/Q47163005",
+      "birthdate": "1902-07-27T00:00:00Z",
+      "personLabel": "Edward Vivian Bobb",
+      "occupationLabel": "tennis player",
+      "data_type": "notable_person"
+    },
+    {
+      "person": "http://www.wikidata.org/entity/Q75731828",
+      "birthdate": "1805-06-23T00:00:00Z",
+      "personLabel": "J. Lumsdaine",
+      "data_type": "notable_person"
+    },
+    {
+      "person": "http://www.wikidata.org/entity/Q52610783",
+      "birthdate": "1892-01-01T00:00:00Z",
+      "personLabel": "Intizamullah Shehbai",
+      "occupationLabel": "biographer",
+      "data_type": "notable_person"
+    },
+    {
+      "person": "http://www.wikidata.org/entity/Q107142075",
+      "birthdate": "1924-01-01T00:00:00Z",
+      "personLabel": "Munibur Rahman",
+      "occupationLabel": "philologist",
+      "data_type": "notable_person"
+    },
+    {
+      "person": "http://www.wikidata.org/entity/Q106352307",
+      "birthdate": "1929-01-01T00:00:00Z",
+      "personLabel": "Putil Bai",
+      "occupationLabel": "dancer",
+      "data_type": "notable_person"
+    },
+    {
+      "person": "http://www.wikidata.org/entity/Q132177962",
+      "birthdate": "1924-09-24T00:00:00Z",
+      "personLabel": "Rekha Jain",
+      "occupationLabel": "theatrical director",
+      "data_type": "notable_person"
+    },
+    {
+      "person": "http://www.wikidata.org/entity/Q96174907",
+      "birthdate": "2000-12-08T00:00:00Z",
+      "personLabel": "Shobhit Sharma",
+      "occupationLabel": "engineer",
+      "data_type": "notable_person"
+    },
+    {
+      "person": "http://www.wikidata.org/entity/Q112526512",
+      "birthdate": "1952-01-01T00:00:00Z",
+      "personLabel": "Rakesh Behari Mathur",
+      "occupationLabel": "physicist",
+      "data_type": "notable_person"
+    },
+    {
+      "person": "http://www.wikidata.org/entity/Q36315310",
+      "birthdate": "1946-02-14T00:00:00Z",
+      "personLabel": "Hasan Akbar Kamal",
+      "occupationLabel": "writer",
+      "data_type": "notable_person"
+    },
+    {
+      "person": "http://www.wikidata.org/entity/Q96174907",
+      "birthdate": "2000-12-08T00:00:00Z",
+      "personLabel": "Shobhit Sharma",
+      "occupationLabel": "researcher",
+      "data_type": "notable_person"
+    },
+    {
+      "person": "http://www.wikidata.org/entity/Q115169398",
+      "birthdate": "1921-08-24T00:00:00Z",
+      "personLabel": "Q115169398",
+      "occupationLabel": "prose writer",
+      "data_type": "notable_person"
+    },
+    {
+      "person": "http://www.wikidata.org/entity/Q36315310",
+      "birthdate": "1946-02-14T00:00:00Z",
+      "personLabel": "Hasan Akbar Kamal",
+      "occupationLabel": "poet",
+      "data_type": "notable_person"
+    },
+    {
+      "person": "http://www.wikidata.org/entity/Q28794180",
+      "birthdate": "1957-02-02T00:00:00Z",
+      "personLabel": "Ram Babu Harit",
+      "occupationLabel": "politician",
+      "data_type": "notable_person"
+    },
+    {
+      "person": "http://www.wikidata.org/entity/Q56665623",
+      "birthdate": "1851-10-10T00:00:00Z",
+      "personLabel": "Arthur Hay Stewart Reid",
+      "occupationLabel": "judge",
+      "data_type": "notable_person"
+    },
+    {
+      "person": "http://www.wikidata.org/entity/Q97062234",
+      "personLabel": "Satish Chaturvedi",
+      "occupationLabel": "politician",
+      "data_type": "notable_person"
+    },
+    {
+      "person": "http://www.wikidata.org/entity/Q132177962",
+      "birthdate": "1924-09-24T00:00:00Z",
+      "personLabel": "Rekha Jain",
+      "occupationLabel": "playwright",
+      "data_type": "notable_person"
+    },
+    {
+      "person": "http://www.wikidata.org/entity/Q113811870",
+      "birthdate": "1930-07-27T00:00:00Z",
+      "personLabel": "Agam Prasad Mathur",
+      "occupationLabel": "historian",
+      "data_type": "notable_person"
+    },
+    {
+      "person": "http://www.wikidata.org/entity/Q96174907",
+      "birthdate": "2000-12-08T00:00:00Z",
+      "personLabel": "Shobhit Sharma",
+      "occupationLabel": "programmer",
+      "data_type": "notable_person"
+    },
+    {
+      "person": "http://www.wikidata.org/entity/Q65944574",
+      "birthdate": "1966-01-01T00:00:00Z",
+      "personLabel": "Deepak-Raj Gupta",
+      "occupationLabel": "politician",
+      "data_type": "notable_person"
+    },
+    {
+      "person": "http://www.wikidata.org/entity/Q96174907",
+      "birthdate": "2000-12-08T00:00:00Z",
+      "personLabel": "Shobhit Sharma",
+      "occupationLabel": "entrepreneur",
+      "data_type": "notable_person"
+    },
+    {
+      "person": "http://www.wikidata.org/entity/Q112109519",
+      "birthdate": "1996-08-10T00:00:00Z",
+      "personLabel": "Musba Hashmi",
+      "occupationLabel": "journalist",
+      "data_type": "notable_person"
+    },
+    {
+      "person": "http://www.wikidata.org/entity/Q29369258",
+      "birthdate": "1569-12-01T00:00:00Z",
+      "personLabel": "Khanum Sultan Begum",
+      "data_type": "notable_person"
+    },
+    {
+      "person": "http://www.wikidata.org/entity/Q97596079",
+      "birthdate": "1931-12-07T00:00:00Z",
+      "personLabel": "Michael Anderton",
+      "occupationLabel": "cricketer",
+      "data_type": "notable_person"
+    },
+    {
+      "person": "http://www.wikidata.org/entity/Q65944574",
+      "birthdate": "1966-01-01T00:00:00Z",
+      "personLabel": "Deepak-Raj Gupta",
+      "occupationLabel": "civil servant",
+      "data_type": "notable_person"
+    },
+    {
+      "person": "http://www.wikidata.org/entity/Q38458290",
+      "birthdate": "1977-12-07T00:00:00Z",
+      "personLabel": "Nucleya",
+      "occupationLabel": "record producer",
+      "data_type": "notable_person"
+    },
+    {
+      "person": "http://www.wikidata.org/entity/Q64218540",
+      "personLabel": "Azatu-n-Nisa Begum",
+      "data_type": "notable_person"
+    },
+    {
+      "person": "http://www.wikidata.org/entity/Q76702172",
+      "personLabel": "Ravi verma (Actor)",
+      "occupationLabel": "actor",
+      "data_type": "notable_person"
+    },
+    {
+      "person": "http://www.wikidata.org/entity/Q36315310",
+      "birthdate": "1946-02-14T00:00:00Z",
+      "personLabel": "Hasan Akbar Kamal",
+      "occupationLabel": "children's writer",
+      "data_type": "notable_person"
+    },
+    {
+      "person": "http://www.wikidata.org/entity/Q100268257",
+      "birthdate": "1853-08-16T00:00:00Z",
+      "personLabel": "Anna Martha Fullerton",
+      "occupationLabel": "physician",
+      "data_type": "notable_person"
+    },
+    {
+      "person": "http://www.wikidata.org/entity/Q62007117",
+      "birthdate": "1992-01-22T00:00:00Z",
+      "personLabel": "Mohana Singh Jitarwal",
+      "occupationLabel": "aircraft pilot",
+      "data_type": "notable_person"
+    },
+    {
+      "person": "http://www.wikidata.org/entity/Q122301274",
+      "birthdate": "1941-08-18T00:00:00Z",
+      "personLabel": "Maheshwar Prasad Vagmi",
+      "occupationLabel": "journalist",
+      "data_type": "notable_person"
+    },
+    {
+      "person": "http://www.wikidata.org/entity/Q102105622",
+      "birthdate": "1909-01-01T00:00:00Z",
+      "personLabel": "Ramnarayan Yadavendu",
+      "occupationLabel": "writer",
+      "data_type": "notable_person"
+    },
+    {
+      "person": "http://www.wikidata.org/entity/Q65029901",
+      "personLabel": "O. P. Sharma",
+      "occupationLabel": "photographer",
+      "data_type": "notable_person"
+    },
+    {
+      "person": "http://www.wikidata.org/entity/Q64217577",
+      "birthdate": "1799-01-01T00:00:00Z",
+      "personLabel": "Imrau Begum",
+      "data_type": "notable_person"
+    },
+    {
+      "person": "http://www.wikidata.org/entity/Q47027632",
+      "birthdate": "1979-12-20T00:00:00Z",
+      "personLabel": "Pallavi Fauzdar",
+      "occupationLabel": "racing driver",
+      "data_type": "notable_person"
+    },
+    {
+      "person": "http://www.wikidata.org/entity/Q33959726",
+      "birthdate": "1933-01-01T00:00:00Z",
+      "personLabel": "Chand Usmani",
+      "occupationLabel": "actor",
+      "data_type": "notable_person"
+    },
+    {
+      "person": "http://www.wikidata.org/entity/Q110309409",
+      "birthdate": "1974-11-10T00:00:00Z",
+      "personLabel": "Kiran Dembla",
+      "occupationLabel": "fitness coaching",
+      "data_type": "notable_person"
+    },
+    {
+      "person": "http://www.wikidata.org/entity/Q30605954",
+      "birthdate": "1936-01-01T00:00:00Z",
+      "personLabel": "Q30605954",
+      "data_type": "notable_person"
+    },
+    {
+      "person": "http://www.wikidata.org/entity/Q112109519",
+      "birthdate": "1996-08-10T00:00:00Z",
+      "personLabel": "Musba Hashmi",
+      "occupationLabel": "newspaper editor",
+      "data_type": "notable_person"
+    },
+    {
+      "person": "http://www.wikidata.org/entity/Q138031390",
+      "birthdate": "1998-04-05T00:00:00Z",
+      "personLabel": "Atishay Jain",
+      "occupationLabel": "entrepreneur",
+      "data_type": "notable_person"
+    },
+    {
+      "person": "http://www.wikidata.org/entity/Q102276099",
+      "birthdate": "2003-11-11T00:00:00Z",
+      "personLabel": "Harshit Gupta",
+      "occupationLabel": "graphic designer",
+      "data_type": "notable_person"
+    },
+    {
+      "person": "http://www.wikidata.org/entity/Q47027632",
+      "birthdate": "1979-12-20T00:00:00Z",
+      "personLabel": "Pallavi Fauzdar",
+      "occupationLabel": "racing automobile driver",
+      "data_type": "notable_person"
+    },
+    {
+      "person": "http://www.wikidata.org/entity/Q30035714",
+      "birthdate": "1940-12-04T00:00:00Z",
+      "personLabel": "Bhagwan Shankar Rawat",
+      "occupationLabel": "politician",
+      "data_type": "notable_person"
+    },
+    {
+      "person": "http://www.wikidata.org/entity/Q60048702",
+      "birthdate": "1869-01-01T00:00:00Z",
+      "personLabel": "Duncan Vines",
+      "occupationLabel": "cricketer",
+      "data_type": "notable_person"
+    },
+    {
+      "person": "http://www.wikidata.org/entity/Q115169398",
+      "birthdate": "1921-08-24T00:00:00Z",
+      "personLabel": "Q115169398",
+      "occupationLabel": "translator",
+      "data_type": "notable_person"
+    },
+    {
+      "person": "http://www.wikidata.org/entity/Q115169398",
+      "birthdate": "1921-08-24T00:00:00Z",
+      "personLabel": "Q115169398",
+      "occupationLabel": "poet",
+      "data_type": "notable_person"
+    },
+    {
+      "person": "http://www.wikidata.org/entity/Q123273177",
+      "birthdate": "1894-02-04T00:00:00Z",
+      "personLabel": "Q123273177",
+      "occupationLabel": "lawyer",
+      "data_type": "notable_person"
+    },
+    {
+      "person": "http://www.wikidata.org/entity/Q123273177",
+      "birthdate": "1894-02-04T00:00:00Z",
+      "personLabel": "Q123273177",
+      "occupationLabel": "politician",
+      "data_type": "notable_person"
+    },
+    {
+      "person": "http://www.wikidata.org/entity/Q123273177",
+      "birthdate": "1894-02-04T00:00:00Z",
+      "personLabel": "Q123273177",
+      "occupationLabel": "translator",
+      "data_type": "notable_person"
+    },
+    {
+      "person": "http://www.wikidata.org/entity/Q123273177",
+      "birthdate": "1894-02-04T00:00:00Z",
+      "personLabel": "Q123273177",
+      "occupationLabel": "writer",
+      "data_type": "notable_person"
+    },
+    {
+      "person": "http://www.wikidata.org/entity/Q28967739",
+      "personLabel": "Ram Pratap Singh",
+      "occupationLabel": "politician",
+      "data_type": "notable_person"
+    },
+    {
+      "person": "http://www.wikidata.org/entity/Q105776645",
+      "birthdate": "2002-07-09T00:00:00Z",
+      "personLabel": "Akshita Mudgal",
+      "occupationLabel": "model",
+      "data_type": "notable_person"
+    },
+    {
+      "person": "http://www.wikidata.org/entity/Q28848687",
+      "birthdate": "1611-08-21T00:00:00Z",
+      "personLabel": "Parhez Banu Begum",
+      "data_type": "notable_person"
+    },
+    {
+      "person": "http://www.wikidata.org/entity/Q123273177",
+      "birthdate": "1894-02-04T00:00:00Z",
+      "personLabel": "Q123273177",
+      "occupationLabel": "poet",
+      "data_type": "notable_person"
+    },
+    {
+      "person": "http://www.wikidata.org/entity/Q111602740",
+      "birthdate": "1995-07-20T00:00:00Z",
+      "personLabel": "Mihika Kushwaha",
+      "occupationLabel": "actor",
+      "data_type": "notable_person"
+    },
+    {
+      "person": "http://www.wikidata.org/entity/Q108055122",
+      "birthdate": "1831-01-01T00:00:00Z",
+      "personLabel": "Alfred Torrens",
+      "occupationLabel": "cricketer",
+      "data_type": "notable_person"
+    },
+    {
+      "person": "http://www.wikidata.org/entity/Q96361455",
+      "birthdate": "1951-01-01T00:00:00Z",
+      "personLabel": "Hari Kishan Pippal",
+      "data_type": "notable_person"
+    },
+    {
+      "person": "http://www.wikidata.org/entity/Q29050623",
+      "birthdate": "1958-01-02T00:00:00Z",
+      "personLabel": "Javed Agrewala",
+      "occupationLabel": "biologist",
+      "data_type": "notable_person"
+    },
+    {
+      "person": "http://www.wikidata.org/entity/Q131345084",
+      "birthdate": "1869-01-02T00:00:00Z",
+      "personLabel": "Mirza Zakir Hussain Qazalbaash",
+      "occupationLabel": "poet",
+      "data_type": "notable_person"
+    },
+    {
+      "person": "http://www.wikidata.org/entity/Q108069832",
+      "birthdate": "1978-03-07T00:00:00Z",
+      "personLabel": "Acharya Prashant",
+      "occupationLabel": "Q16611574",
+      "data_type": "notable_person"
+    },
+    {
+      "person": "http://www.wikidata.org/entity/Q111590770",
+      "birthdate": "1969-01-01T00:00:00Z",
+      "personLabel": "Jasjeet Singh Bagla",
+      "occupationLabel": "researcher",
+      "data_type": "notable_person"
+    },
+    {
+      "person": "http://www.wikidata.org/entity/Q108211182",
+      "birthdate": "1895-01-01T00:00:00Z",
+      "personLabel": "Rana Akberabadi",
+      "occupationLabel": "poet",
+      "data_type": "notable_person"
+    },
+    {
+      "person": "http://www.wikidata.org/entity/Q47163005",
+      "birthdate": "1902-07-27T00:00:00Z",
+      "personLabel": "Edward Vivian Bobb",
+      "occupationLabel": "military personnel",
+      "data_type": "notable_person"
+    },
+    {
+      "person": "http://www.wikidata.org/entity/Q41675376",
+      "birthdate": "1997-08-12T00:00:00Z",
+      "personLabel": "Ashi Singh",
+      "occupationLabel": "actor",
+      "data_type": "notable_person"
+    },
+    {
+      "person": "http://www.wikidata.org/entity/Q123273177",
+      "birthdate": "1894-02-04T00:00:00Z",
+      "personLabel": "Q123273177",
+      "occupationLabel": "critic",
+      "data_type": "notable_person"
+    },
+    {
+      "person": "http://www.wikidata.org/entity/Q111590770",
+      "birthdate": "1969-01-01T00:00:00Z",
+      "personLabel": "Jasjeet Singh Bagla",
+      "occupationLabel": "astrophysicist",
+      "data_type": "notable_person"
+    },
+    {
+      "person": "http://www.wikidata.org/entity/Q64217700",
+      "birthdate": "1833-09-10T00:00:00Z",
+      "personLabel": "Q64217700",
+      "occupationLabel": "poet",
+      "data_type": "notable_person"
+    },
+    {
+      "person": "http://www.wikidata.org/entity/Q56761294",
+      "birthdate": "1933-01-01T00:00:00Z",
+      "personLabel": "Swaleh Naqvi",
+      "occupationLabel": "banker",
+      "data_type": "notable_person"
+    },
+    {
+      "person": "http://www.wikidata.org/entity/Q64683553",
+      "birthdate": "1908-01-01T00:00:00Z",
+      "personLabel": "Saeed Ahmad Akbarabadi",
+      "occupationLabel": "writer",
+      "data_type": "notable_person"
+    },
+    {
+      "person": "http://www.wikidata.org/entity/Q102177902",
+      "birthdate": "1958-01-01T00:00:00Z",
+      "personLabel": "Anand Srivastav",
+      "occupationLabel": "mathematician",
+      "data_type": "notable_person"
+    },
+    {
+      "person": "http://www.wikidata.org/entity/Q81988674",
+      "birthdate": "1897-01-01T00:00:00Z",
+      "personLabel": "Mumtaz Hasan Qizilbash",
+      "occupationLabel": "diplomat",
+      "data_type": "notable_person"
+    },
+    {
+      "person": "http://www.wikidata.org/entity/Q81988674",
+      "birthdate": "1897-01-01T00:00:00Z",
+      "personLabel": "Mumtaz Hasan Qizilbash",
+      "occupationLabel": "politician",
+      "data_type": "notable_person"
+    },
+    {
+      "person": "http://www.wikidata.org/entity/Q106765629",
+      "birthdate": "1923-01-01T00:00:00Z",
+      "personLabel": "R.D. Bansal",
+      "occupationLabel": "film producer",
+      "data_type": "notable_person"
+    },
+    {
+      "person": "http://www.wikidata.org/entity/Q52610783",
+      "birthdate": "1892-01-01T00:00:00Z",
+      "personLabel": "Intizamullah Shehbai",
+      "occupationLabel": "writer",
+      "data_type": "notable_person"
+    },
+    {
+      "person": "http://www.wikidata.org/entity/Q29029283",
+      "birthdate": "1818-01-01T00:00:00Z",
+      "personLabel": "Shiva Dayal Saheb",
+      "data_type": "notable_person"
+    },
+    {
+      "person": "http://www.wikidata.org/entity/Q105776645",
+      "birthdate": "2002-07-09T00:00:00Z",
+      "personLabel": "Akshita Mudgal",
+      "occupationLabel": "television actor",
+      "data_type": "notable_person"
+    },
+    {
+      "person": "http://www.wikidata.org/entity/Q52610783",
+      "birthdate": "1892-01-01T00:00:00Z",
+      "personLabel": "Intizamullah Shehbai",
+      "occupationLabel": "trader",
+      "data_type": "notable_person"
+    },
+    {
+      "person": "http://www.wikidata.org/entity/Q52610783",
+      "birthdate": "1892-01-01T00:00:00Z",
+      "personLabel": "Intizamullah Shehbai",
+      "occupationLabel": "historian",
+      "data_type": "notable_person"
+    }
+  ],
+  "local_foods": [
+    {
+      "food": "http://www.wikidata.org/entity/Q28154305",
+      "foodLabel": "Mangalorean Chicken Sukka",
+      "data_type": "local_food",
+      "matched_keyword": "Mangalore"
+    },
+    {
+      "food": "http://www.wikidata.org/entity/Q962957",
+      "foodLabel": "tulumba",
+      "data_type": "local_food",
+      "matched_keyword": "Tulu"
+    }
+  ],
+  "festivals": [
+    {
+      "event": "http://www.wikidata.org/entity/Q17049119",
+      "eventLabel": "Aerial Delivery Research and Development Establishment",
+      "typeLabel": "laboratory",
+      "data_type": "festival"
+    },
+    {
+      "event": "http://www.wikidata.org/entity/Q12061618",
+      "eventLabel": "Mehtab Bagh",
+      "typeLabel": "garden",
+      "data_type": "festival"
+    },
+    {
+      "event": "http://www.wikidata.org/entity/Q97881899",
+      "eventLabel": "Anguri Bagh",
+      "typeLabel": "garden",
+      "data_type": "festival"
+    },
+    {
+      "event": "http://www.wikidata.org/entity/Q75153090",
+      "eventLabel": "Punjab And Sind Bank, Agra Rajpur Chungi Branch",
+      "typeLabel": "Punjab and Sind Bank branch",
+      "data_type": "festival"
+    },
+    {
+      "event": "http://www.wikidata.org/entity/Q75153250",
+      "eventLabel": "Punjab And Sind Bank, Agra Ghatia Azam Khan Agra Mont School Branch",
+      "typeLabel": "Punjab and Sind Bank branch",
+      "data_type": "festival"
+    },
+    {
+      "event": "http://www.wikidata.org/entity/Q75153251",
+      "eventLabel": "Punjab And Sind Bank, Agra Gurudwara Guru Ka Tal Branch",
+      "typeLabel": "Punjab and Sind Bank branch",
+      "data_type": "festival"
+    },
+    {
+      "event": "http://www.wikidata.org/entity/Q75152124",
+      "eventLabel": "Punjab And Sind Bank, Hing Ki Mandi, Agra Branch",
+      "typeLabel": "Punjab and Sind Bank branch",
+      "data_type": "festival"
+    },
+    {
+      "event": "http://www.wikidata.org/entity/Q75153092",
+      "eventLabel": "Punjab And Sind Bank, Ibd Agra Branch",
+      "typeLabel": "Punjab and Sind Bank branch",
+      "data_type": "festival"
+    },
+    {
+      "event": "http://www.wikidata.org/entity/Q75152439",
+      "eventLabel": "Punjab And Sind Bank, New Agra Branch",
+      "typeLabel": "Punjab and Sind Bank branch",
+      "data_type": "festival"
+    }
+  ],
+  "organisations": [
+    {
+      "org": "http://www.wikidata.org/entity/Q63411215",
+      "orgLabel": "Mughal Museum",
+      "typeLabel": "museum",
+      "data_type": "organisation"
+    },
+    {
+      "org": "http://www.wikidata.org/entity/Q171857",
+      "orgLabel": "Agra Fort",
+      "typeLabel": "fort",
+      "inception": "1565-01-01T00:00:00Z",
+      "data_type": "organisation"
+    },
+    {
+      "org": "http://www.wikidata.org/entity/Q6040859",
+      "orgLabel": "Institute of Social Sciences, Agra",
+      "typeLabel": "social science institute",
+      "data_type": "organisation"
+    },
+    {
+      "org": "http://www.wikidata.org/entity/Q97064877",
+      "orgLabel": "Big FM, Agra",
+      "typeLabel": "radio station",
+      "data_type": "organisation"
+    },
+    {
+      "org": "http://www.wikidata.org/entity/Q97064871",
+      "orgLabel": "Fever FM, Agra",
+      "typeLabel": "radio station",
+      "data_type": "organisation"
+    },
+    {
+      "org": "http://www.wikidata.org/entity/Q97064873",
+      "orgLabel": "Radio City, Agra",
+      "typeLabel": "radio station",
+      "data_type": "organisation"
+    },
+    {
+      "org": "http://www.wikidata.org/entity/Q97064875",
+      "orgLabel": "Radio Tadka , Agra",
+      "typeLabel": "radio station",
+      "data_type": "organisation"
+    },
+    {
+      "org": "http://www.wikidata.org/entity/Q16933896",
+      "orgLabel": "Mina Mosque",
+      "typeLabel": "mosque",
+      "data_type": "organisation"
+    },
+    {
+      "org": "http://www.wikidata.org/entity/Q123191325",
+      "orgLabel": "Taj Mahal Museum",
+      "typeLabel": "museum",
+      "data_type": "organisation"
+    },
+    {
+      "org": "http://www.wikidata.org/entity/Q102293079",
+      "orgLabel": "Taj Ganj",
+      "typeLabel": "quarter",
+      "data_type": "organisation"
+    },
+    {
+      "org": "http://www.wikidata.org/entity/Q4868836",
+      "orgLabel": "Bateshwar, Uttar Pradesh",
+      "typeLabel": "village in India",
+      "data_type": "organisation"
+    },
+    {
+      "org": "http://www.wikidata.org/entity/Q6127147",
+      "orgLabel": "Jama Masjid",
+      "typeLabel": "mosque",
+      "data_type": "organisation"
+    },
+    {
+      "org": "http://www.wikidata.org/entity/Q22934359",
+      "orgLabel": "Hotel Clarks Shiraz",
+      "typeLabel": "hotel",
+      "data_type": "organisation"
+    },
+    {
+      "org": "http://www.wikidata.org/entity/Q107695764",
+      "orgLabel": "Q107695764",
+      "typeLabel": "quarter",
+      "data_type": "organisation"
+    },
+    {
+      "org": "http://www.wikidata.org/entity/Q4179295",
+      "orgLabel": "Moti Masjid",
+      "typeLabel": "mosque",
+      "data_type": "organisation"
+    },
+    {
+      "org": "http://www.wikidata.org/entity/Q85762758",
+      "orgLabel": "Garhi Udairaj",
+      "typeLabel": "village in India",
+      "data_type": "organisation"
+    },
+    {
+      "org": "http://www.wikidata.org/entity/Q75153090",
+      "orgLabel": "Punjab And Sind Bank, Agra Rajpur Chungi Branch",
+      "typeLabel": "Punjab and Sind Bank branch",
+      "data_type": "organisation"
+    },
+    {
+      "org": "http://www.wikidata.org/entity/Q75153250",
+      "orgLabel": "Punjab And Sind Bank, Agra Ghatia Azam Khan Agra Mont School Branch",
+      "typeLabel": "Punjab and Sind Bank branch",
+      "data_type": "organisation"
+    },
+    {
+      "org": "http://www.wikidata.org/entity/Q75153251",
+      "orgLabel": "Punjab And Sind Bank, Agra Gurudwara Guru Ka Tal Branch",
+      "typeLabel": "Punjab and Sind Bank branch",
+      "data_type": "organisation"
+    },
+    {
+      "org": "http://www.wikidata.org/entity/Q75152124",
+      "orgLabel": "Punjab And Sind Bank, Hing Ki Mandi, Agra Branch",
+      "typeLabel": "Punjab and Sind Bank branch",
+      "data_type": "organisation"
+    },
+    {
+      "org": "http://www.wikidata.org/entity/Q75153092",
+      "orgLabel": "Punjab And Sind Bank, Ibd Agra Branch",
+      "typeLabel": "Punjab and Sind Bank branch",
+      "data_type": "organisation"
+    },
+    {
+      "org": "http://www.wikidata.org/entity/Q75152439",
+      "orgLabel": "Punjab And Sind Bank, New Agra Branch",
+      "typeLabel": "Punjab and Sind Bank branch",
+      "data_type": "organisation"
+    }
+  ],
+  "infrastructure": [
+    {
+      "item": "http://www.wikidata.org/entity/Q3634740",
+      "itemLabel": "Agra Cantt railway station",
+      "typeLabel": "railway station",
+      "inception": "1904-01-01T00:00:00Z",
+      "data_type": "infrastructure"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1849321",
+      "itemLabel": "Agra Civil Enclave",
+      "typeLabel": "airport",
+      "data_type": "infrastructure"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q4693674",
+      "itemLabel": "Agra Fort railway station",
+      "typeLabel": "railway station",
+      "inception": "1874-01-01T00:00:00Z",
+      "data_type": "infrastructure"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q5988564",
+      "itemLabel": "Idgah railway station",
+      "typeLabel": "railway station",
+      "data_type": "infrastructure"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q15271403",
+      "itemLabel": "Raja ki Mandi railway station",
+      "typeLabel": "railway station",
+      "inception": "1904-01-01T00:00:00Z",
+      "data_type": "infrastructure"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q124759439",
+      "itemLabel": "Dr. Ambedkar Chowk",
+      "typeLabel": "metro station",
+      "data_type": "infrastructure"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q98776252",
+      "itemLabel": "Arch Bridge No. 13",
+      "typeLabel": "railway bridge",
+      "data_type": "infrastructure"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q98776275",
+      "itemLabel": "Bridge No. 162",
+      "typeLabel": "railway bridge",
+      "data_type": "infrastructure"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q98776291",
+      "itemLabel": "Strachey Bridge No. 167",
+      "typeLabel": "railway bridge",
+      "data_type": "infrastructure"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q124759438",
+      "itemLabel": "Mankameshwar Mandir metro station",
+      "typeLabel": "metro station",
+      "data_type": "infrastructure"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q124759443",
+      "itemLabel": "Taj East Gate",
+      "typeLabel": "metro station",
+      "data_type": "infrastructure"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q124759443",
+      "itemLabel": "Taj East Gate",
+      "typeLabel": "elevated station",
+      "data_type": "infrastructure"
+    }
+  ],
+  "natural_areas": [
+    {
+      "item": "http://www.wikidata.org/entity/Q7288428",
+      "itemLabel": "Q7288428",
+      "typeLabel": "park",
+      "data_type": "natural_area"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7288428",
+      "itemLabel": "Q7288428",
+      "typeLabel": "Mughal gardens",
+      "data_type": "natural_area"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q101311408",
+      "itemLabel": "Agra Bear Rescue Facility",
+      "typeLabel": "wildlife conservation area",
+      "data_type": "natural_area"
+    }
+  ],
+  "summary": {
+    "heritage_structures": 60,
+    "places_of_worship": 3,
+    "educational_institutions": 8,
+    "notable_persons": 80,
+    "local_foods": 2,
+    "festivals": 9,
+    "organisations": 22,
+    "infrastructure": 12,
+    "natural_areas": 3
+  }
+}
