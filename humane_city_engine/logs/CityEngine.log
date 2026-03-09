@@ -1,0 +1,84 @@
+2026-03-09 14:29:55 | INFO | CityEngine | ========================================
+2026-03-09 14:29:55 | INFO | CityEngine | Ground Zero City Intelligence Engine
+2026-03-09 14:29:55 | INFO | CityEngine | System starting...
+2026-03-09 14:29:55 | INFO | CityEngine | ========================================
+2026-03-09 14:29:55 | INFO | CityEngine | Initializing Context Engine
+2026-03-09 14:29:55 | INFO | CityEngine | Initializing Authenticity Engine
+2026-03-09 14:29:55 | INFO | CityEngine | Initializing Review Intelligence Engine
+2026-03-09 14:29:55 | INFO | CityEngine | Initializing Crowd Intelligence Engine
+2026-03-09 14:29:55 | INFO | CityEngine | Initializing Mangalore Specialty Engine
+2026-03-09 14:29:55 | INFO | CityEngine | All engines initialized successfully
+2026-03-09 14:29:55 | INFO | CityEngine | Running Context Evaluation
+2026-03-09 14:29:55 | INFO | CityEngine | Context Result: {'notify': False, 'context': {'time_signal': 'Neutral', 'energy_signal': 'Neutral', 'crowd_signal': 'Calm', 'safety_signal': 'Allowed'}}
+2026-03-09 14:29:55 | INFO | CityEngine | Running Authenticity Scoring
+2026-03-09 14:29:55 | INFO | CityEngine | Authenticity Score: 0.2
+2026-03-09 14:29:55 | INFO | CityEngine | Running Review Intelligence
+2026-03-09 14:29:55 | INFO | CityEngine | Review Intelligence: {'authenticity_score': 0.0, 'crowd_pressure': 0.0, 'hype_index': 0.0, 'tourist_trap_risk': 0.0, 'classification': 'low_authenticity'}
+2026-03-09 14:29:55 | INFO | CityEngine | Running Crowd Intelligence
+2026-03-09 14:29:55 | INFO | CityEngine | Crowd Level: {'crowd_score': 0.4, 'crowd_level': 'low'}
+2026-03-09 14:29:55 | INFO | CityEngine | Running Mangalore Specialty Engine
+2026-03-09 14:29:55 | INFO | CityEngine | Mangalore Specialty Score: {'city': 'Mangalore', 'generated_at': '2026-03-09T08:59:55.549067', 'must_eat': [], 'must_visit': [], 'must_buy': [], 'note': 'Specialty dataset not found. Run specialty_dataset_builder first.'}
+2026-03-09 14:29:55 | INFO | CityEngine | City Intelligence evaluation completed
+2026-03-09 15:37:37 | INFO | CityEngine | ========================================
+2026-03-09 15:37:37 | INFO | CityEngine | Ground Zero City Intelligence Engine
+2026-03-09 15:37:37 | INFO | CityEngine | System starting...
+2026-03-09 15:37:37 | INFO | CityEngine | ========================================
+2026-03-09 15:37:37 | INFO | CityEngine | Initializing Context Engine
+2026-03-09 15:37:37 | INFO | CityEngine | Initializing Authenticity Engine
+2026-03-09 15:37:37 | INFO | CityEngine | Initializing Review Intelligence Engine
+2026-03-09 15:37:37 | INFO | CityEngine | Initializing Crowd Intelligence Engine
+2026-03-09 15:37:37 | INFO | CityEngine | Initializing Mangalore Specialty Engine
+2026-03-09 15:37:37 | INFO | CityEngine | All engines initialized successfully
+2026-03-09 15:37:37 | INFO | CityEngine | Running Context Evaluation
+2026-03-09 15:37:37 | INFO | CityEngine | Context Result: {'notify': False, 'context': {'time_signal': 'Neutral', 'energy_signal': 'Neutral', 'crowd_signal': 'Calm', 'safety_signal': 'Allowed'}}
+2026-03-09 15:37:37 | INFO | CityEngine | Running Authenticity Scoring
+2026-03-09 15:37:37 | INFO | CityEngine | Authenticity Score: 0.2
+2026-03-09 15:37:37 | INFO | CityEngine | Running Review Intelligence
+2026-03-09 15:37:37 | INFO | CityEngine | Review Intelligence: {'authenticity_score': 0.0, 'crowd_pressure': 0.0, 'hype_index': 0.0, 'tourist_trap_risk': 0.0, 'classification': 'low_authenticity'}
+2026-03-09 15:37:37 | INFO | CityEngine | Running Crowd Intelligence
+2026-03-09 15:37:38 | INFO | CityEngine | Crowd Level: {'crowd_score': 0.27999999999999997, 'crowd_level': 'low'}
+2026-03-09 15:37:38 | INFO | CityEngine | Running Mangalore Specialty Engine
+2026-03-09 15:37:38 | INFO | CityEngine | Mangalore Specialty Score: {'city': 'Mangalore', 'generated_at': '2026-03-09T10:07:38.225789', 'must_eat': [], 'must_visit': [], 'must_buy': [], 'note': 'Specialty dataset not found. Run specialty_dataset_builder first.'}
+2026-03-09 15:37:38 | INFO | CityEngine | City Intelligence evaluation completed
+2026-03-09 19:24:27 | INFO | CityEngine | ========================================
+2026-03-09 19:24:27 | INFO | CityEngine | Ground Zero City Intelligence Engine
+2026-03-09 19:24:27 | INFO | CityEngine | System starting...
+2026-03-09 19:24:27 | INFO | CityEngine | ========================================
+2026-03-09 19:24:27 | INFO | CityEngine | Initializing Context Engine
+2026-03-09 19:24:27 | INFO | CityEngine | Initializing Authenticity Engine
+2026-03-09 19:24:27 | INFO | CityEngine | Initializing Review Intelligence Engine
+2026-03-09 19:24:27 | INFO | CityEngine | Initializing Crowd Intelligence Engine
+2026-03-09 19:24:27 | INFO | CityEngine | Initializing Mangalore Specialty Engine
+2026-03-09 19:24:27 | INFO | CityEngine | All engines initialized successfully
+2026-03-09 19:24:27 | INFO | CityEngine | Running Context Evaluation
+2026-03-09 19:24:27 | INFO | CityEngine | Context Result: {'notify': False, 'context': {'time_signal': 'Neutral', 'energy_signal': 'Neutral', 'crowd_signal': 'Calm', 'safety_signal': 'Allowed'}}
+2026-03-09 19:24:27 | INFO | CityEngine | Running Authenticity Scoring
+2026-03-09 19:24:27 | INFO | CityEngine | Authenticity Score: 0.2
+2026-03-09 19:24:27 | INFO | CityEngine | Running Review Intelligence
+2026-03-09 19:24:27 | INFO | CityEngine | Review Intelligence: {'authenticity_score': 0.0, 'crowd_pressure': 0.0, 'hype_index': 0.0, 'tourist_trap_risk': 0.0, 'classification': 'low_authenticity'}
+2026-03-09 19:24:27 | INFO | CityEngine | Running Crowd Intelligence
+2026-03-09 19:24:27 | INFO | CityEngine | Crowd Level: {'crowd_score': 0.504, 'crowd_level': 'medium'}
+2026-03-09 19:24:27 | INFO | CityEngine | Running Mangalore Specialty Engine
+2026-03-09 19:24:41 | INFO | CityEngine | Mangalore Specialty Score: {'city': 'Mangalore', 'generated_at': '2026-03-09T13:54:41.598183', 'must_eat': [{'name': 'Neer Dosa', 'trend_score': 1}, {'name': 'Kori Rotti', 'trend_score': 1}, {'name': 'Goli Baje', 'trend_score': 0}, {'name': 'Mangalore Buns', 'trend_score': 0}, {'name': 'Chicken Sukka', 'trend_score': 0}, {'name': 'Fish Curry Mangalorean', 'trend_score': 0}, {'name': 'Kane Rava Fry', 'trend_score': 0}, {'name': 'Bangude Pulimunchi', 'trend_score': 0}, {'name': 'Pathrode', 'trend_score': 0}, {'name': 'Halwa Mangalorean', 'trend_score': 0}, {'name': 'Sannas', 'trend_score': 0}, {'name': 'Boiled Tapioca with Coconut Chutney', 'trend_score': 0}, {'name': 'Pundi (Rice Dumplings)', 'trend_score': 0}, {'name': 'Kadala Curry', 'trend_score': 0}, {'name': 'Mussel Masala (Tisrya)', 'trend_score': 0}, {'name': 'Crab Gassi', 'trend_score': 0}, {'name': 'Prawn Mangalorean Curry', 'trend_score': 0}, {'name': 'Korri Ajadina', 'trend_score': 0}, {'name': 'Pav bhaji', 'trend_score': 0}], 'must_visit': [{'name': 'Kadri Manjunath Temple', 'trend_score': 1}, {'name': 'Panambur Beach', 'trend_score': 1}, {'name': 'Pilikula Nisargadhama', 'trend_score': 1}, {'name': 'Mangaladevi Temple', 'trend_score': 1}, {'name': 'Tannirbhavi Beach', 'trend_score': 0}, {'name': 'St Aloysius Chapel', 'trend_score': 0}, {'name': 'Sultan Battery', 'trend_score': 0}, {'name': 'Kudroli Gokarnath Temple', 'trend_score': 0}, {'name': 'St. Sebastian Cathedral', 'trend_score': 0}, {'name': 'Milagres Church', 'trend_score': 0}, {'name': 'Lighthouse Hill Garden', 'trend_score': 0}, {'name': 'Yedamangala Beach', 'trend_score': 0}, {'name': 'Ullal Beach', 'trend_score': 0}, {'name': 'Someshwara Beach', 'trend_score': 0}, {'name': 'Surathkal Beach', 'trend_score': 0}, {'name': 'Kaup Beach and Lighthouse', 'trend_score': 0}, {'name': 'Bejai Church', 'trend_score': 0}, {'name': 'Idgah Hill', 'trend_score': 0}], 'must_buy': [{'name': 'Mangalore Tiles (Mangalorean Nalptu tiles)', 'trend_score': 0}, {'name': 'Udupi Sarees', 'trend_score': 0}, {'name': 'Cashew Nuts (Karnataka grown)', 'trend_score': 0}, {'name': 'Coastal Spices (cardamom, pepper, cloves)', 'trend_score': 0}, {'name': 'Coastal Pickles (Avakaya, Gongura)', 'trend_score': 0}, {'name': 'Bamboo Craft Products', 'trend_score': 0}, {'name': 'Coir Products', 'trend_score': 0}, {'name': 'Tulu Cultural Artifacts', 'trend_score': 0}, {'name': 'Bronze Yakshagana Masks', 'trend_score': 0}, {'name': 'Bidriware (from nearby Bidar)', 'trend_score': 0}]}
+2026-03-09 19:24:41 | INFO | CityEngine | City Intelligence evaluation completed
+2026-03-09 19:57:15 | INFO | CityEngine | ========================================
+2026-03-09 19:57:15 | INFO | CityEngine | Ground Zero City Intelligence Engine
+2026-03-09 19:57:15 | INFO | CityEngine | System starting...
+2026-03-09 19:57:15 | INFO | CityEngine | ========================================
+2026-03-09 19:57:15 | INFO | CityEngine | Initializing Context Engine
+2026-03-09 19:57:15 | INFO | CityEngine | Initializing Authenticity Engine
+2026-03-09 19:57:15 | INFO | CityEngine | Initializing Review Intelligence Engine
+2026-03-09 19:57:15 | INFO | CityEngine | Initializing Crowd Intelligence Engine
+2026-03-09 19:57:16 | INFO | CityEngine | Initializing Mangalore Specialty Engine
+2026-03-09 19:57:16 | INFO | CityEngine | All engines initialized successfully
+2026-03-09 19:57:16 | INFO | CityEngine | Running Context Evaluation
+2026-03-09 19:57:16 | INFO | CityEngine | Context Result: {'notify': False, 'context': {'time_signal': 'Neutral', 'energy_signal': 'Neutral', 'crowd_signal': 'Calm', 'safety_signal': 'Allowed'}}
+2026-03-09 19:57:16 | INFO | CityEngine | Running Authenticity Scoring
+2026-03-09 19:57:16 | INFO | CityEngine | Authenticity Score: 0.2
+2026-03-09 19:57:16 | INFO | CityEngine | Running Review Intelligence
+2026-03-09 19:57:16 | INFO | CityEngine | Review Intelligence: {'authenticity_score': 0.0, 'crowd_pressure': 0.0, 'hype_index': 0.0, 'tourist_trap_risk': 0.0, 'classification': 'low_authenticity'}
+2026-03-09 19:57:16 | INFO | CityEngine | Running Crowd Intelligence
+2026-03-09 19:57:17 | INFO | CityEngine | Crowd Level: {'crowd_score': 0.504, 'crowd_level': 'medium'}
+2026-03-09 19:57:17 | INFO | CityEngine | Running Mangalore Specialty Engine
+2026-03-09 19:57:31 | INFO | CityEngine | Mangalore Specialty Score: {'city': 'Mangalore', 'generated_at': '2026-03-09T14:27:31.340700', 'must_eat': [{'name': 'Neer Dosa', 'trend_score': 1}, {'name': 'Kori Rotti', 'trend_score': 1}, {'name': 'Goli Baje', 'trend_score': 0}, {'name': 'Mangalore Buns', 'trend_score': 0}, {'name': 'Chicken Sukka', 'trend_score': 0}, {'name': 'Fish Curry Mangalorean', 'trend_score': 0}, {'name': 'Kane Rava Fry', 'trend_score': 0}, {'name': 'Bangude Pulimunchi', 'trend_score': 0}, {'name': 'Pathrode', 'trend_score': 0}, {'name': 'Halwa Mangalorean', 'trend_score': 0}, {'name': 'Sannas', 'trend_score': 0}, {'name': 'Boiled Tapioca with Coconut Chutney', 'trend_score': 0}, {'name': 'Pundi (Rice Dumplings)', 'trend_score': 0}, {'name': 'Kadala Curry', 'trend_score': 0}, {'name': 'Mussel Masala (Tisrya)', 'trend_score': 0}, {'name': 'Crab Gassi', 'trend_score': 0}, {'name': 'Prawn Mangalorean Curry', 'trend_score': 0}, {'name': 'Korri Ajadina', 'trend_score': 0}, {'name': 'Pav bhaji', 'trend_score': 0}], 'must_visit': [{'name': 'Kadri Manjunath Temple', 'trend_score': 1}, {'name': 'Panambur Beach', 'trend_score': 1}, {'name': 'Pilikula Nisargadhama', 'trend_score': 1}, {'name': 'Mangaladevi Temple', 'trend_score': 1}, {'name': 'Tannirbhavi Beach', 'trend_score': 0}, {'name': 'St Aloysius Chapel', 'trend_score': 0}, {'name': 'Sultan Battery', 'trend_score': 0}, {'name': 'Kudroli Gokarnath Temple', 'trend_score': 0}, {'name': 'St. Sebastian Cathedral', 'trend_score': 0}, {'name': 'Milagres Church', 'trend_score': 0}, {'name': 'Lighthouse Hill Garden', 'trend_score': 0}, {'name': 'Yedamangala Beach', 'trend_score': 0}, {'name': 'Ullal Beach', 'trend_score': 0}, {'name': 'Someshwara Beach', 'trend_score': 0}, {'name': 'Surathkal Beach', 'trend_score': 0}, {'name': 'Kaup Beach and Lighthouse', 'trend_score': 0}, {'name': 'Bejai Church', 'trend_score': 0}, {'name': 'Idgah Hill', 'trend_score': 0}], 'must_buy': [{'name': 'Mangalore Tiles (Mangalorean Nalptu tiles)', 'trend_score': 0}, {'name': 'Udupi Sarees', 'trend_score': 0}, {'name': 'Cashew Nuts (Karnataka grown)', 'trend_score': 0}, {'name': 'Coastal Spices (cardamom, pepper, cloves)', 'trend_score': 0}, {'name': 'Coastal Pickles (Avakaya, Gongura)', 'trend_score': 0}, {'name': 'Bamboo Craft Products', 'trend_score': 0}, {'name': 'Coir Products', 'trend_score': 0}, {'name': 'Tulu Cultural Artifacts', 'trend_score': 0}, {'name': 'Bronze Yakshagana Masks', 'trend_score': 0}, {'name': 'Bidriware (from nearby Bidar)', 'trend_score': 0}]}
+2026-03-09 19:57:31 | INFO | CityEngine | City Intelligence evaluation completed

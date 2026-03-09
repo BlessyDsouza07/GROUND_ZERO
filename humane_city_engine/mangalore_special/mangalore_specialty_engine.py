@@ -140,3 +140,30 @@ if __name__ == "__main__":
     data = generate_specialty_recommendations()
 
     print(json.dumps(data, indent=4))
+
+class MangaloreSpecialtyEngine:
+    """
+    Class wrapper around the Mangalore specialty recommendation functions.
+    Used by run_engine.py to initialize and invoke specialty evaluation.
+    """
+
+    def __init__(self):
+        pass
+
+    def evaluate_specialty(self, place: dict) -> dict:
+        """
+        Evaluates Mangalore specialties for the given place context.
+        Returns the full specialty recommendation dataset.
+        """
+        try:
+            return generate_specialty_recommendations()
+        except FileNotFoundError:
+            # Dataset not yet built — return a safe empty structure
+            return {
+                "city": "Mangalore",
+                "generated_at": datetime.utcnow().isoformat(),
+                "must_eat": [],
+                "must_visit": [],
+                "must_buy": [],
+                "note": "Specialty dataset not found. Run specialty_dataset_builder first."
+            }

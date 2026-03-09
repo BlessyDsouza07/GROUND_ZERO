@@ -1,5 +1,38 @@
-requests
-pandas
-numpy
-feedparser
-python-dateutil
+# ============================================================
+# Humane City Engine — Live Data Collection Requirements
+# ============================================================
+
+# HTTP + networking
+requests>=2.31.0
+urllib3>=2.0.0
+
+# RSS + feed parsing
+feedparser>=6.0.10
+
+# HTML parsing (Wikipedia, web scraping)
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# Data processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Date parsing
+python-dateutil>=2.8.2
+
+# SQLite is built-in to Python — no extra install needed
+
+# Scheduling (for live update scheduler)
+schedule>=1.2.1
+
+# Caching
+cachetools>=5.3.0
+
+# Timezone handling
+pytz>=2023.3
+
+# GeoJSON support (for city boundary)
+geojson>=3.0.0
+
+# Optional: faster JSON
+orjson>=3.9.0

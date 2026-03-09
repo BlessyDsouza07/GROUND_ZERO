@@ -250,3 +250,27 @@ if __name__ == "__main__":
 
     for k, v in report.items():
         print(f"{k:25} : {v}")
+
+class ReviewIntelligenceEngine:
+    """
+    Class wrapper around the review intelligence functions.
+    Used by run_engine.py to initialize and invoke review analysis.
+    """
+
+    def __init__(self):
+        logger.info("ReviewIntelligenceEngine initialized")
+
+    def analyze_place(self, place: dict) -> dict:
+        """
+        Generates a review intelligence report for a given place.
+        Uses empty signals as a safe default when no review data is available.
+        """
+        signals = {
+            "review_count": place.get("review_count", 0),
+            "authenticity_mentions": place.get("authenticity_mentions", 0),
+            "local_culture_mentions": place.get("local_culture_mentions", 0),
+            "crowd_mentions": place.get("crowd_mentions", 0),
+            "commercial_hype_mentions": place.get("commercial_hype_mentions", 0),
+            "tourist_trap_mentions": place.get("tourist_trap_mentions", 0),
+        }
+        return generate_review_intelligence(signals)

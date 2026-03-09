@@ -1,14 +1,7 @@
 """
 core/base_models.py
 
-Foundation data models for the 6-domain City Intelligence Data Core.
-
-This module is:
-- Deterministic
-- Domain-agnostic
-- Fully serializable
-- Engine-independent
-- Scalable across cities
+Foundation data models for the City Intelligence Data Core.
 """
 
 from dataclasses import dataclass, field, asdict
@@ -19,7 +12,7 @@ import uuid
 
 
 # ============================================================
-# DOMAIN ENUM (6 CORE DOMAINS)
+# DOMAIN ENUM - all domains used across the codebase
 # ============================================================
 
 class Domain(str, Enum):
@@ -29,6 +22,12 @@ class Domain(str, Enum):
     ACTIVITIES = "activities"
     TRAVEL_INTEL = "travel_intel"
     SAFETY_SUPPORT = "safety_support"
+    # Additional domains used in normalizer.py
+    EMERGENCY = "emergency"
+    STAY = "stay"
+    TRANSPORT = "transport"
+    EXPLORE = "explore"
+    LOCAL = "local"
 
 
 # ============================================================
@@ -93,31 +92,18 @@ class BaseEntity:
     # Explainability
     decision_trace: List[str] = field(default_factory=list)
 
-    # ============================================================
-    # VALIDATION
-    # ============================================================
-
     def validate(self) -> bool:
         if not self.name:
             raise ValueError("Entity must have a name.")
-
         if not isinstance(self.domain, Domain):
             raise ValueError("Invalid domain.")
-
         if not (-90 <= self.latitude <= 90):
             raise ValueError("Invalid latitude.")
-
         if not (-180 <= self.longitude <= 180):
             raise ValueError("Invalid longitude.")
-
         if not self.sources:
             raise ValueError("Entity must have at least one source.")
-
         return True
-
-    # ============================================================
-    # SCORING METHODS
-    # ============================================================
 
     def update_structural_score(self, score: float):
         self.structural_score = round(max(0.0, min(score, 1.0)), 3)
@@ -128,24 +114,15 @@ class BaseEntity:
         self.decision_trace.append(f"Review score set to {self.review_score}")
 
     def compute_final_score(self):
-        """
-        Default deterministic formula:
-        60% structural
-        40% review/domain score
-        """
-
         combined = (self.structural_score * 0.6) + (self.review_score * 0.4)
         self.final_authenticity_score = round(min(combined, 1.0), 3)
-
         self.assign_grade()
-
         self.decision_trace.append(
             f"Final authenticity score computed: {self.final_authenticity_score}"
         )
 
     def assign_grade(self):
         score = self.final_authenticity_score
-
         if score >= 0.85:
             self.grade = Grade.A
         elif score >= 0.70:
@@ -154,12 +131,7 @@ class BaseEntity:
             self.grade = Grade.C
         else:
             self.grade = Grade.D
-
         self.decision_trace.append(f"Grade assigned: {self.grade.value}")
-
-    # ============================================================
-    # SERIALIZATION
-    # ============================================================
 
     def to_dict(self) -> Dict:
         return {
@@ -182,18 +154,10 @@ class BaseEntity:
             "last_updated": self.last_updated.isoformat(),
         }
 
-    # ============================================================
-    # UPDATE TIMESTAMP
-    # ============================================================
-
     def touch(self):
         self.last_updated = datetime.utcnow()
         self.decision_trace.append("Entity timestamp updated")
 
-
-# ============================================================
-# SIMPLE TEST EXECUTION (SAFE TO RUN)
-# ============================================================
 
 if __name__ == "__main__":
     entity = BaseEntity(
