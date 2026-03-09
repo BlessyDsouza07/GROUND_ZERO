@@ -14,6 +14,25 @@ City: Mangalore
 import requests
 import os
 from datetime import datetime
+from utils.logger import get_logger
+
+logger = get_logger("CrowdEngine")
+
+
+def estimate_crowd(place):
+
+    logger.info(f"Estimating crowd level for {place}")
+
+    try:
+        crowd_score = 0.5  # Example placeholder
+
+        logger.debug(f"Crowd score calculated: {crowd_score}")
+
+        return crowd_score
+
+    except Exception as e:
+        logger.error(f"Crowd estimation failed: {e}")
+        return None
 
 # API KEYS
 GOOGLE_MAPS_KEY = os.getenv("GOOGLE_MAPS_KEY")

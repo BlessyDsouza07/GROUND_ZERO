@@ -102,9 +102,8 @@ def start_live_pipeline():
         t.start()
 
     while True:
-
-        time.sleep(1000)
-
+    run_engine()
+    sleep(60)
 
 if __name__ == "__main__":
 

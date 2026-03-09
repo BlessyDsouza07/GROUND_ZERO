@@ -19,6 +19,30 @@ Key Principles
 """
 
 from typing import Dict
+from utils.logger import get_logger
+import requests
+
+logger = get_logger("ReviewIntelligence")
+
+
+def fetch_reviews(api_url):
+
+    logger.info("Fetching review signals")
+
+    try:
+        response = requests.get(api_url, timeout=10)
+
+        if response.status_code == 200:
+            logger.info("Review data collected successfully")
+            return response.json()
+
+        else:
+            logger.warning(f"API returned status code {response.status_code}")
+            return None
+
+    except Exception as e:
+        logger.error(f"Review API failure: {e}")
+        return None
 
 
 # ------------------------------------------------------------

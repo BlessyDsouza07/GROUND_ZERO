@@ -42,3 +42,20 @@ def calculate_authenticity_score(place_data):
     )
 
     return round(final_score, 2)
+
+
+class AuthenticityScore:
+    """
+    Class wrapper around the authenticity scoring functions.
+    Used by run_engine.py to initialize and invoke authenticity evaluation.
+    """
+
+    def __init__(self):
+        pass
+
+    def calculate_score(self, place_data: dict) -> float:
+        """
+        Calculates the authenticity score for a given place.
+        Delegates to the module-level calculate_authenticity_score function.
+        """
+        return calculate_authenticity_score(place_data)
