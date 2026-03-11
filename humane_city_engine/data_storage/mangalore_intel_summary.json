@@ -1,0 +1,84 @@
+{
+  "city_intel_version": "v1",
+  "generated_at": "2026-03-11T18:17:29.006453+00:00",
+  "total_records": 200,
+  "category_distribution": {
+    "Public Facility": 41,
+    "Hotel": 40,
+    "Restaurant": 26,
+    "Temple": 19,
+    "Café": 18,
+    "Hospital": 10,
+    "Market": 10,
+    "Church": 7,
+    "Mosque": 7,
+    "Street Food": 7,
+    "Nightlife": 5,
+    "Police Station": 4,
+    "Heritage Site": 3,
+    "Local Artisan Shop": 1,
+    "Event Venue": 1,
+    "Park": 1
+  },
+  "zone_distribution": {
+    "outer_ring_low": 125,
+    "mid_ring_medium": 38,
+    "peripheral_very_low": 36,
+    "city_core_high": 1
+  },
+  "avg_authenticity_score": 0.181,
+  "heritage_places_count": 39,
+  "wikipedia_enriched_count": 10,
+  "coastal_zone_places": 175,
+  "live_air_quality": {
+    "time": "2026-03-11T18:00",
+    "interval": 3600,
+    "us_aqi": 103,
+    "pm2_5": 42.7,
+    "pm10": 49.1,
+    "carbon_monoxide": 267.0,
+    "nitrogen_dioxide": 11.4
+  },
+  "live_weather": {
+    "time": "2026-03-11T18:15",
+    "interval": 900,
+    "temperature_2m": 29.2,
+    "relative_humidity_2m": 78,
+    "precipitation": 0.0,
+    "windspeed_10m": 13.6
+  },
+  "city_level_signals": {
+    "crowd_peak_months": [
+      "October",
+      "November",
+      "December",
+      "January"
+    ],
+    "tourist_influx_months": [
+      "November",
+      "December",
+      "January",
+      "February"
+    ],
+    "monsoon_months": [
+      "June",
+      "July",
+      "August"
+    ],
+    "avg_tourist_ratio": 0.24,
+    "safety_overview": "Mangalore is generally safe. Coastal zones have monsoon risk Jun–Aug.",
+    "data_bias_note": "OSM data reflects mapper density. City centre has ~3x more records than periphery."
+  },
+  "domain_coverage": {
+    "geo_data": "100%",
+    "category_data": "100%",
+    "temporal_data": "100%",
+    "crowd_data": "100% synthetic model",
+    "review_data": "100% structural signals (no 3rd-party ratings)",
+    "safety_data": "100% proximity model",
+    "economic_data": "100% category model",
+    "cultural_data": "100%",
+    "experience_data": "100% category model",
+    "environment_data": "100% Open-Meteo + proximity model"
+  }
+}

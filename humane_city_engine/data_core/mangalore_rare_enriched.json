@@ -1,7 +1,7 @@
 {
   "city": "Mangalore",
   "city_id": "mangalore",
-  "generated_at": "2026-03-09T15:24:32.650385+00:00",
+  "generated_at": "2026-03-09T17:09:44.153156+00:00",
   "sources": [
     "OpenStreetMap",
     "Wikidata",
@@ -22805,15 +22805,15 @@
     }
   ],
   "air_quality": {
-    "aqi_us": 124,
+    "aqi_us": 121,
     "quality": "Unhealthy for sensitive groups",
-    "pm10": 35.7,
-    "pm2_5": 30.3,
-    "no2": 2.6,
-    "o3": 112.0,
+    "pm10": 37.8,
+    "pm2_5": 32.5,
+    "no2": 5.0,
+    "o3": 104.0,
     "source": "Open-Meteo Air Quality API",
     "license": "CC BY 4.0",
-    "timestamp": "2026-03-09T15:24:27.548784+00:00"
+    "timestamp": "2026-03-09T17:07:24.773777+00:00"
   },
   "media": {
     "photos_count": 35,
