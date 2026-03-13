@@ -9,7 +9,7 @@ scope = [
 
 # Load credentials
 creds = ServiceAccountCredentials.from_json_keyfile_name(
-    "../credentials.json",
+    "credentials.json",
     scope
 )
 
