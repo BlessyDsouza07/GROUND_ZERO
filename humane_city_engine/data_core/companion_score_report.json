@@ -1,0 +1,91 @@
+{
+  "reports": [
+    {
+      "label": "places",
+      "total_records": 1070,
+      "avg_companion": 46.8,
+      "avg_truth": 47.2,
+      "avg_fit": 46.4,
+      "grade_dist": {
+        "S": 0,
+        "A": 0,
+        "B": 0,
+        "C": 357,
+        "D": 713,
+        "F": 0
+      },
+      "recommendations": {
+        "present_normally": 0,
+        "present_with_context": 31,
+        "present_with_caution": 1039,
+        "do_not_surface": 0,
+        "suppress": 0
+      },
+      "confidence": {
+        "HIGH": 0,
+        "MEDIUM": 1013,
+        "LOW": 0,
+        "UNCERTAIN": 57
+      },
+      "pillar_averages": {
+        "existence": 15.58,
+        "identity": 9.0,
+        "completeness": 0.62,
+        "source_integrity": 4.9,
+        "temporal_validity": 7.02,
+        "community_anchoring": 10.04
+      },
+      "dim_averages": {
+        "local_life_evidence": 15.98,
+        "accessibility_equity": 6.99,
+        "cultural_integrity": 10.0,
+        "experience_reality": 6.0,
+        "time_suitability": 7.43
+      }
+    },
+    {
+      "label": "records",
+      "total_records": 708,
+      "avg_companion": 63.4,
+      "avg_truth": 66.8,
+      "avg_fit": 60.3,
+      "grade_dist": {
+        "S": 0,
+        "A": 37,
+        "B": 265,
+        "C": 406,
+        "D": 0,
+        "F": 0
+      },
+      "recommendations": {
+        "present_normally": 169,
+        "present_with_context": 539,
+        "present_with_caution": 0,
+        "do_not_surface": 0,
+        "suppress": 0
+      },
+      "confidence": {
+        "HIGH": 19,
+        "MEDIUM": 689,
+        "LOW": 0,
+        "UNCERTAIN": 0
+      },
+      "pillar_averages": {
+        "existence": 20.0,
+        "identity": 8.01,
+        "completeness": 2.92,
+        "source_integrity": 12.08,
+        "temporal_validity": 8.0,
+        "community_anchoring": 15.78
+      },
+      "dim_averages": {
+        "local_life_evidence": 12.09,
+        "accessibility_equity": 14.32,
+        "cultural_integrity": 13.3,
+        "experience_reality": 13.02,
+        "time_suitability": 7.56
+      }
+    }
+  ],
+  "generated_at": "2026-03-13T12:48:38.353220+00:00"
+}

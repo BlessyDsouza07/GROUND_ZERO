@@ -1,0 +1,208 @@
+2026-04-14 06:52:27,312 [MangaloreHiddenGems] INFO: MangaloreHiddenGems — 27 curated places
+2026-04-14 06:52:27,386 [CityDatabase] INFO:   Upserted 1 entities
+2026-04-14 06:53:53,714 [Engine1Pipeline] INFO: ============================================================
+2026-04-14 06:53:53,714 [Engine1Pipeline] INFO: GROUND ZERO — ENGINE 1: Structured Data Layer v3
+2026-04-14 06:53:53,714 [Engine1Pipeline] INFO: Started: 2026-04-14T01:23:53.714540+00:00 | Mode: LIVE
+2026-04-14 06:53:53,714 [Engine1Pipeline] INFO: ============================================================
+2026-04-14 06:53:53,716 [Engine1Pipeline] INFO: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-04-14 06:53:53,716 [Engine1Pipeline] INFO: STEP 1 — Data Collection
+2026-04-14 06:53:53,716 [Engine1Pipeline] INFO: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-04-14 06:53:53,716 [Engine1Pipeline] INFO:   OSM: fetching from Overpass API (14 query groups)...
+2026-04-14 06:53:53,716 [OSMCollector] INFO: ============================================================
+2026-04-14 06:53:53,716 [OSMCollector] INFO: OSM COLLECTOR v2 — Deep Mangalore Fetch
+2026-04-14 06:53:53,716 [OSMCollector] INFO: Primary bbox: 12.780,74.750,13.020,74.990
+2026-04-14 06:53:53,716 [OSMCollector] INFO: Coastal bbox: 12.820,74.720,13.060,74.880
+2026-04-14 06:53:53,716 [OSMCollector] INFO: Hinterland bbox: 12.750,74.850,12.950,75.050
+2026-04-14 06:53:53,724 [OSMCollector] INFO: ============================================================
+2026-04-14 06:53:53,724 [OSMCollector] INFO:   Fetching 'food_and_drink' (attempt 1)
+2026-04-14 06:53:55,335 [OSMCollector] INFO:   ✓ 'food_and_drink': 225 elements
+2026-04-14 06:53:56,837 [OSMCollector] INFO:   Fetching 'accommodation' (attempt 1)
+2026-04-14 06:54:03,624 [OSMCollector] WARNING:   HTTP 504 on 'accommodation'
+2026-04-14 06:54:05,131 [OSMCollector] INFO:   Fetching 'accommodation' (attempt 2)
+2026-04-14 06:54:10,589 [OSMCollector] WARNING:   HTTP 504 on 'accommodation'
+2026-04-14 06:54:13,594 [OSMCollector] INFO:   Fetching 'accommodation' (attempt 3)
+2026-04-14 06:54:19,702 [OSMCollector] WARNING:   HTTP 504 on 'accommodation'
+2026-04-14 06:54:24,204 [OSMCollector] ERROR:   FAILED: 'accommodation' after 3 attempts — returning empty
+2026-04-14 06:54:25,707 [OSMCollector] INFO:   Fetching 'nature_water' (attempt 1)
+2026-04-14 06:54:31,450 [OSMCollector] WARNING:   HTTP 504 on 'nature_water'
+2026-04-14 06:54:32,953 [OSMCollector] INFO:   Fetching 'nature_water' (attempt 2)
+2026-04-14 06:54:39,537 [OSMCollector] WARNING:   HTTP 504 on 'nature_water'
+2026-04-14 06:54:42,540 [OSMCollector] INFO:   Fetching 'nature_water' (attempt 3)
+2026-04-14 06:54:52,675 [OSMCollector] WARNING:   HTTP 504 on 'nature_water'
+2026-04-14 06:54:57,177 [OSMCollector] ERROR:   FAILED: 'nature_water' after 3 attempts — returning empty
+2026-04-14 06:54:58,678 [OSMCollector] INFO:   Fetching 'religion' (attempt 1)
+2026-04-14 06:55:01,380 [OSMCollector] INFO:   ✓ 'religion': 196 elements
+2026-04-14 06:55:02,885 [OSMCollector] INFO:   Fetching 'culture_heritage' (attempt 1)
+2026-04-14 06:55:05,987 [OSMCollector] INFO:   ✓ 'culture_heritage': 44 elements
+2026-04-14 06:55:07,490 [OSMCollector] INFO:   Fetching 'shopping' (attempt 1)
+2026-04-14 06:55:13,565 [OSMCollector] WARNING:   Rate limited on 'shopping'. Waiting 30s...
+2026-04-14 06:55:45,071 [OSMCollector] INFO:   Fetching 'shopping' (attempt 2)
+2026-04-14 06:55:48,084 [OSMCollector] INFO:   ✓ 'shopping': 71 elements
+2026-04-14 06:55:49,587 [OSMCollector] INFO:   Fetching 'sports_wellness' (attempt 1)
+2026-04-14 06:55:57,800 [OSMCollector] INFO:   ✓ 'sports_wellness': 83 elements
+2026-04-14 06:55:59,305 [OSMCollector] INFO:   Fetching 'transport' (attempt 1)
+2026-04-14 06:56:05,785 [OSMCollector] WARNING:   Rate limited on 'transport'. Waiting 30s...
+2026-04-14 06:56:37,292 [OSMCollector] INFO:   Fetching 'transport' (attempt 2)
+2026-04-14 06:56:42,954 [OSMCollector] INFO:   ✓ 'transport': 157 elements
+2026-04-14 06:56:44,462 [OSMCollector] INFO:   Fetching 'safety_health' (attempt 1)
+2026-04-14 06:56:49,760 [OSMCollector] WARNING:   HTTP 504 on 'safety_health'
+2026-04-14 06:56:51,261 [OSMCollector] INFO:   Fetching 'safety_health' (attempt 2)
+2026-04-14 06:56:59,022 [OSMCollector] WARNING:   HTTP 504 on 'safety_health'
+2026-04-14 06:57:02,026 [OSMCollector] INFO:   Fetching 'safety_health' (attempt 3)
+2026-04-14 06:57:04,164 [OSMCollector] INFO:   ✓ 'safety_health': 328 elements
+2026-04-14 06:57:05,666 [OSMCollector] INFO:   Fetching 'unexplored_local' (attempt 1)
+2026-04-14 06:57:11,522 [OSMCollector] WARNING:   Rate limited on 'unexplored_local'. Waiting 30s...
+2026-04-14 06:57:43,031 [OSMCollector] INFO:   Fetching 'unexplored_local' (attempt 2)
+2026-04-14 06:57:49,007 [OSMCollector] WARNING:   HTTP 504 on 'unexplored_local'
+2026-04-14 06:57:52,009 [OSMCollector] INFO:   Fetching 'unexplored_local' (attempt 3)
+2026-04-14 06:58:02,789 [OSMCollector] WARNING:   HTTP 504 on 'unexplored_local'
+2026-04-14 06:58:07,291 [OSMCollector] ERROR:   FAILED: 'unexplored_local' after 3 attempts — returning empty
+2026-04-14 06:58:08,792 [OSMCollector] INFO:   Fetching 'feasts_festivals' (attempt 1)
+2026-04-14 06:58:14,611 [OSMCollector] INFO:   ✓ 'feasts_festivals': 4 elements
+2026-04-14 06:58:16,115 [OSMCollector] INFO:   Fetching 'education_institutions' (attempt 1)
+2026-04-14 06:58:24,745 [OSMCollector] WARNING:   HTTP 504 on 'education_institutions'
+2026-04-14 06:58:26,251 [OSMCollector] INFO:   Fetching 'education_institutions' (attempt 2)
+2026-04-14 06:58:31,819 [OSMCollector] WARNING:   HTTP 504 on 'education_institutions'
+2026-04-14 06:58:34,823 [OSMCollector] INFO:   Fetching 'education_institutions' (attempt 3)
+2026-04-14 06:58:43,284 [OSMCollector] WARNING:   HTTP 504 on 'education_institutions'
+2026-04-14 06:58:47,787 [OSMCollector] ERROR:   FAILED: 'education_institutions' after 3 attempts — returning empty
+2026-04-14 06:58:49,289 [OSMCollector] INFO:   Fetching 'coastal_villages' (attempt 1)
+2026-04-14 06:58:56,077 [OSMCollector] WARNING:   HTTP 504 on 'coastal_villages'
+2026-04-14 06:58:57,582 [OSMCollector] INFO:   Fetching 'coastal_villages' (attempt 2)
+2026-04-14 06:58:59,369 [OSMCollector] INFO:   ✓ 'coastal_villages': 213 elements
+2026-04-14 06:59:00,876 [OSMCollector] INFO:   Fetching 'hinterland_nature' (attempt 1)
+2026-04-14 06:59:09,525 [OSMCollector] WARNING:   Rate limited on 'hinterland_nature'. Waiting 30s...
+2026-04-14 06:59:41,027 [OSMCollector] INFO:   Fetching 'hinterland_nature' (attempt 2)
+2026-04-14 06:59:44,686 [OSMCollector] INFO:   ✓ 'hinterland_nature': 177 elements
+2026-04-14 06:59:46,190 [OSMCollector] INFO:   Merged: 1387 unique OSM elements
+2026-04-14 06:59:46,337 [OSMCollector] INFO:   Raw saved → data_storage/raw/osm_mangalore_raw.json
+2026-04-14 06:59:46,337 [OSMCollector] INFO:   Total elements: 1387
+2026-04-14 06:59:46,337 [OSMCollector] INFO: OSM COLLECTOR — Done
+2026-04-14 06:59:46,345 [Engine1Pipeline] INFO:   Wikidata: SPARQL query for Mangalore places...
+2026-04-14 06:59:46,345 [WikidataEnricher] INFO: WikidataEnricher — Starting SPARQL query
+2026-04-14 06:59:48,084 [WikidataEnricher] INFO:   Wikidata returned 0 results
+2026-04-14 06:59:48,084 [WikidataEnricher] INFO:   Normalized 0 valid Wikidata places
+2026-04-14 06:59:48,092 [WikidataEnricher] INFO:   Wikidata raw saved → data_storage/raw/wikidata_mangalore_raw.json
+2026-04-14 06:59:48,092 [Engine1Pipeline] INFO:   Wikipedia: enriching entities with descriptions...
+2026-04-14 06:59:48,092 [WikipediaEnricher] INFO: WikipediaEnricher — Scanning OSM data for wikipedia= tags
+2026-04-14 06:59:55,531 [WikipediaEnricher] INFO:   Wikipedia: checked 10 tags, enriched 10 places
+2026-04-14 06:59:55,544 [Engine1Pipeline] INFO:   OpenTripMap: skipped (no OPENTRIPMAP_KEY)
+2026-04-14 06:59:55,544 [Engine1Pipeline] INFO: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-04-14 06:59:55,544 [Engine1Pipeline] INFO: STEP 2 — Normalisation (OSM → BaseEntity)
+2026-04-14 06:59:55,544 [Engine1Pipeline] INFO: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-04-14 06:59:55,623 [Engine1Pipeline] INFO:   Normalised 1190 entities
+2026-04-14 06:59:55,623 [Engine1Pipeline] INFO: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-04-14 06:59:55,631 [Engine1Pipeline] INFO: STEP 3 — Cross-Source Enrichment
+2026-04-14 06:59:55,631 [Engine1Pipeline] INFO: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-04-14 06:59:55,639 [Engine1Pipeline] INFO:   Wikidata: 0 | Wikipedia: 10 | OTM: 0
+2026-04-14 06:59:55,639 [Engine1Pipeline] INFO: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-04-14 06:59:55,639 [Engine1Pipeline] INFO: STEP 4 — Hidden Gems Merge (Mangalore Local Intelligence)
+2026-04-14 06:59:55,639 [Engine1Pipeline] INFO: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-04-14 06:59:55,639 [MangaloreHiddenGems] INFO: MangaloreHiddenGems — 27 curated places
+2026-04-14 06:59:55,639 [Engine1Pipeline] INFO:   Added 26 hidden gems (1 skipped as duplicates)
+2026-04-14 06:59:55,639 [Engine1Pipeline] INFO: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-04-14 06:59:55,639 [Engine1Pipeline] INFO: STEP 5 — Five-Layer Intelligence Population
+2026-04-14 06:59:55,639 [Engine1Pipeline] INFO: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-04-14 06:59:55,745 [Engine1Pipeline] INFO:   Layers populated: 1216 | Errors: 0
+2026-04-14 06:59:55,745 [Engine1Pipeline] INFO: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-04-14 06:59:55,745 [Engine1Pipeline] INFO: STEP 6 — Structural Scoring + Domain Scoring
+2026-04-14 06:59:55,745 [Engine1Pipeline] INFO: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-04-14 06:59:55,822 [Engine1Pipeline] INFO:   Grade breakdown: {'D': 1214, 'C': 2}
+2026-04-14 06:59:55,822 [Engine1Pipeline] INFO: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-04-14 06:59:55,822 [Engine1Pipeline] INFO: STEP 7 — Data Quality Gate
+2026-04-14 06:59:55,827 [Engine1Pipeline] INFO: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-04-14 06:59:55,827 [Engine1Pipeline] INFO:   Valid: 1216 | Rejected: 0
+2026-04-14 06:59:55,828 [Engine1Pipeline] INFO: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-04-14 06:59:55,828 [Engine1Pipeline] INFO: STEP 8 — Bias Audit
+2026-04-14 06:59:55,828 [Engine1Pipeline] INFO: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-04-14 06:59:55,837 [Engine1Pipeline] INFO:   Approved: 1214 | Rejected: 2
+2026-04-14 06:59:55,837 [Engine1Pipeline] INFO: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-04-14 06:59:55,837 [Engine1Pipeline] INFO: STEP 9 — Database Storage
+2026-04-14 06:59:55,837 [Engine1Pipeline] INFO: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-04-14 06:59:56,130 [CityDatabase] INFO:   Upserted 1214 entities
+2026-04-14 06:59:56,130 [Engine1Pipeline] INFO:   Stored 1214 entities | DB stats: {'total_places': 1214, 'by_domain': {'activities': 48, 'emergency': 77, 'explore': 242, 'food': 199, 'local': 68, 'places': 441, 'stay': 65, 'transport': 74}, 'unexplored': 161, 'events': 0, 'grades': {'C': 2, 'D': 1212}}
+2026-04-14 06:59:56,130 [Engine1Pipeline] INFO: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-04-14 06:59:56,130 [Engine1Pipeline] INFO: STEP 10 — Data Hub Build (city_store.json)
+2026-04-14 06:59:56,130 [Engine1Pipeline] INFO: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-04-14 06:59:56,566 [DataHubBuilder] INFO: Hub saved → data_storage/output/city_store.json
+2026-04-14 06:59:56,566 [Engine1Pipeline] INFO:   Hub entities: 810 across ['food', 'explore', 'local', 'activities', 'transport', 'emergency', 'places', 'stay']
+2026-04-14 06:59:56,566 [Engine1Pipeline] INFO: ============================================================
+2026-04-14 06:59:56,566 [Engine1Pipeline] INFO: ENGINE 1 — COMPLETE
+2026-04-14 06:59:56,566 [Engine1Pipeline] INFO:   OSM elements:          0
+2026-04-14 06:59:56,566 [Engine1Pipeline] INFO:   Wikidata places:       0
+2026-04-14 06:59:56,566 [Engine1Pipeline] INFO:   Wikipedia enrichments: 10
+2026-04-14 06:59:56,566 [Engine1Pipeline] INFO:   OTM places:            0
+2026-04-14 06:59:56,574 [Engine1Pipeline] INFO:   Hidden gems added:     26
+2026-04-14 06:59:56,574 [Engine1Pipeline] INFO:   Entities normalised:   1216
+2026-04-14 06:59:56,574 [Engine1Pipeline] INFO:   DQ gate rejected:      0
+2026-04-14 06:59:56,574 [Engine1Pipeline] INFO:   Bias audit rejected:   2
+2026-04-14 06:59:56,574 [Engine1Pipeline] INFO:   Approved + stored:     1214
+2026-04-14 06:59:56,574 [Engine1Pipeline] INFO:   Duration:              362.9s
+2026-04-14 06:59:56,574 [Engine1Pipeline] INFO: ============================================================
+2026-04-14 07:01:39,902 [Engine1Pipeline] INFO: ============================================================
+2026-04-14 07:01:39,902 [Engine1Pipeline] INFO: GROUND ZERO — ENGINE 1: Structured Data Layer v3
+2026-04-14 07:01:39,902 [Engine1Pipeline] INFO: Started: 2026-04-14T01:31:39.902010+00:00 | Mode: DRY RUN
+2026-04-14 07:01:39,902 [Engine1Pipeline] INFO: ============================================================
+2026-04-14 07:01:39,910 [Engine1Pipeline] INFO: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-04-14 07:01:39,910 [Engine1Pipeline] INFO: STEP 1 — Data Collection
+2026-04-14 07:01:39,910 [Engine1Pipeline] INFO: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-04-14 07:01:39,910 [Engine1Pipeline] INFO:   OSM: using cached data
+2026-04-14 07:01:39,910 [Engine1Pipeline] INFO:   Wikidata: SPARQL query for Mangalore places...
+2026-04-14 07:01:39,910 [WikidataEnricher] INFO: WikidataEnricher — Starting SPARQL query
+2026-04-14 07:01:40,965 [WikidataEnricher] INFO:   Wikidata returned 0 results
+2026-04-14 07:01:40,965 [WikidataEnricher] INFO:   Normalized 0 valid Wikidata places
+2026-04-14 07:01:40,973 [WikidataEnricher] INFO:   Wikidata raw saved → data_storage/raw/wikidata_mangalore_raw.json
+2026-04-14 07:01:40,973 [Engine1Pipeline] INFO:   Wikipedia: enriching entities with descriptions...
+2026-04-14 07:01:40,975 [WikipediaEnricher] INFO: WikipediaEnricher — Scanning OSM data for wikipedia= tags
+2026-04-14 07:01:48,140 [WikipediaEnricher] INFO:   Wikipedia: checked 10 tags, enriched 10 places
+2026-04-14 07:01:48,146 [Engine1Pipeline] INFO:   OpenTripMap: skipped (no OPENTRIPMAP_KEY)
+2026-04-14 07:01:48,148 [Engine1Pipeline] INFO: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-04-14 07:01:48,148 [Engine1Pipeline] INFO: STEP 2 — Normalisation (OSM → BaseEntity)
+2026-04-14 07:01:48,148 [Engine1Pipeline] INFO: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-04-14 07:01:48,385 [Engine1Pipeline] INFO:   Normalised 1190 entities
+2026-04-14 07:01:48,385 [Engine1Pipeline] INFO: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-04-14 07:01:48,385 [Engine1Pipeline] INFO: STEP 3 — Cross-Source Enrichment
+2026-04-14 07:01:48,385 [Engine1Pipeline] INFO: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-04-14 07:01:48,393 [Engine1Pipeline] INFO:   Wikidata: 0 | Wikipedia: 10 | OTM: 0
+2026-04-14 07:01:48,393 [Engine1Pipeline] INFO: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-04-14 07:01:48,393 [Engine1Pipeline] INFO: STEP 4 — Hidden Gems Merge (Mangalore Local Intelligence)
+2026-04-14 07:01:48,393 [Engine1Pipeline] INFO: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-04-14 07:01:48,393 [MangaloreHiddenGems] INFO: MangaloreHiddenGems — 27 curated places
+2026-04-14 07:01:48,393 [Engine1Pipeline] INFO:   Added 26 hidden gems (1 skipped as duplicates)
+2026-04-14 07:01:48,393 [Engine1Pipeline] INFO: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-04-14 07:01:48,393 [Engine1Pipeline] INFO: STEP 5 — Five-Layer Intelligence Population
+2026-04-14 07:01:48,393 [Engine1Pipeline] INFO: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-04-14 07:01:48,531 [Engine1Pipeline] INFO:   Layers populated: 1216 | Errors: 0
+2026-04-14 07:01:48,533 [Engine1Pipeline] INFO: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-04-14 07:01:48,533 [Engine1Pipeline] INFO: STEP 6 — Structural Scoring + Domain Scoring
+2026-04-14 07:01:48,533 [Engine1Pipeline] INFO: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-04-14 07:01:48,652 [Engine1Pipeline] INFO:   Grade breakdown: {'D': 1214, 'C': 2}
+2026-04-14 07:01:48,652 [Engine1Pipeline] INFO: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-04-14 07:01:48,652 [Engine1Pipeline] INFO: STEP 7 — Data Quality Gate
+2026-04-14 07:01:48,652 [Engine1Pipeline] INFO: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-04-14 07:01:48,652 [Engine1Pipeline] INFO:   Valid: 1216 | Rejected: 0
+2026-04-14 07:01:48,652 [Engine1Pipeline] INFO: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-04-14 07:01:48,652 [Engine1Pipeline] INFO: STEP 8 — Bias Audit
+2026-04-14 07:01:48,652 [Engine1Pipeline] INFO: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-04-14 07:01:48,668 [Engine1Pipeline] INFO:   Approved: 1214 | Rejected: 2
+2026-04-14 07:01:48,668 [Engine1Pipeline] INFO: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-04-14 07:01:48,668 [Engine1Pipeline] INFO: STEP 9 — Database Storage
+2026-04-14 07:01:48,668 [Engine1Pipeline] INFO: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-04-14 07:01:48,668 [Engine1Pipeline] INFO:   DRY RUN — skipping
+2026-04-14 07:01:48,668 [Engine1Pipeline] INFO: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-04-14 07:01:48,668 [Engine1Pipeline] INFO: STEP 10 — Data Hub Build (city_store.json)
+2026-04-14 07:01:48,668 [Engine1Pipeline] INFO: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-04-14 07:01:48,775 [Engine1Pipeline] INFO:   Hub entities: 810 across ['food', 'explore', 'local', 'activities', 'transport', 'emergency', 'places', 'stay']
+2026-04-14 07:01:48,783 [Engine1Pipeline] INFO: ============================================================
+2026-04-14 07:01:48,783 [Engine1Pipeline] INFO: ENGINE 1 — COMPLETE
+2026-04-14 07:01:48,783 [Engine1Pipeline] INFO:   OSM elements:          0
+2026-04-14 07:01:48,783 [Engine1Pipeline] INFO:   Wikidata places:       0
+2026-04-14 07:01:48,783 [Engine1Pipeline] INFO:   Wikipedia enrichments: 10
+2026-04-14 07:01:48,783 [Engine1Pipeline] INFO:   OTM places:            0
+2026-04-14 07:01:48,783 [Engine1Pipeline] INFO:   Hidden gems added:     26
+2026-04-14 07:01:48,783 [Engine1Pipeline] INFO:   Entities normalised:   1216
+2026-04-14 07:01:48,783 [Engine1Pipeline] INFO:   DQ gate rejected:      0
+2026-04-14 07:01:48,783 [Engine1Pipeline] INFO:   Bias audit rejected:   2
+2026-04-14 07:01:48,783 [Engine1Pipeline] INFO:   Approved + stored:     1214
+2026-04-14 07:01:48,783 [Engine1Pipeline] INFO:   Duration:              8.9s
+2026-04-14 07:01:48,783 [Engine1Pipeline] INFO: ============================================================

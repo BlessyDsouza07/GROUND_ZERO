@@ -1,7 +1,7 @@
 {
   "city": "Mangalore",
   "state": "Karnataka",
-  "generated_at": "2026-03-09T17:07:11.711590+00:00",
+  "generated_at": "2026-03-13T04:22:11.478132+00:00",
   "sources": [
     "ASI (Archaeological Survey of India)",
     "GBIF (Global Biodiversity Information Facility)",
@@ -97,6 +97,19 @@
       "lon": 74.993319,
       "date": "2025-01-02T11:37:10",
       "count": 4,
+      "source": "GBIF",
+      "license": "CC0 / CC BY",
+      "data_type": "species_occurrence"
+    },
+    {
+      "species": "Ipomoea pes-caprae",
+      "common_name": "",
+      "kingdom": "Plantae",
+      "class": "Magnoliopsida",
+      "lat": 12.864399,
+      "lon": 74.832473,
+      "date": "2026-02-13T08:06:27",
+      "count": 3,
       "source": "GBIF",
       "license": "CC0 / CC BY",
       "data_type": "species_occurrence"
@@ -1101,19 +1114,6 @@
       "source": "GBIF",
       "license": "CC0 / CC BY",
       "data_type": "species_occurrence"
-    },
-    {
-      "species": "Tadehagi triquetrum",
-      "common_name": "",
-      "kingdom": "Plantae",
-      "class": "Magnoliopsida",
-      "lat": 13.119979,
-      "lon": 74.953475,
-      "date": "2025-01-13T12:43:48",
-      "count": 1,
-      "source": "GBIF",
-      "license": "CC0 / CC BY",
-      "data_type": "species_occurrence"
     }
   ],
   "marine_species": [
@@ -1271,21 +1271,29 @@
     }
   ],
   "air_quality": {
-    "aqi_us": 121,
+    "aqi_us": 117,
     "quality": "Unhealthy for sensitive groups",
-    "pm10": 37.8,
-    "pm2_5": 32.5,
-    "no2": 5.0,
-    "o3": 104.0,
+    "pm10": 44.8,
+    "pm2_5": 40.3,
+    "no2": 5.5,
+    "o3": 120.0,
     "source": "Open-Meteo Air Quality API",
     "license": "CC BY 4.0",
-    "timestamp": "2026-03-09T17:07:24.773777+00:00"
+    "timestamp": "2026-03-13T04:22:24.573301+00:00"
   },
   "walkable_routes": [
     {
       "name": "S.J.S Temple Road",
       "type": "path",
       "surface": "concrete:plates",
+      "access": "public",
+      "source": "OSM",
+      "data_type": "walkable_route"
+    },
+    {
+      "name": "kundala road",
+      "type": "path",
+      "surface": "",
       "access": "public",
       "source": "OSM",
       "data_type": "walkable_route"
@@ -1344,16 +1352,16 @@
     "species_wildlife": 80,
     "marine_species": 19,
     "air_quality": {
-      "aqi_us": 121,
+      "aqi_us": 117,
       "quality": "Unhealthy for sensitive groups",
-      "pm10": 37.8,
-      "pm2_5": 32.5,
-      "no2": 5.0,
-      "o3": 104.0,
+      "pm10": 44.8,
+      "pm2_5": 40.3,
+      "no2": 5.5,
+      "o3": 120.0,
       "source": "Open-Meteo Air Quality API",
       "license": "CC BY 4.0",
-      "timestamp": "2026-03-09T17:07:24.773777+00:00"
+      "timestamp": "2026-03-13T04:22:24.573301+00:00"
     },
-    "walkable_routes": 7
+    "walkable_routes": 8
   }
 }

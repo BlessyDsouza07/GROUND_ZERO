@@ -1,0 +1,26 @@
+# Ground Zero — Engine 1: Structured Data Layer
+# Install with: pip install -r requirements.txt
+
+# Core HTTP
+requests==2.32.3
+
+# OSM / Geo
+overpy==0.7
+
+# RSS feeds (events)
+feedparser==6.0.11
+
+# Environment variables
+python-dotenv==1.0.1
+
+# Scheduling (live pipeline — used in later engines)
+schedule==1.2.2
+
+# Wikipedia API (alternative to REST calls)
+wikipedia-api==0.6.0
+
+# Optional: OpenTripMap has no special library, uses requests
+# Optional: Wikidata uses SPARQL via requests
+
+# Dev / testing only
+pytest==8.3.5

@@ -1,0 +1,84 @@
+{
+  "generated_at": "2026-03-13T05:10:50.568451+00:00",
+  "datasets": [
+    {
+      "dataset": "mangalore_rare_enriched",
+      "total": 1070,
+      "approved": 1070,
+      "rejected": 0,
+      "approval_rate_pct": 100.0,
+      "rejection_reasons": {},
+      "score_distribution": {
+        "0.0-0.3": 0,
+        "0.3-0.6": 0,
+        "0.6-0.8": 1069,
+        "0.8-1.0": 1
+      },
+      "source_distribution": {
+        "raw_source_counts": {
+          "osm": 1224,
+          "wikidata": 63,
+          "asi": 7
+        },
+        "mapped_source_counts": {
+          "community_map": 1013,
+          "public_media": 51,
+          "government": 7
+        },
+        "single_source_places": 1069,
+        "multi_source_places": 1,
+        "multi_source_pct": 0.1
+      },
+      "geo_bias": {
+        "inner_ring_lt_2km": 42,
+        "mid_ring_2_6km": 490,
+        "outer_ring_gt_6km": 488,
+        "no_geo_data": 50,
+        "centre_bias_pct": 4.1,
+        "bias_warning": false,
+        "note": "✓ Geographic distribution looks balanced"
+      },
+      "promo_flagged": 0
+    },
+    {
+      "dataset": "mangalore_deep_intel",
+      "total": 708,
+      "approved": 707,
+      "rejected": 1,
+      "approval_rate_pct": 99.9,
+      "rejection_reasons": {
+        "Promotional language detected": 1
+      },
+      "score_distribution": {
+        "0.0-0.3": 0,
+        "0.3-0.6": 0,
+        "0.6-0.8": 0,
+        "0.8-1.0": 707
+      },
+      "source_distribution": {
+        "raw_source_counts": {
+          "osm": 708,
+          "open_meteo": 708,
+          "wikipedia": 19
+        },
+        "mapped_source_counts": {
+          "government": 708,
+          "community_map": 708,
+          "public_media": 19
+        },
+        "single_source_places": 0,
+        "multi_source_places": 708,
+        "multi_source_pct": 100.0
+      },
+      "geo_bias": {
+        "inner_ring_lt_2km": 31,
+        "mid_ring_2_6km": 334,
+        "outer_ring_gt_6km": 342,
+        "no_geo_data": 0,
+        "centre_bias_pct": 4.4,
+        "bias_warning": false,
+        "note": "✓ Geographic distribution looks balanced"
+      }
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "city": "Mangalore",
-  "generated_at": "2026-03-09T17:09:44.141634",
+  "generated_at": "2026-03-13T04:25:01.833698",
   "source": "Wikipedia",
   "license": "CC BY-SA 3.0 — https://creativecommons.org/licenses/by-sa/3.0/",
   "articles": {
@@ -450,7 +450,7 @@
       "summary": {
         "title": "List of districts in India",
         "description": "",
-        "extract": "A district (zila), also known as revenue district, is an administrative division of an Indian state or territory. In some cases, districts are further subdivided into sub-divisions, and in others directly into tehsils or talukas. As of 9 December 2025, there are a total of 806 districts in India. This count includes Mahe and Yanam which are Census districts and not Administrative districts and also includes the temporary Maha Kumbh Mela district but excludes Itanagar Capital Complex which has a ",
+        "extract": "A district (zila), also known as revenue district, is an administrative division of an Indian state or territory. In some cases, districts are further subdivided into sub-divisions, and in others directly into tehsils or talukas. As of 9 December 2025, there are a total of 800 districts in India. This count includes Mahe and Yanam which are Census districts and not Administrative districts and also includes the temporary Maha Kumbh Mela district but excludes Itanagar Capital Complex which has a ",
         "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/India_district_map_%28de-facto%29.svg/330px-India_district_map_%28de-facto%29.svg.png",
         "coordinates": {},
         "wiki_url": "https://en.wikipedia.org/wiki/List_of_districts_in_India"
@@ -841,20 +841,6 @@
       "categories": [],
       "sections": []
     },
-    "Boro language (India)": {
-      "title": "Boro language (India)",
-      "summary": {
-        "title": "Boro language (India)",
-        "description": "Tibeto-Burman language",
-        "extract": "Boro, also rendered Bodo, is a Tibeto-Burman language spoken primarily by the Boro ethnic group of Northeast India and the neighboring countries of Nepal and Bangladesh. It is an official language of the Indian state of Assam, predominantly spoken in the Bodoland Territorial Region. It is also one of the twenty-two languages listed in the Eighth Schedule of the Constitution of India. Since 1975 the language has been written using the Devanagari script. It was formerly written using Latin and Eas",
-        "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Bodoland_Territorial_Area_Districts.svg/330px-Bodoland_Territorial_Area_Districts.svg.png",
-        "coordinates": {},
-        "wiki_url": "https://en.wikipedia.org/wiki/Boro_language_(India)"
-      },
-      "from_link": "Tulu_language",
-      "categories": [],
-      "sections": []
-    },
     "Census of India": {
       "title": "Census of India",
       "summary": {
@@ -1060,7 +1046,7 @@
       "summary": {
         "title": "Mangaladevi Temple",
         "description": "Hindu temple in Karnataka, India",
-        "extract": "The Mangaladevi Temple is a Hindu temple at Bolara in the city of Mangalore in the Indian state of Karnataka. It is situated about three kilometres southwest of the city centre. The temple is dedicated to the Hindu goddess Shakti in the form of Mangaladevi, the presiding deity from whom the city derives its name.",
+        "extract": "The Mangaladevi Temple is a Hindu temple at Bolara in the city of Mangaluru in the Indian state of Karnataka. It is situated about three kilometres southwest of the city centre. The temple is dedicated to the Hindu goddess Shakti in the form of Mangaladevi, the presiding deity from whom the city derives its name.",
         "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Mangaladevi_Temple_Mangalore_2.jpg/330px-Mangaladevi_Temple_Mangalore_2.jpg",
         "coordinates": {
           "lat": 12.8491,
@@ -1452,7 +1438,7 @@
   "place_mentions": [],
   "historical_events": [],
   "summary": {
-    "articles_mined": 77,
+    "articles_mined": 76,
     "nearby_places": 0,
     "food_mentions": 0,
     "place_mentions": 0,

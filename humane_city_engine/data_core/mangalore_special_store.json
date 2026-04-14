@@ -4,7 +4,7 @@
   "type": "special_store",
   "version": "v4",
   "description": "18-domain Mangalore-specific intelligence with deep schema per document spec. Stored separately from main data hub.",
-  "generated_at": "2026-03-11T17:40:02.021892+00:00",
+  "generated_at": "2026-03-13T04:28:30.063789+00:00",
   "sources": [
     "Wikipedia REST API (CC BY-SA 3.0)",
     "Wikidata SPARQL (CC0)",
@@ -729,11 +729,11 @@
       "Kadri"
     ],
     "air_quality_live": {
-      "time": "2026-03-11T17:00",
+      "time": "2026-03-13T04:00",
       "interval": 3600,
-      "us_aqi": 104,
-      "pm2_5": 38.4,
-      "pm10": 44.9
+      "us_aqi": 117,
+      "pm2_5": 40.3,
+      "pm10": 44.8
     },
     "beach_risk_index": 0.85,
     "climate_notes": "Mangalore receives one of the highest rainfalls in India during Jun-Aug. Annual average ~3500mm. The city shuts down outdoor tourism for the monsoon core months.",
@@ -2285,7 +2285,7 @@
     "domain": "religious_coexistence",
     "osm_worship_by_religion": {
       "christian": 32,
-      "muslim": 48,
+      "muslim": 49,
       "hindu": 87,
       "unknown": 15
     },
@@ -3209,6 +3209,18 @@
           "name": "Kandath Palli Jumma Masjid",
           "lat": 12.8704158,
           "lon": 74.8319132,
+          "type": "place_of_worship",
+          "religion": "muslim",
+          "denomination": "",
+          "phone": "",
+          "website": "",
+          "hours": "",
+          "source": "osm"
+        },
+        {
+          "name": "Manala masjid",
+          "lat": 12.8677173,
+          "lon": 74.9086013,
           "type": "place_of_worship",
           "religion": "muslim",
           "denomination": "",
@@ -4637,7 +4649,188 @@
       "New_Mangalore_Port": "New Mangalore Port or New Mangalore Port Authority (NMPA) is an all-weather port at Panambur, Mangalore in Karnataka state in India. The total land area of the port is approximately 480 hectares (1,200 acres). The New Mangalore Port is the deepest inner harbour on the west coast. It is the only major port of Karnataka and the seventh largest port in India. It is operated by New Mangalore Port Authority (NMPA).",
       "MRPL": "Mangalore Refinery and Petrochemicals Limited (MRPL), is a division of Oil and Natural Gas Corporation (ONGC) which is under the ownership of the Ministry of Petroleum and Natural Gas of the Government of India. Established in 1988, the refinery is located at Katipalla, north from the centre of Mangalore. The refinery was established after displacing five villages, namely, Bala, Kalavar, Kuthetoor, Katipalla, and Adyapadi."
     },
-    "osm_industrial": [],
+    "osm_industrial": [
+      {
+        "name": "Pallavi Dresses",
+        "lat": 12.9990581,
+        "lon": 74.8230882,
+        "type": "works",
+        "religion": "",
+        "denomination": "",
+        "phone": "",
+        "website": "",
+        "hours": "",
+        "source": "osm"
+      },
+      {
+        "name": "Smith Works",
+        "lat": 13.0006244,
+        "lon": 74.8233265,
+        "type": "works",
+        "religion": "",
+        "denomination": "",
+        "phone": "",
+        "website": "",
+        "hours": "",
+        "source": "osm"
+      },
+      {
+        "name": "Mobile and Watch Repairing Centre",
+        "lat": 12.984386,
+        "lon": 74.8016134,
+        "type": "electronics_repair",
+        "religion": "",
+        "denomination": "",
+        "phone": "",
+        "website": "",
+        "hours": "",
+        "source": "osm"
+      },
+      {
+        "name": "Premier Electronics & Enterprises",
+        "lat": 12.984397,
+        "lon": 74.8016107,
+        "type": "electronics_repair",
+        "religion": "",
+        "denomination": "",
+        "phone": "",
+        "website": "",
+        "hours": "",
+        "source": "osm"
+      },
+      {
+        "name": "Ultratech Cement Limited",
+        "lat": 12.9391717,
+        "lon": 74.8140536,
+        "type": "works",
+        "religion": "",
+        "denomination": "",
+        "phone": "",
+        "website": "",
+        "hours": "",
+        "source": "osm"
+      },
+      {
+        "name": "Ambuja Cements Limited",
+        "lat": 12.9392279,
+        "lon": 74.8152323,
+        "type": "works",
+        "religion": "",
+        "denomination": "",
+        "phone": "",
+        "website": "",
+        "hours": "",
+        "source": "osm"
+      },
+      {
+        "name": "Prince Caterers",
+        "lat": 12.8793373,
+        "lon": 74.9323828,
+        "type": "caterer",
+        "religion": "",
+        "denomination": "",
+        "phone": "+91 98453 04393",
+        "website": "",
+        "hours": "",
+        "source": "osm"
+      },
+      {
+        "name": "MRPL",
+        "lat": 12.9858046,
+        "lon": 74.8442363,
+        "type": "place",
+        "religion": "",
+        "denomination": "",
+        "phone": "",
+        "website": "",
+        "hours": "",
+        "source": "osm"
+      },
+      {
+        "name": "Mangalore Fishing Port",
+        "lat": 12.8598053,
+        "lon": 74.8325653,
+        "type": "place",
+        "religion": "",
+        "denomination": "",
+        "phone": "",
+        "website": "",
+        "hours": "",
+        "source": "osm"
+      },
+      {
+        "name": "Indian Oil Corporation Tank Farm",
+        "lat": 12.9132332,
+        "lon": 74.8126341,
+        "type": "place",
+        "religion": "",
+        "denomination": "",
+        "phone": "",
+        "website": "",
+        "hours": "",
+        "source": "osm"
+      },
+      {
+        "name": "OMPL",
+        "lat": 12.9962049,
+        "lon": 74.866231,
+        "type": "works",
+        "religion": "",
+        "denomination": "",
+        "phone": "",
+        "website": "",
+        "hours": "",
+        "source": "osm"
+      },
+      {
+        "name": "Container Yard",
+        "lat": 12.9303795,
+        "lon": 74.822486,
+        "type": "place",
+        "religion": "",
+        "denomination": "",
+        "phone": "",
+        "website": "",
+        "hours": "",
+        "source": "osm"
+      },
+      {
+        "name": "Cardolite Specialty Chemicals India LLP",
+        "lat": 12.9806593,
+        "lon": 74.8713435,
+        "type": "place",
+        "religion": "",
+        "denomination": "",
+        "phone": "+91824 2888300",
+        "website": "https://www.cardolite.com/",
+        "hours": "",
+        "source": "osm"
+      },
+      {
+        "name": "Sujeer Mill",
+        "lat": 12.8695205,
+        "lon": 74.9682361,
+        "type": "works",
+        "religion": "",
+        "denomination": "",
+        "phone": "",
+        "website": "",
+        "hours": "",
+        "source": "osm"
+      },
+      {
+        "name": "Mechanised coal berth operated by UPCL",
+        "lat": 12.9311524,
+        "lon": 74.8131073,
+        "type": "place",
+        "religion": "",
+        "denomination": "",
+        "phone": "",
+        "website": "",
+        "hours": "",
+        "source": "osm"
+      }
+    ],
     "tile_industry": {
       "origin": "Introduced by Basel Mission (German missionaries) in 1865",
       "technology": "Machine-pressed red clay, interlocking design, kiln-fired",
@@ -4786,8 +4979,7 @@
       "Manipal_Academy_of_Higher_Education": "The Manipal Academy of Higher Education (MAHE) is a private deemed university in the Udupi district of Karnataka, India. The school has campuses in Mangaluru, Bengaluru, and Jamshedpur in India, as well as global campuses in Dubai and Malaysia. Its sister universities are Manipal University Jaipur and Sikkim Manipal University, all managed by the Manipal Education and Medical Group (MEMG).",
       "Nitte_University": "NITTE is an institute of higher education and a private deemed university located in Deralakatte, Mangaluru, Karnataka, India. It was established under the Nitte Education Trust, which has founded 31 educational institutions across three campuses in Nitte, Mangaluru, and Bengaluru.",
       "Kasturba_Medical_College,_Mangalore": "Kasturba Medical College, Manipal and Kasturba Medical College, Mangaluru, together known as KMC, are two private medical colleges in the state of Karnataka, India, established in 1953 and 1955. The colleges are constituent units of Manipal Academy of Higher Education, an Institution of Eminence and deemed university.",
-      "Mangalore_University": "Mangalore University is a public university located in Konaje, Mangaluru, Karnataka, India. In 2021, the National Assessment and Accreditation Council (NAAC) awarded the university a ‘B’ grade.",
-      "National_Institute_of_Technology,_Surathkal": "The National Institute of Technology Karnataka (NITK), also known as NITK Surathkal and formerly known as Karnataka Regional Engineering College (KREC), is a public technical university located in Surathkal, Mangaluru. Established in 1960 as KREC, it has since evolved into one of the 31 National Institutes of Technology in India. It is recognized as an Institute of National Importance by the Government of India. The institute features a suburban campus situated in close proximity to the Arabian "
+      "Mangalore_University": "Mangalore University is a public university located in Konaje, Mangaluru, Karnataka, India. In 2021, the National Assessment and Accreditation Council (NAAC) awarded the university a ‘B’ grade."
     },
     "osm_institutions": [
       {
@@ -7238,6 +7430,16 @@
         "count": 3
       },
       {
+        "species": "Ipomoea pes-caprae",
+        "common_name": "",
+        "class": "Magnoliopsida",
+        "kingdom": "Plantae",
+        "last_seen": "2026-02-13T08:06:27",
+        "lat": 12.864399,
+        "lon": 74.832473,
+        "count": 3
+      },
+      {
         "species": "Tridax procumbens",
         "common_name": "",
         "class": "Magnoliopsida",
@@ -7278,16 +7480,6 @@
         "count": 2
       },
       {
-        "species": "Cassia fistula",
-        "common_name": "",
-        "class": "Magnoliopsida",
-        "kingdom": "Plantae",
-        "last_seen": "2025-04-20",
-        "lat": 12.81599,
-        "lon": 74.92113,
-        "count": 2
-      },
-      {
         "species": "Lagerstroemia speciosa",
         "common_name": "",
         "class": "Magnoliopsida",
@@ -7315,16 +7507,6 @@
         "last_seen": "2025-04-20",
         "lat": 12.81636,
         "lon": 74.922,
-        "count": 2
-      },
-      {
-        "species": "Peltophorum pterocarpum",
-        "common_name": "",
-        "class": "Magnoliopsida",
-        "kingdom": "Plantae",
-        "last_seen": "2025-04-20",
-        "lat": 12.81542,
-        "lon": 74.92123,
         "count": 2
       },
       {
@@ -8025,6 +8207,16 @@
         "last_seen": "2025-04-15T11:19:14",
         "lat": 13.012364,
         "lon": 74.792328,
+        "count": 1
+      },
+      {
+        "species": "Celosia argentea",
+        "common_name": "",
+        "class": "Magnoliopsida",
+        "kingdom": "Plantae",
+        "last_seen": "2025-04-11T17:32:11",
+        "lat": 12.866697,
+        "lon": 74.834,
         "count": 1
       }
     ],
@@ -10552,6 +10744,18 @@
         "lon": 74.8803334,
         "type": "place_of_worship",
         "religion": "hindu",
+        "denomination": "",
+        "phone": "",
+        "website": "",
+        "hours": "",
+        "source": "osm"
+      },
+      {
+        "name": "Manala masjid",
+        "lat": 12.8677173,
+        "lon": 74.9086013,
+        "type": "place_of_worship",
+        "religion": "muslim",
         "denomination": "",
         "phone": "",
         "website": "",
@@ -13157,7 +13361,6 @@
       "Mangalore": "Mangaluru, formerly called Mangalore, is a major industrial port city in the Indian state of Karnataka and on the west coast of India. It is located between the Arabian Sea and the Western Ghats about 352 km (219 mi) west of Bengaluru, the state capital, 14 km north of the Karnataka–Kerala border and 297 km (185 mi) south of Goa. Mangaluru is the state's only city to have all four modes of transport—air, road, rail and sea. The population of the urban agglomeration was 619,664 according to the 2",
       "History_of_Mangalore": "\n\nThe History of Mangaluru dates back to the 3rd century BC and has been ruled by a number of rulers. In the era of modern India, the area was controlled by the Portuguese in Goa and Bombay, who lost it to Shivappa Nayaka, who in turn lost it to Hyder Ali.",
       "Sultan_Battery": "Sulthan Bathery is a major municipal town in the Wayanad district of Kerala, India. It serves as the administrative headquarters of Sulthan Bathery taluk and is the most commercially active urban center in the district.",
-      "Mangalore_Diocese": "The Diocese of Mangalore is a Latin Church ecclesiastical jurisdiction or diocese of the Catholic Church located in the city of Mangalore, India. The diocese is a suffragan in the ecclesiastical province of the metropolitan Archdiocese of Bangalore. At present, it comprises the whole civil districts of Dakshina Kannada and Udupi in Karnataka state. The area of the Diocese was collectively referred to as South Canara during the Company rule in India, in the subsequent British India after Direct r",
       "New_Mangalore_Port": "New Mangalore Port or New Mangalore Port Authority (NMPA) is an all-weather port at Panambur, Mangalore in Karnataka state in India. The total land area of the port is approximately 480 hectares (1,200 acres). The New Mangalore Port is the deepest inner harbour on the west coast. It is the only major port of Karnataka and the seventh largest port in India. It is operated by New Mangalore Port Authority (NMPA)."
     },
     "timeline": [
@@ -13253,6 +13456,12 @@
         "count": 3
       },
       {
+        "species": "Ipomoea pes-caprae",
+        "common_name": "",
+        "family": "Convolvulaceae",
+        "count": 3
+      },
+      {
         "species": "Tridax procumbens",
         "common_name": "",
         "family": "Asteraceae",
@@ -13277,12 +13486,6 @@
         "count": 2
       },
       {
-        "species": "Cassia fistula",
-        "common_name": "",
-        "family": "Fabaceae",
-        "count": 2
-      },
-      {
         "species": "Lagerstroemia speciosa",
         "common_name": "",
         "family": "Lythraceae",
@@ -13298,12 +13501,6 @@
         "species": "Ficus religiosa",
         "common_name": "",
         "family": "Moraceae",
-        "count": 2
-      },
-      {
-        "species": "Peltophorum pterocarpum",
-        "common_name": "",
-        "family": "Fabaceae",
         "count": 2
       },
       {
@@ -13605,6 +13802,12 @@
         "common_name": "",
         "family": "Palinuridae",
         "count": 1
+      },
+      {
+        "species": "Lutjanus argentimaculatus",
+        "common_name": "",
+        "family": "Lutjanidae",
+        "count": 1
       }
     ],
     "rare_coastal_species": [
@@ -13835,13 +14038,13 @@
     "temple_architecture": 110,
     "cuisine_identity": 79,
     "linguistic_map": 25,
-    "religious_coexistence": 203,
-    "traditional_industries": 31,
+    "religious_coexistence": 204,
+    "traditional_industries": 46,
     "education_hub": 202,
     "coastal_risk_safety": 30,
     "cultural_calendar": 87,
     "coastal_biodiversity": 114,
-    "underrated_spots": 215,
+    "underrated_spots": 216,
     "community_profiles": 7,
     "food_deep": 192,
     "history_timeline": 16,
