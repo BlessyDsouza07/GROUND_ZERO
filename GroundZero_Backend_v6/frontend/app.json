@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "Ground Zero",
+    "slug": "ground-zero",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "plugins": [
+      "expo-notifications"
+    ],
+    "android": {
+      "permissions": [
+        "POST_NOTIFICATIONS",
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "CALL_PHONE"
+      ]
+    },
+    "ios": {
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Ground Zero uses your location to guide you between your trip stops."
+      }
+    }
+  }
+}

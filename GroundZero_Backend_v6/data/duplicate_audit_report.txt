@@ -1,0 +1,164 @@
+GroundZero duplicate + sanity audit (read-only)
+
+=== community_places.csv validation: 1 problem(s) ===
+  Saavira Kambada Basadi (csv line 22): outside Mangaluru box
+
+=== community_places.csv alone: 73 places ===
+  NAME-DUP   0
+  SAME-PIN   0
+  STACKED    0
+  SAME-SPOT  0
+  MERGE-OK   1
+
+=== master_data_core.json alone: 708 places ===
+  NAME-DUP   37
+  SAME-PIN   0
+  STACKED    19
+  SAME-SPOT  4
+  MERGE-OK   0
+    [NAME-DUP] 'Ideal Ice cream' (master 9be85080-98b5-4811-b0c8-6b1807e75647) <-> 'Ideal Ice Cream' (master bed20557-d7f6-4b21-af59-b328540e0795)  131 m  sim 1.00
+    [NAME-DUP] 'Kolka Bail Pond' (master 4084c160-4be0-42c4-93b4-a30ca8d25ffa) <-> 'Kolka bail Pond' (master ccbb93bc-14c4-42cb-8c27-90d0c0ce1688)  134 m  sim 1.00
+    [NAME-DUP] 'Domino's' (master bafc9556-9abe-46a3-b924-22a670d99f53) <-> 'Domino's' (master 73ab010d-98a2-46d9-8f08-182fa34181a3)  1805 m  sim 1.00
+    [NAME-DUP] 'Domino's' (master bafc9556-9abe-46a3-b924-22a670d99f53) <-> 'Dominos' (master ed908a80-18d1-4c6d-8aec-600fc2951223)  14802 m  sim 1.00
+    [NAME-DUP] 'Domino's' (master 73ab010d-98a2-46d9-8f08-182fa34181a3) <-> 'Dominos' (master ed908a80-18d1-4c6d-8aec-600fc2951223)  13774 m  sim 1.00
+    [NAME-DUP] 'Moti Mahal' (master 7ab53605-1289-44e8-9a69-25defe876178) <-> 'Moti Mahal' (master 0cad0fa6-f23c-4d56-9e8c-1788dce5b22e)  618 m  sim 1.00
+    [NAME-DUP] 'KFC' (master caebd12e-fcd3-4d92-aa74-19ebf2f0a5b5) <-> 'KFC' (master bf0cff23-ec2b-4982-9e8d-fda2f41c3ea2)  2092 m  sim 1.00
+    [NAME-DUP] 'Cochin Bakery' (master d386b702-f70d-424e-8805-9d188858ecb7) <-> 'Cochin Bakery' (master 565dd617-3b03-4f37-8ef7-a3a125793b76)  3818 m  sim 1.00
+    [NAME-DUP] 'Cochin Bakery' (master d386b702-f70d-424e-8805-9d188858ecb7) <-> 'Cochin Bakery' (master b3eacaf5-6d57-4ab3-9d8a-2b6b97649288)  1017 m  sim 1.00
+    [NAME-DUP] 'Cochin Bakery' (master 565dd617-3b03-4f37-8ef7-a3a125793b76) <-> 'Cochin Bakery' (master b3eacaf5-6d57-4ab3-9d8a-2b6b97649288)  2857 m  sim 1.00
+    [NAME-DUP] 'Cafe Coffee Day' (master 30f35932-7af8-4f60-8516-96e098fe900f) <-> 'Café Coffee Day' (master da0c4b4d-e6b4-4d08-b047-baaf363e2b8f)  9392 m  sim 0.97
+    [NAME-DUP] 'Cafe Coffee Day' (master 30f35932-7af8-4f60-8516-96e098fe900f) <-> 'Cafe Coffee Day' (master 1dacc2a8-7a73-421c-b0bd-df7488a48006)  4093 m  sim 1.00
+    [NAME-DUP] 'Cafe Coffee Day' (master 30f35932-7af8-4f60-8516-96e098fe900f) <-> 'Cafe Coffee Day' (master eead1d2d-57ef-423b-9f38-9d60dbe8b422)  7990 m  sim 1.00
+    [NAME-DUP] 'Café Coffee Day' (master da0c4b4d-e6b4-4d08-b047-baaf363e2b8f) <-> 'Cafe Coffee Day' (master 1dacc2a8-7a73-421c-b0bd-df7488a48006)  6445 m  sim 0.97
+    [NAME-DUP] 'Café Coffee Day' (master da0c4b4d-e6b4-4d08-b047-baaf363e2b8f) <-> 'Cafe Coffee Day' (master eead1d2d-57ef-423b-9f38-9d60dbe8b422)  15795 m  sim 0.97
+    [NAME-DUP] 'Cafe Coffee Day' (master 1dacc2a8-7a73-421c-b0bd-df7488a48006) <-> 'Cafe Coffee Day' (master eead1d2d-57ef-423b-9f38-9d60dbe8b422)  11989 m  sim 1.00
+    [NAME-DUP] 'Hotel Kairali' (master a9ea39cf-f7f6-42ed-a285-7592402a8fa4) <-> 'Hotel Kairali' (master e212498a-54db-41cc-85e9-b219dcf8ab6d)  9380 m  sim 1.00
+    [NAME-DUP] 'BMS Ferry Service' (master e70288f3-d143-4213-90d7-aa4e0aa3fd4f) <-> 'BMS Ferry Service' (master 05b7b7f5-b697-425f-87f2-2e0e224417c0)  819 m  sim 1.00
+    [NAME-DUP] 'BMS Ferry Service' (master e70288f3-d143-4213-90d7-aa4e0aa3fd4f) <-> 'BMS Ferry Service' (master 3bd4673a-0b7c-4f3b-b2a3-2e8d6e9b0422)  3538 m  sim 1.00
+    [NAME-DUP] 'BMS Ferry Service' (master 05b7b7f5-b697-425f-87f2-2e0e224417c0) <-> 'BMS Ferry Service' (master 3bd4673a-0b7c-4f3b-b2a3-2e8d6e9b0422)  4066 m  sim 1.00
+    [NAME-DUP] 'Masjid' (master e5790be4-6f7d-49df-9f2a-e04613d16065) <-> 'Masjid' (master da25b465-5c86-4716-8e69-44fd722b5457)  11107 m  sim 1.00
+    [NAME-DUP] 'Crumbs' (master 64d4f621-ad1c-48b8-9ae4-3f725ccc9e4f) <-> 'Crumbs' (master ab9aa8cf-1a5b-4d2c-88d2-fec555d23014)  15826 m  sim 1.00
+    [NAME-DUP] 'Hotel Swagath' (master 2351dadc-3926-44dd-b678-e02c144afafe) <-> 'Hotel Swagath' (master eb79cc32-bbaf-43a2-85b8-5bd95734e5ee)  22701 m  sim 1.00
+    [NAME-DUP] 'Hotel Abhinandan' (master 2865e115-aac3-4c0d-a16f-22fc85a42e28) <-> 'Hotel Abhinandan' (master b4d1f955-0a13-4157-9ba8-520f241d8193)  11395 m  sim 1.00
+    [NAME-DUP] 'Hotel Coriander' (master f5f8addb-f806-4085-8e02-145cad52dc66) <-> 'Hotel Coriander' (master 00272772-bc7d-4f02-8ade-b9956e027b48)  869 m  sim 1.00
+    [NAME-DUP] 'Athmi Hotel' (master d0dfb6a8-9b9d-446b-8bdf-1b6316814aec) <-> 'Athmi Hotel' (master b9f3048f-ada9-457a-8f75-52462f634243)  2574 m  sim 1.00
+    [NAME-DUP] 'Jumma Masjid' (master 1c5f936f-955d-48be-a101-26736c510fea) <-> 'Juma Masjid' (master ac552f1c-6276-4ed6-9490-b08cd485a740)  20339 m  sim 0.96
+    [NAME-DUP] 'Badriya Juma Masjid' (master 9dfab87d-686f-4837-a419-11a3e100f3c0) <-> 'badriya juma masjid' (master d1d511ea-ee84-4cb3-87bc-ce1b7e21dad6)  6862 m  sim 1.00
+    [NAME-DUP] 'Shri Krishna Mandir' (master 35acf4c3-defc-489b-98d4-bda36dba3987) <-> 'Sri Krishna Mandir' (master 7e297c1c-8737-4d39-9af5-34f5f5f4f354)  5823 m  sim 0.97
+    [NAME-DUP] 'Fish Market' (master 9f971571-cfe7-4b9f-b03a-1a966e71e71c) <-> 'Fish Market' (master 4d83d785-2f0a-428a-b46f-9ad2340ed848)  17303 m  sim 1.00
+    [NAME-DUP] 'Fish Market' (master 9f971571-cfe7-4b9f-b03a-1a966e71e71c) <-> 'Fish Market' (master ca4f7e75-78bb-478f-bb3c-ff5de63d4f28)  17515 m  sim 1.00
+    [NAME-DUP] 'Fish Market' (master 4d83d785-2f0a-428a-b46f-9ad2340ed848) <-> 'Fish Market' (master ca4f7e75-78bb-478f-bb3c-ff5de63d4f28)  2146 m  sim 1.00
+    [NAME-DUP] 'Girls' Hostel' (master dbc721f8-10ce-4987-8eb6-93d266e00d45) <-> 'Girls' Hostel' (master c48ed7f9-8db9-4798-8064-9a70630ffb07)  26865 m  sim 1.00
+    [NAME-DUP] 'Tank at Birodi' (master 715fa922-6c8c-476a-a5b5-2289072aa325) <-> 'Tank at Birodi' (master b8d0ca55-429c-4e83-8045-c8fb5e2332dc)  1610 m  sim 1.00
+    [NAME-DUP] 'Shree Krishna Bhajana Mandira' (master 62e970a8-33a5-43e3-9ba8-59499f68ef5a) <-> 'Sri Krishna Bhajana Mandir' (master d38e9eb6-6b21-4716-998b-3a0f54b178dc)  10134 m  sim 0.91
+    [NAME-DUP] 'St. Sebastian Church' (master 6c5f9349-5b22-4669-a12f-22aac872ba39) <-> 'St. Sebastian Church' (master c684babd-652c-424e-9971-a0b42d65b1ca)  14069 m  sim 1.00
+    [NAME-DUP] 'Salafi Masjid' (master 88c09bc1-ecd1-48d5-a567-577e068577e7) <-> 'Salafi masjid' (master c386b5bc-dfdd-4a81-b39b-722f60d9e6d6)  17564 m  sim 1.00
+    [STACKED] 'Hotel Prestige' (master fac431d9-4420-409a-870c-dcd21875767d) <-> 'Crave' (master 91541c88-af76-4d1a-b99a-ec5d00d9f9c0)  7 m  sim 0.11
+    [STACKED] 'Hotel Prestige' (master fac431d9-4420-409a-870c-dcd21875767d) <-> 'Diesel Café' (master a4777e3b-bc14-4cd2-b645-20a480a47e1a)  11 m  sim 0.25
+    [STACKED] 'Hotel Prestige' (master fac431d9-4420-409a-870c-dcd21875767d) <-> 'Fish Market' (master 4d83d785-2f0a-428a-b46f-9ad2340ed848)  6 m  sim 0.16
+    [STACKED] 'Crave' (master 91541c88-af76-4d1a-b99a-ec5d00d9f9c0) <-> 'Fish Market' (master 4d83d785-2f0a-428a-b46f-9ad2340ed848)  8 m  sim 0.25
+    [STACKED] 'Whiteroom Deli' (master 716c279e-d687-4f86-a3ba-64bfddf31839) <-> 'House of Koobideh by Maraheb' (master 53070d98-4ebd-4ce8-b72d-e4d8c7f330e5)  9 m  sim 0.29
+    [STACKED] 'Diesel Café' (master a4777e3b-bc14-4cd2-b645-20a480a47e1a) <-> 'Big Fat Roll' (master 03e60404-e02a-4341-bde0-ca3e40aaff17)  10 m  sim 0.18
+    [STACKED] 'Kavitha Residency' (master a3010593-9bb2-4d5e-b00f-3bfcd8d0900c) <-> 'Nessna's' (master 911a790c-9ddc-4c1e-b39b-cce51ce8a524)  11 m  sim 0.25
+    [STACKED] 'Gold Finch' (master 14efffcc-e51a-4846-8106-f3f58fee92ed) <-> 'Cafe Mojo' (master 6266bbaf-d777-46a6-b6a3-41b5efa70c6c)  12 m  sim 0.11
+    [STACKED] 'Pallkhi' (master 37e6c168-e9a6-443a-967a-4b764cc05c39) <-> 'OYO 18976 Mascot Inn' (master c2cb4f6c-bd7d-474b-b9b9-ccfbfa951cae)  7 m  sim 0.15
+    [STACKED] 'Nalapad Residency' (master cb930b4b-abc2-4682-993e-0f4a0ef2ab2d) <-> 'Kadal' (master 42da2ccd-6758-4979-8b51-7c2f12c7d6f3)  8 m  sim 0.18
+    [STACKED] 'Pererira Aquarium' (master 049c24d2-9eff-4bbe-8aaa-4da9adf7531b) <-> 'Hangyo Shoppe' (master 2095d3fd-b89f-4ad6-a59f-6ba73f3e7c29)  8 m  sim 0.13
+    [STACKED] 'Anvi Juice Centre' (master 05306788-e4c9-40ff-a3e8-416c6d25075a) <-> 'Nuts & Foods' (master 422f09f7-8adf-40d6-b6a0-440b51b14f30)  2 m  sim 0.15
+    [STACKED] 'Rajesh Lodge' (master f789a96b-ef8f-4b5d-aa9e-ed16d80b4438) <-> 'Hotel Priyadarshini' (master 92ab767c-8dc3-4dcc-a3cb-8bde6da591d1)  8 m  sim 0.26
+    [STACKED] 'Silverbells Fancy & Stationery' (master 2023fbaa-eb4d-49df-8e4b-c74d27bb6fc0) <-> 'Hotel Coriander' (master f5f8addb-f806-4085-8e02-145cad52dc66)  9 m  sim 0.14
+    [STACKED] 'Skei' (master 598b50e1-9059-41de-a19a-1f1edcb8dc05) <-> 'Food Track' (master e85e0e3b-2ebf-4ad4-a819-c41036348cf0)  7 m  sim 0.14
+    [STACKED] 'OYO 26230 Hotel Nirvikalpa' (master 8f77a49f-0a4b-459e-a995-bc9e6ca06aa1) <-> 'Arafa Masjid' (master 60cb4f14-7e74-47f2-af41-e5c553c6dfb9)  12 m  sim 0.11
+    [STACKED] 'Tow Bar' (master e7ab5859-a1fb-495f-9d7e-a0cac8bbdc7f) <-> 'Nama' (master c52a6182-6e63-4c01-b625-9ec2be2aa258)  11 m  sim 0.18
+    [STACKED] 'Dominos' (master ed908a80-18d1-4c6d-8aec-600fc2951223) <-> 'Abish Mall' (master 2e41ec80-7e59-4fe8-a7de-aeac7695d41d)  11 m  sim 0.12
+    [STACKED] 'Foxy Shawarma' (master 2cb42fdb-9460-487f-871e-9daf2528914a) <-> 'Ganashree Stall' (master 1390353a-22d4-4dcb-b1f4-c2a9bb889ade)  6 m  sim 0.21
+    [SAME-SPOT] 'Sultan Batthery' (master 30e975a0-a410-46ce-857d-025d50f3db94) <-> 'Sultan Battery' (master 657f1484-0e4b-4227-b68c-daec0607dc79)  105 m  sim 0.97
+    [SAME-SPOT] 'Kamala Hotel Restaurant' (master 8baf790d-fd0c-4b9b-8640-abc737bb193b) <-> 'Kamal Lodge (Hotel)' (master 2b1fda09-bab7-4e0c-9cbf-67ad9f36a67d)  19 m  sim 0.55
+    [SAME-SPOT] 'Sadanand' (master a428357d-8d66-4225-9e88-b039eb1bc956) <-> 'Hotel Sadanand' (master 19d164b8-59b2-441a-bf6a-d92e78a02a67)  43 m  sim 0.73
+    [SAME-SPOT] 'Kavoor Lake Park' (master 3397f528-1ed7-455e-8352-1530ac32c212) <-> 'Kavoor Lake' (master a40f3647-7701-424a-8c20-e73f9abccad8)  90 m  sim 0.81
+
+=== community + master together (what the pipeline sees): 781 places ===
+  NAME-DUP   39
+  SAME-PIN   0
+  STACKED    22
+  SAME-SPOT  5
+  MERGE-OK   60
+    [NAME-DUP] 'Ideal Ice cream' (master 9be85080-98b5-4811-b0c8-6b1807e75647) <-> 'Ideal Ice Cream' (master bed20557-d7f6-4b21-af59-b328540e0795)  131 m  sim 1.00
+    [NAME-DUP] 'Kolka Bail Pond' (master 4084c160-4be0-42c4-93b4-a30ca8d25ffa) <-> 'Kolka bail Pond' (master ccbb93bc-14c4-42cb-8c27-90d0c0ce1688)  134 m  sim 1.00
+    [NAME-DUP] 'Cochin Bakery' (community csv line 19) <-> 'Cochin Bakery' (master d386b702-f70d-424e-8805-9d188858ecb7)  1017 m  sim 1.00
+    [NAME-DUP] 'Cochin Bakery' (community csv line 19) <-> 'Cochin Bakery' (master 565dd617-3b03-4f37-8ef7-a3a125793b76)  2857 m  sim 1.00
+    [NAME-DUP] 'Cochin Bakery' (master d386b702-f70d-424e-8805-9d188858ecb7) <-> 'Cochin Bakery' (master 565dd617-3b03-4f37-8ef7-a3a125793b76)  3818 m  sim 1.00
+    [NAME-DUP] 'Cochin Bakery' (master d386b702-f70d-424e-8805-9d188858ecb7) <-> 'Cochin Bakery' (master b3eacaf5-6d57-4ab3-9d8a-2b6b97649288)  1017 m  sim 1.00
+    [NAME-DUP] 'Cochin Bakery' (master 565dd617-3b03-4f37-8ef7-a3a125793b76) <-> 'Cochin Bakery' (master b3eacaf5-6d57-4ab3-9d8a-2b6b97649288)  2857 m  sim 1.00
+    [NAME-DUP] 'Domino's' (master bafc9556-9abe-46a3-b924-22a670d99f53) <-> 'Domino's' (master 73ab010d-98a2-46d9-8f08-182fa34181a3)  1805 m  sim 1.00
+    [NAME-DUP] 'Domino's' (master bafc9556-9abe-46a3-b924-22a670d99f53) <-> 'Dominos' (master ed908a80-18d1-4c6d-8aec-600fc2951223)  14802 m  sim 1.00
+    [NAME-DUP] 'Domino's' (master 73ab010d-98a2-46d9-8f08-182fa34181a3) <-> 'Dominos' (master ed908a80-18d1-4c6d-8aec-600fc2951223)  13774 m  sim 1.00
+    [NAME-DUP] 'Moti Mahal' (master 7ab53605-1289-44e8-9a69-25defe876178) <-> 'Moti Mahal' (master 0cad0fa6-f23c-4d56-9e8c-1788dce5b22e)  618 m  sim 1.00
+    [NAME-DUP] 'KFC' (master caebd12e-fcd3-4d92-aa74-19ebf2f0a5b5) <-> 'KFC' (master bf0cff23-ec2b-4982-9e8d-fda2f41c3ea2)  2092 m  sim 1.00
+    [NAME-DUP] 'Cafe Coffee Day' (master 30f35932-7af8-4f60-8516-96e098fe900f) <-> 'Café Coffee Day' (master da0c4b4d-e6b4-4d08-b047-baaf363e2b8f)  9392 m  sim 0.97
+    [NAME-DUP] 'Cafe Coffee Day' (master 30f35932-7af8-4f60-8516-96e098fe900f) <-> 'Cafe Coffee Day' (master 1dacc2a8-7a73-421c-b0bd-df7488a48006)  4093 m  sim 1.00
+    [NAME-DUP] 'Cafe Coffee Day' (master 30f35932-7af8-4f60-8516-96e098fe900f) <-> 'Cafe Coffee Day' (master eead1d2d-57ef-423b-9f38-9d60dbe8b422)  7990 m  sim 1.00
+    [NAME-DUP] 'Café Coffee Day' (master da0c4b4d-e6b4-4d08-b047-baaf363e2b8f) <-> 'Cafe Coffee Day' (master 1dacc2a8-7a73-421c-b0bd-df7488a48006)  6445 m  sim 0.97
+    [NAME-DUP] 'Café Coffee Day' (master da0c4b4d-e6b4-4d08-b047-baaf363e2b8f) <-> 'Cafe Coffee Day' (master eead1d2d-57ef-423b-9f38-9d60dbe8b422)  15795 m  sim 0.97
+    [NAME-DUP] 'Cafe Coffee Day' (master 1dacc2a8-7a73-421c-b0bd-df7488a48006) <-> 'Cafe Coffee Day' (master eead1d2d-57ef-423b-9f38-9d60dbe8b422)  11989 m  sim 1.00
+    [NAME-DUP] 'Hotel Kairali' (master a9ea39cf-f7f6-42ed-a285-7592402a8fa4) <-> 'Hotel Kairali' (master e212498a-54db-41cc-85e9-b219dcf8ab6d)  9380 m  sim 1.00
+    [NAME-DUP] 'BMS Ferry Service' (master e70288f3-d143-4213-90d7-aa4e0aa3fd4f) <-> 'BMS Ferry Service' (master 05b7b7f5-b697-425f-87f2-2e0e224417c0)  819 m  sim 1.00
+    [NAME-DUP] 'BMS Ferry Service' (master e70288f3-d143-4213-90d7-aa4e0aa3fd4f) <-> 'BMS Ferry Service' (master 3bd4673a-0b7c-4f3b-b2a3-2e8d6e9b0422)  3538 m  sim 1.00
+    [NAME-DUP] 'BMS Ferry Service' (master 05b7b7f5-b697-425f-87f2-2e0e224417c0) <-> 'BMS Ferry Service' (master 3bd4673a-0b7c-4f3b-b2a3-2e8d6e9b0422)  4066 m  sim 1.00
+    [NAME-DUP] 'Masjid' (master e5790be4-6f7d-49df-9f2a-e04613d16065) <-> 'Masjid' (master da25b465-5c86-4716-8e69-44fd722b5457)  11107 m  sim 1.00
+    [NAME-DUP] 'Crumbs' (master 64d4f621-ad1c-48b8-9ae4-3f725ccc9e4f) <-> 'Crumbs' (master ab9aa8cf-1a5b-4d2c-88d2-fec555d23014)  15826 m  sim 1.00
+    [NAME-DUP] 'Hotel Swagath' (master 2351dadc-3926-44dd-b678-e02c144afafe) <-> 'Hotel Swagath' (master eb79cc32-bbaf-43a2-85b8-5bd95734e5ee)  22701 m  sim 1.00
+    [NAME-DUP] 'Hotel Abhinandan' (master 2865e115-aac3-4c0d-a16f-22fc85a42e28) <-> 'Hotel Abhinandan' (master b4d1f955-0a13-4157-9ba8-520f241d8193)  11395 m  sim 1.00
+    [NAME-DUP] 'Hotel Coriander' (master f5f8addb-f806-4085-8e02-145cad52dc66) <-> 'Hotel Coriander' (master 00272772-bc7d-4f02-8ade-b9956e027b48)  869 m  sim 1.00
+    [NAME-DUP] 'Athmi Hotel' (master d0dfb6a8-9b9d-446b-8bdf-1b6316814aec) <-> 'Athmi Hotel' (master b9f3048f-ada9-457a-8f75-52462f634243)  2574 m  sim 1.00
+    [NAME-DUP] 'Jumma Masjid' (master 1c5f936f-955d-48be-a101-26736c510fea) <-> 'Juma Masjid' (master ac552f1c-6276-4ed6-9490-b08cd485a740)  20339 m  sim 0.96
+    [NAME-DUP] 'Badriya Juma Masjid' (master 9dfab87d-686f-4837-a419-11a3e100f3c0) <-> 'badriya juma masjid' (master d1d511ea-ee84-4cb3-87bc-ce1b7e21dad6)  6862 m  sim 1.00
+    [NAME-DUP] 'Shri Krishna Mandir' (master 35acf4c3-defc-489b-98d4-bda36dba3987) <-> 'Sri Krishna Mandir' (master 7e297c1c-8737-4d39-9af5-34f5f5f4f354)  5823 m  sim 0.97
+    [NAME-DUP] 'Fish Market' (master 9f971571-cfe7-4b9f-b03a-1a966e71e71c) <-> 'Fish Market' (master 4d83d785-2f0a-428a-b46f-9ad2340ed848)  17303 m  sim 1.00
+    [NAME-DUP] 'Fish Market' (master 9f971571-cfe7-4b9f-b03a-1a966e71e71c) <-> 'Fish Market' (master ca4f7e75-78bb-478f-bb3c-ff5de63d4f28)  17515 m  sim 1.00
+    [NAME-DUP] 'Fish Market' (master 4d83d785-2f0a-428a-b46f-9ad2340ed848) <-> 'Fish Market' (master ca4f7e75-78bb-478f-bb3c-ff5de63d4f28)  2146 m  sim 1.00
+    [NAME-DUP] 'Girls' Hostel' (master dbc721f8-10ce-4987-8eb6-93d266e00d45) <-> 'Girls' Hostel' (master c48ed7f9-8db9-4798-8064-9a70630ffb07)  26865 m  sim 1.00
+    [NAME-DUP] 'Tank at Birodi' (master 715fa922-6c8c-476a-a5b5-2289072aa325) <-> 'Tank at Birodi' (master b8d0ca55-429c-4e83-8045-c8fb5e2332dc)  1610 m  sim 1.00
+    [NAME-DUP] 'Shree Krishna Bhajana Mandira' (master 62e970a8-33a5-43e3-9ba8-59499f68ef5a) <-> 'Sri Krishna Bhajana Mandir' (master d38e9eb6-6b21-4716-998b-3a0f54b178dc)  10134 m  sim 0.91
+    [NAME-DUP] 'St. Sebastian Church' (master 6c5f9349-5b22-4669-a12f-22aac872ba39) <-> 'St. Sebastian Church' (master c684babd-652c-424e-9971-a0b42d65b1ca)  14069 m  sim 1.00
+    [NAME-DUP] 'Salafi Masjid' (master 88c09bc1-ecd1-48d5-a567-577e068577e7) <-> 'Salafi masjid' (master c386b5bc-dfdd-4a81-b39b-722f60d9e6d6)  17564 m  sim 1.00
+    [STACKED] 'Nalapad Residency' (master cb930b4b-abc2-4682-993e-0f4a0ef2ab2d) <-> 'Kadal' (master 42da2ccd-6758-4979-8b51-7c2f12c7d6f3)  8 m  sim 0.18
+    [STACKED] 'Diesel Cafe' (community csv line 28) <-> 'Hotel Prestige' (master fac431d9-4420-409a-870c-dcd21875767d)  11 m  sim 0.32
+    [STACKED] 'Diesel Cafe' (community csv line 28) <-> 'Big Fat Roll' (master 03e60404-e02a-4341-bde0-ca3e40aaff17)  10 m  sim 0.17
+    [STACKED] 'Hotel Prestige' (master fac431d9-4420-409a-870c-dcd21875767d) <-> 'Crave' (master 91541c88-af76-4d1a-b99a-ec5d00d9f9c0)  7 m  sim 0.11
+    [STACKED] 'Hotel Prestige' (master fac431d9-4420-409a-870c-dcd21875767d) <-> 'Diesel Café' (master a4777e3b-bc14-4cd2-b645-20a480a47e1a)  11 m  sim 0.25
+    [STACKED] 'Hotel Prestige' (master fac431d9-4420-409a-870c-dcd21875767d) <-> 'Fish Market' (master 4d83d785-2f0a-428a-b46f-9ad2340ed848)  6 m  sim 0.16
+    [STACKED] 'Crave' (master 91541c88-af76-4d1a-b99a-ec5d00d9f9c0) <-> 'Fish Market' (master 4d83d785-2f0a-428a-b46f-9ad2340ed848)  8 m  sim 0.25
+    [STACKED] 'Whiteroom Deli' (master 716c279e-d687-4f86-a3ba-64bfddf31839) <-> 'House of Koobideh by Maraheb' (master 53070d98-4ebd-4ce8-b72d-e4d8c7f330e5)  9 m  sim 0.29
+    [STACKED] 'Diesel Café' (master a4777e3b-bc14-4cd2-b645-20a480a47e1a) <-> 'Big Fat Roll' (master 03e60404-e02a-4341-bde0-ca3e40aaff17)  10 m  sim 0.18
+    [STACKED] 'Arafa Masjid' (community csv line 34) <-> 'OYO 26230 Hotel Nirvikalpa' (master 8f77a49f-0a4b-459e-a995-bc9e6ca06aa1)  12 m  sim 0.11
+    [STACKED] 'OYO 26230 Hotel Nirvikalpa' (master 8f77a49f-0a4b-459e-a995-bc9e6ca06aa1) <-> 'Arafa Masjid' (master 60cb4f14-7e74-47f2-af41-e5c553c6dfb9)  12 m  sim 0.11
+    [STACKED] 'Silverbells Fancy & Stationery' (master 2023fbaa-eb4d-49df-8e4b-c74d27bb6fc0) <-> 'Hotel Coriander' (master f5f8addb-f806-4085-8e02-145cad52dc66)  9 m  sim 0.14
+    [STACKED] 'Kavitha Residency' (master a3010593-9bb2-4d5e-b00f-3bfcd8d0900c) <-> 'Nessna's' (master 911a790c-9ddc-4c1e-b39b-cce51ce8a524)  11 m  sim 0.25
+    [STACKED] 'Gold Finch' (master 14efffcc-e51a-4846-8106-f3f58fee92ed) <-> 'Cafe Mojo' (master 6266bbaf-d777-46a6-b6a3-41b5efa70c6c)  12 m  sim 0.11
+    [STACKED] 'Pallkhi' (master 37e6c168-e9a6-443a-967a-4b764cc05c39) <-> 'OYO 18976 Mascot Inn' (master c2cb4f6c-bd7d-474b-b9b9-ccfbfa951cae)  7 m  sim 0.15
+    [STACKED] 'Pererira Aquarium' (master 049c24d2-9eff-4bbe-8aaa-4da9adf7531b) <-> 'Hangyo Shoppe' (master 2095d3fd-b89f-4ad6-a59f-6ba73f3e7c29)  8 m  sim 0.13
+    [STACKED] 'Anvi Juice Centre' (master 05306788-e4c9-40ff-a3e8-416c6d25075a) <-> 'Nuts & Foods' (master 422f09f7-8adf-40d6-b6a0-440b51b14f30)  2 m  sim 0.15
+    [STACKED] 'Rajesh Lodge' (master f789a96b-ef8f-4b5d-aa9e-ed16d80b4438) <-> 'Hotel Priyadarshini' (master 92ab767c-8dc3-4dcc-a3cb-8bde6da591d1)  8 m  sim 0.26
+    [STACKED] 'Skei' (master 598b50e1-9059-41de-a19a-1f1edcb8dc05) <-> 'Food Track' (master e85e0e3b-2ebf-4ad4-a819-c41036348cf0)  7 m  sim 0.14
+    [STACKED] 'Tow Bar' (master e7ab5859-a1fb-495f-9d7e-a0cac8bbdc7f) <-> 'Nama' (master c52a6182-6e63-4c01-b625-9ec2be2aa258)  11 m  sim 0.18
+    [STACKED] 'Dominos' (master ed908a80-18d1-4c6d-8aec-600fc2951223) <-> 'Abish Mall' (master 2e41ec80-7e59-4fe8-a7de-aeac7695d41d)  11 m  sim 0.12
+    [STACKED] 'Foxy Shawarma' (master 2cb42fdb-9460-487f-871e-9daf2528914a) <-> 'Ganashree Stall' (master 1390353a-22d4-4dcb-b1f4-c2a9bb889ade)  6 m  sim 0.21
+    [SAME-SPOT] 'Sultan Battery' (community csv line 12) <-> 'Sultan Batthery' (master 30e975a0-a410-46ce-857d-025d50f3db94)  105 m  sim 0.97
+    [SAME-SPOT] 'Sultan Batthery' (master 30e975a0-a410-46ce-857d-025d50f3db94) <-> 'Sultan Battery' (master 657f1484-0e4b-4227-b68c-daec0607dc79)  105 m  sim 0.97
+    [SAME-SPOT] 'Kamala Hotel Restaurant' (master 8baf790d-fd0c-4b9b-8640-abc737bb193b) <-> 'Kamal Lodge (Hotel)' (master 2b1fda09-bab7-4e0c-9cbf-67ad9f36a67d)  19 m  sim 0.55
+    [SAME-SPOT] 'Sadanand' (master a428357d-8d66-4225-9e88-b039eb1bc956) <-> 'Hotel Sadanand' (master 19d164b8-59b2-441a-bf6a-d92e78a02a67)  43 m  sim 0.73
+    [SAME-SPOT] 'Kavoor Lake Park' (master 3397f528-1ed7-455e-8352-1530ac32c212) <-> 'Kavoor Lake' (master a40f3647-7701-424a-8c20-e73f9abccad8)  90 m  sim 0.81
+
+=== ETL smoke test: 73 rows read, 0 rejected by the converter ===
+
+SUMMARY: 9 actionable pair(s) involving hand-seeded/community rows or identical pins; 57 informational pair(s) between OSM records (chains such as Domino's/KFC, or separate shops in one building).
+  ACTION [NAME-DUP] 'Cochin Bakery' <-> 'Cochin Bakery'
+  ACTION [NAME-DUP] 'Cochin Bakery' <-> 'Cochin Bakery'
+  ACTION [NAME-DUP] 'Cochin Bakery' <-> 'Cochin Bakery'
+  ACTION [NAME-DUP] 'Cochin Bakery' <-> 'Cochin Bakery'
+  ACTION [STACKED] 'Diesel Cafe' <-> 'Hotel Prestige'
+  ACTION [STACKED] 'Diesel Cafe' <-> 'Big Fat Roll'
+  ACTION [STACKED] 'Arafa Masjid' <-> 'OYO 26230 Hotel Nirvikalpa'
+  ACTION [STACKED] 'OYO 26230 Hotel Nirvikalpa' <-> 'Arafa Masjid'
+  ACTION [SAME-SPOT] 'Sultan Battery' <-> 'Sultan Batthery'

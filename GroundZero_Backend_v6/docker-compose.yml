@@ -1,0 +1,25 @@
+
+services:
+  postgres:
+    image: postgis/postgis:16-3.4
+    environment:
+      POSTGRES_USER: groundzero
+      POSTGRES_PASSWORD: groundzero
+      POSTGRES_DB: groundzero
+    ports:
+      - "5432:5432"
+    volumes:
+      - groundzero_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U groundzero"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+
+volumes:
+  groundzero_pgdata:

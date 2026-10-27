@@ -1,0 +1,11 @@
+[
+  {
+    "name": "St Aloysius University Events",
+    "base_url": "https://events.staloysius.edu.in/",
+    "source_type": "official_university",
+    "enabled": true,
+    "same_host_only": true,
+    "robots_required": true,
+    "notes": "Public official event directory; runtime collection only."
+  }
+]

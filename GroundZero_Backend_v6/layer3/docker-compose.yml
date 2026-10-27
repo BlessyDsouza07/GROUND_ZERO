@@ -1,0 +1,29 @@
+# Optional convenience file for running Layer 3 alongside Redis (and, if your teammates
+# containerise them, Layers 0-2) on one machine. Layer 3 works fine without this —
+# `python run_layer3.py --serve` is all it needs.
+#
+#   docker compose up --build
+#
+# Adjust the volume path below to wherever Layer 0's data_output folder actually lives
+# on your machine (it must contain master_data_core.json).
+
+services:
+  redis:
+    image: redis:7-alpine
+    ports: ["6379:6379"]
+    restart: unless-stopped
+
+  layer3:
+    build: .
+    ports: ["8004:8004"]
+    environment:
+      - LAYER3_HOST=0.0.0.0
+      - LAYER3_PORT=8004
+      - REDIS_URL=redis://redis:6379/0
+      - LAYER1_BASE_URL=http://host.docker.internal:8002
+      - LAYER2_BASE_URL=http://host.docker.internal:8003
+      - LAYER0_DATA_DIR=/layer0_data
+    volumes:
+      - ../layer0_fixed/data_output:/layer0_data:ro
+    depends_on: [redis]
+    restart: unless-stopped

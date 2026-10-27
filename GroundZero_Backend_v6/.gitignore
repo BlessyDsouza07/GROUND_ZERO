@@ -1,0 +1,41 @@
+# Secrets — never commit these. .env.example files (templates, no real
+# secrets) are intentionally NOT ignored.
+.env
+live_events/.env
+frontend/.env
+!.env.example
+!live_events/.env.example
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# SQLite databases generated at runtime (Layer 3's own DB, Live Events' DB)
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+layer3/data_output/*.db*
+live_events/data_output/*.db*
+
+# Node / Expo (frontend)
+node_modules/
+.expo/
+dist/
+web-build/
+*.log
+npm-debug.log*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.dev_auth_secret

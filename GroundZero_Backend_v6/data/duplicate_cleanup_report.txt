@@ -1,0 +1,48 @@
+GroundZero duplicate cleanup 20260921_120419
+master: 722 -> 708 records (14 dropped, 7 names cleaned)
+community csv: 78 -> 73 rows (8 coordinates aligned, 5 re-queued)
+
+DROP  'Masjid prayer' (efb7e283) — identical pin to 'Pandeshwar Temple', 'Shri Mahalingeshwara Swamy Temple'
+DROP  'Shri Mahalingeshwara Swamy Temple' (0483312f) — identical pin to 'Pandeshwar Temple', 'Masjid prayer'
+DROP  'Muhiyuddeen Juma Masjid' (cacf45df) — identical pin to 'Bengre Kasba'
+DROP  'U R Shenoy & Co' (3c0ab6f9) — identical pin to 'Good News Book Center'
+DROP  'Good News Book Center' (acc43c0f) — identical pin to 'U R Shenoy & Co'
+MERGE 'Panambur Beach' seed (22d249c5, 1360 m off) -> OSM 'Panambur Beach' (f2e0d4b0)
+MERGE 'Tannirbhavi Beach' seed (86426d5a, 1157 m off) -> OSM 'Tannirbhavi Beach' (651c56cf)
+MERGE 'St Aloysius Chapel' seed (66d14733, 575 m off) -> OSM 'St. Aloysius Chapel' (5d0189ba)
+MERGE 'Rosario Cathedral' seed (42662ea6, 1656 m off) -> OSM 'Rosario Cathedral' (06ccdd7c)
+MERGE 'Milagres Church' seed (0cccb97f, 510 m off) -> OSM 'Milagres Church' (781d8c02)
+MERGE 'Sultan Battery' seed (d061d66b, 3091 m off) -> OSM 'Sultan Battery' (657f1484)
+MERGE 'Tagore Park' seed (8d4754e9, 663 m off) -> OSM 'Tagore Park' (e30afe24)
+SKIP  'Cochin Bakery' seed has 2 OSM candidates — ambiguous, left alone
+MERGE 'Diesel Cafe' seed (98f27053, 1009 m off) -> OSM 'Diesel Café' (a4777e3b)
+MERGE 'Central City Library' (6f17ca1b) -> 'City Central Library' (937a8ecb), 23 m apart
+NAME  'Aramane Sweets ' -> 'Aramane Sweets'
+NAME  "'Kolka bail Pond'" -> 'Kolka bail Pond'
+NAME  "'Tank at Muttinje-Sulliame'" -> 'Tank at Muttinje-Sulliame'
+NAME  "'Tank at Kethumoola'" -> 'Tank at Kethumoola'
+NAME  "'Tank at Birodi'" -> 'Tank at Birodi'
+NAME  "'Tank at Birodi'" -> 'Tank at Birodi'
+NAME  "'Tank at Bolana 2nd survey no 138/3'" -> 'Tank at Bolana 2nd survey no 138/3'
+CSV   'Panambur Beach' coordinates -> OSM twin 12.9364384, 74.8042268
+CSV   'Tannirbhavi Beach' coordinates -> OSM twin 12.901198047368421, 74.8115489614035
+CSV   'St Aloysius Chapel' coordinates -> OSM twin 12.8737995, 74.8453615
+CSV   'Rosario Cathedral' coordinates -> OSM twin 12.8562987, 74.8366295
+CSV   'Milagres Church' coordinates -> OSM twin 12.8675168, 74.8441394
+CSV   'Sultan Battery' coordinates -> OSM twin 12.889555840000003, 74.8211981
+CSV   'Tagore Park' coordinates -> OSM twin 12.8714132, 74.8440802
+CSV   'Diesel Cafe' coordinates -> OSM twin 12.8737978, 74.8526586
+CSV   re-queue 'Masjid prayer' — STACKED-SEED: identical pin to 'Pandeshwar Temple', 'Shri Mahalingeshwara Swamy Temple'
+CSV   re-queue 'Muhiyuddeen Juma Masjid' — STACKED-SEED: identical pin to 'Bengre Kasba'
+CSV   re-queue 'U R Shenoy & Co' — STACKED-SEED: identical pin to 'Good News Book Center'
+CSV   re-queue 'Good News Book Center' — STACKED-SEED: identical pin to 'U R Shenoy & Co'
+CSV   re-queue 'Shri Mahalingeshwara Swamy Temple' — STACKED-SEED: identical pin to 'Pandeshwar Temple', 'Masjid prayer'
+CSV   'University College, Mangalore' category '' -> 'university' (from its name)
+CSV   'Kohinoor Computer Zone' category '' -> 'local_shop' (from its name)
+CSV   'Kriti Book Store' category '' -> 'local_shop' (from its name)
+CSV   'Shree Mukyaprana Temple' category '' -> 'temple' (from its name)
+
+REVIEW 'Ideal Ice cream' <-> 'Ideal Ice Cream' [cafe] 131 m — same place or two branches? (ids 9be85080, bed20557)
+REVIEW 'BMS Ferry Service' <-> 'BMS Ferry Service' [transit_point] 819 m — same place or two branches? (ids e70288f3, 05b7b7f5)
+REVIEW 'Hotel Coriander' <-> 'Hotel Coriander' [restaurant] 869 m — same place or two branches? (ids f5f8addb, 00272772)
+REVIEW 'Kolka Bail Pond' <-> 'Kolka bail Pond' [lake] 134 m — same place or two branches? (ids 4084c160, ccbb93bc)

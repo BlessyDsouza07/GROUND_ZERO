@@ -1,0 +1,15 @@
+GroundZero ingest report 20260924_090508
+  queue rows read ........... 319
+  already in dataset           10
+  needs a verified pin         309
+
+ALREADY-HAVE   Bengre Beach  (= 'Bengre Beach')
+ALREADY-HAVE   NITK Beach  (= 'NITK Beach')
+ALREADY-HAVE   Swami Vivekananda Planetarium  (= 'Swami Vivekananda Planetarium')
+ALREADY-HAVE   Pilikula Zoological Garden  (= 'Pilikula Zoological Garden')
+ALREADY-HAVE   Zeenath Baksh Juma Masjid  (= 'Zeenath Baksh Juma Masjid')
+ALREADY-HAVE   Pandeshwar Fire Station  (= 'Pandeshwar Fire Station')
+ALREADY-HAVE   KMC Hospital, Attavar  (= 'KMC Hospital, Attavar')
+ALREADY-HAVE   Lady Goschen Hospital  (= 'Lady Goschen Hospital')
+ALREADY-HAVE   Mangalore University  (= 'Mangalore University')
+ALREADY-HAVE   St Aloysius University  (= 'St Aloysius University')

@@ -1,0 +1,10 @@
+{
+  "name": "GroundZero — Mangaluru",
+  "short_name": "GroundZero",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#071B20",
+  "theme_color": "#071B20",
+  "description": "Your personal travel companion for Mangaluru.",
+  "orientation": "portrait-primary"
+}

@@ -1,0 +1,652 @@
+{
+  "_note": "SAMPLE DATA for offline demo/tests only. Coordinates approximate. Real data comes from Layer 0's master_data_core.json.",
+  "places": [
+    {
+      "place_id": "gz_milagres",
+      "name": "Milagres Church",
+      "category": "SPIRITUAL",
+      "subcategory": "church",
+      "lat": 12.8698,
+      "lng": 74.8433,
+      "city": "Mangalore",
+      "tags": [
+        "churches",
+        "heritage",
+        "history",
+        "architecture",
+        "authentic"
+      ],
+      "trip_relevance_tags": [
+        "churches",
+        "heritage",
+        "history",
+        "architecture",
+        "authentic"
+      ],
+      "bias_index": 0.25,
+      "local_percentage": 60,
+      "media_mentions": 40,
+      "estimated_cost": 0,
+      "is_free_entry": true,
+      "accessibility_tags": [
+        "wheelchair-friendly"
+      ],
+      "etiquette_tag": "cover shoulders",
+      "temporarily_unavailable": false,
+      "grade": "A",
+      "crowd_level": null,
+      "energy_requirement": "low",
+      "dwell_time_typical": 15,
+      "wikipedia_extract": "Milagres Church is a Roman Catholic church in Hampankatta, Mangalore. It was built in 1680 by Bishop Thomas de Castro. The church is known for its Gothic-style architecture and carved wooden altar. It draws quiet visitors in the mornings.",
+      "wikidata_facts": {
+        "inception": "1680",
+        "architectural_style": "Gothic Revival"
+      },
+      "food_notes": null,
+      "opening_hours": "Mo-Su 06:00-19:00",
+      "address": "Hampankatta, Mangaluru",
+      "bias_recommendation": "keep",
+      "source": "sample"
+    },
+    {
+      "place_id": "gz_stann",
+      "name": "St. Ann's Hilltop Chapel",
+      "category": "SPIRITUAL",
+      "subcategory": "chapel",
+      "lat": 12.8712,
+      "lng": 74.8449,
+      "city": "Mangalore",
+      "tags": [
+        "churches",
+        "heritage",
+        "authentic"
+      ],
+      "trip_relevance_tags": [
+        "churches",
+        "heritage",
+        "authentic"
+      ],
+      "bias_index": 0.1,
+      "local_percentage": 90,
+      "media_mentions": 2,
+      "estimated_cost": 0,
+      "is_free_entry": true,
+      "accessibility_tags": [
+        "stairs-only"
+      ],
+      "etiquette_tag": "cover shoulders",
+      "temporarily_unavailable": true,
+      "grade": "B",
+      "crowd_level": null,
+      "energy_requirement": "medium",
+      "dwell_time_typical": 20,
+      "wikipedia_extract": "St. Ann's is a small hilltop chapel above the old town. It is currently under renovation.",
+      "wikidata_facts": {},
+      "food_notes": null,
+      "opening_hours": "Mo-Su 07:00-18:00",
+      "address": "Bendore, Mangaluru",
+      "bias_recommendation": "keep",
+      "source": "sample"
+    },
+    {
+      "place_id": "gz_rosario",
+      "name": "Rosario Cathedral",
+      "category": "SPIRITUAL",
+      "subcategory": "cathedral",
+      "lat": 12.8735,
+      "lng": 74.8412,
+      "city": "Mangalore",
+      "tags": [
+        "churches",
+        "heritage",
+        "architecture"
+      ],
+      "trip_relevance_tags": [
+        "churches",
+        "heritage",
+        "architecture"
+      ],
+      "bias_index": 0.2,
+      "local_percentage": 70,
+      "media_mentions": 25,
+      "estimated_cost": 0,
+      "is_free_entry": true,
+      "accessibility_tags": [
+        "wheelchair-friendly"
+      ],
+      "etiquette_tag": "cover shoulders",
+      "temporarily_unavailable": false,
+      "grade": "A",
+      "crowd_level": null,
+      "energy_requirement": "low",
+      "dwell_time_typical": 20,
+      "wikipedia_extract": "Rosario Cathedral is a Catholic cathedral in Mangalore, consecrated in 1910 and inspired by St. Peter's Basilica in Rome. Its dome and frescoes are its main draw. Mass is held daily.",
+      "wikidata_facts": {
+        "inception": "1910"
+      },
+      "food_notes": null,
+      "opening_hours": "Mo-Su 06:00-19:00",
+      "address": "Car Street, Mangaluru",
+      "bias_recommendation": "keep",
+      "source": "sample"
+    },
+    {
+      "place_id": "gz_kadri",
+      "name": "Kadri Manjunath Temple",
+      "category": "SPIRITUAL",
+      "subcategory": "temple",
+      "lat": 12.887,
+      "lng": 74.85,
+      "city": "Mangalore",
+      "tags": [
+        "temples",
+        "spiritual",
+        "heritage",
+        "history"
+      ],
+      "trip_relevance_tags": [
+        "temples",
+        "spiritual",
+        "heritage",
+        "history"
+      ],
+      "bias_index": 0.2,
+      "local_percentage": 80,
+      "media_mentions": 30,
+      "estimated_cost": 0,
+      "is_free_entry": true,
+      "accessibility_tags": [
+        "stairs"
+      ],
+      "etiquette_tag": "remove footwear, no leather items inside",
+      "temporarily_unavailable": false,
+      "grade": "A",
+      "crowd_level": "medium",
+      "energy_requirement": "medium",
+      "dwell_time_typical": 25,
+      "wikipedia_extract": "Kadri Manjunath Temple is a Hindu temple dedicated to Lord Manjunatha, built around the 10th century. It is known for its bronze statues. The temple complex has several sacred ponds.",
+      "wikidata_facts": {
+        "inception": "1068"
+      },
+      "food_notes": null,
+      "opening_hours": "Mo-Su 05:30-13:00,16:30-20:30",
+      "address": "Kadri, Mangaluru",
+      "bias_recommendation": "keep",
+      "source": "sample"
+    },
+    {
+      "place_id": "gz_mangaladevi",
+      "name": "Mangaladevi Temple",
+      "category": "SPIRITUAL",
+      "subcategory": "temple",
+      "lat": 12.8393,
+      "lng": 74.8418,
+      "city": "Mangalore",
+      "tags": [
+        "temples",
+        "spiritual",
+        "heritage",
+        "authentic"
+      ],
+      "trip_relevance_tags": [
+        "temples",
+        "spiritual",
+        "heritage",
+        "authentic"
+      ],
+      "bias_index": 0.15,
+      "local_percentage": 85,
+      "media_mentions": 15,
+      "estimated_cost": 0,
+      "is_free_entry": true,
+      "accessibility_tags": [
+        "wheelchair-friendly"
+      ],
+      "etiquette_tag": "remove footwear",
+      "temporarily_unavailable": false,
+      "grade": "A",
+      "crowd_level": null,
+      "energy_requirement": "low",
+      "dwell_time_typical": 20,
+      "wikipedia_extract": "Mangaladevi Temple is an ancient temple that gave the city of Mangalore its name. It is dedicated to the goddess Mangaladevi.",
+      "wikidata_facts": {},
+      "food_notes": null,
+      "opening_hours": "Mo-Su 06:00-13:00,16:00-20:00",
+      "address": "Bolar, Mangaluru",
+      "bias_recommendation": "keep",
+      "source": "sample"
+    },
+    {
+      "place_id": "gz_lobo",
+      "name": "Mrs. Lobo's Home Kitchen",
+      "category": "FOOD",
+      "subcategory": "home kitchen",
+      "lat": 12.8721,
+      "lng": 74.8402,
+      "city": "Mangalore",
+      "tags": [
+        "local-food",
+        "authentic",
+        "seafood"
+      ],
+      "trip_relevance_tags": [
+        "local-food",
+        "authentic",
+        "seafood"
+      ],
+      "bias_index": 0.05,
+      "local_percentage": 100,
+      "media_mentions": 2,
+      "estimated_cost": 350,
+      "is_free_entry": false,
+      "accessibility_tags": [
+        "wheelchair-friendly"
+      ],
+      "etiquette_tag": null,
+      "temporarily_unavailable": false,
+      "grade": "A",
+      "crowd_level": "low",
+      "energy_requirement": "low",
+      "dwell_time_typical": 50,
+      "wikipedia_extract": "Mrs. Lobo's Home Kitchen serves Mangalorean Catholic home cooking from a family kitchen.",
+      "wikidata_facts": {},
+      "food_notes": "Known for fish curry and pork sorpotel. The fish curry is medium spicy. A vegetarian thali can be arranged with notice.",
+      "opening_hours": "Mo-Sa 12:00-15:00,19:00-21:30; Su off",
+      "address": "Kodialbail, Mangaluru",
+      "bias_recommendation": "keep",
+      "source": "sample"
+    },
+    {
+      "place_id": "gz_janata",
+      "name": "Janata Idli Shop",
+      "category": "FOOD",
+      "subcategory": "idli shop",
+      "lat": 12.869,
+      "lng": 74.842,
+      "city": "Mangalore",
+      "tags": [
+        "local-food",
+        "authentic",
+        "vegetarian"
+      ],
+      "trip_relevance_tags": [
+        "local-food",
+        "authentic",
+        "vegetarian"
+      ],
+      "bias_index": 0.08,
+      "local_percentage": 95,
+      "media_mentions": 1,
+      "estimated_cost": 60,
+      "is_free_entry": false,
+      "accessibility_tags": [
+        "wheelchair-friendly"
+      ],
+      "etiquette_tag": null,
+      "temporarily_unavailable": false,
+      "grade": "B",
+      "crowd_level": "medium",
+      "energy_requirement": "low",
+      "dwell_time_typical": 30,
+      "wikipedia_extract": "A tiny neighbourhood breakfast counter serving steamed idli and sambar.",
+      "wikidata_facts": {},
+      "food_notes": "Vegetarian breakfast. Idli, vada and sambar; mild spice.",
+      "opening_hours": "Mo-Su 06:30-11:30",
+      "address": "Hampankatta, Mangaluru",
+      "bias_recommendation": "keep",
+      "source": "sample"
+    },
+    {
+      "place_id": "gz_summer",
+      "name": "Summer Sands Resort",
+      "category": "STAY",
+      "subcategory": "resort",
+      "lat": 12.808,
+      "lng": 74.842,
+      "city": "Mangalore",
+      "tags": [
+        "beach",
+        "leisure"
+      ],
+      "trip_relevance_tags": [
+        "beach",
+        "leisure"
+      ],
+      "bias_index": 0.85,
+      "local_percentage": 10,
+      "media_mentions": 500,
+      "estimated_cost": 4500,
+      "is_free_entry": false,
+      "accessibility_tags": [],
+      "etiquette_tag": null,
+      "temporarily_unavailable": false,
+      "grade": "C",
+      "crowd_level": "high",
+      "energy_requirement": "low",
+      "dwell_time_typical": 120,
+      "wikipedia_extract": "A commercial beach resort.",
+      "wikidata_facts": {},
+      "food_notes": null,
+      "opening_hours": null,
+      "address": "Ullal, Mangaluru",
+      "bias_recommendation": "keep",
+      "source": "sample"
+    },
+    {
+      "place_id": "gz_panambur",
+      "name": "Panambur Beach",
+      "category": "NATURE",
+      "subcategory": "beach",
+      "lat": 12.9469,
+      "lng": 74.8054,
+      "city": "Mangalore",
+      "tags": [
+        "beach",
+        "nature",
+        "leisure",
+        "sunset"
+      ],
+      "trip_relevance_tags": [
+        "beach",
+        "nature",
+        "leisure",
+        "sunset"
+      ],
+      "bias_index": 0.45,
+      "local_percentage": 40,
+      "media_mentions": 120,
+      "estimated_cost": 0,
+      "is_free_entry": true,
+      "accessibility_tags": [
+        "uneven-terrain"
+      ],
+      "etiquette_tag": null,
+      "temporarily_unavailable": false,
+      "grade": "A",
+      "crowd_level": "high",
+      "energy_requirement": "medium",
+      "dwell_time_typical": 60,
+      "wikipedia_extract": "Panambur Beach is a popular beach north of Mangalore near the New Mangalore Port. It is known for its sunsets and water sports.",
+      "wikidata_facts": {},
+      "food_notes": null,
+      "opening_hours": null,
+      "address": "Panambur, Mangaluru",
+      "bias_recommendation": "keep",
+      "source": "sample"
+    },
+    {
+      "place_id": "gz_tanni",
+      "name": "Tannirbhavi Beach",
+      "category": "NATURE",
+      "subcategory": "beach",
+      "lat": 12.9339,
+      "lng": 74.8085,
+      "city": "Mangalore",
+      "tags": [
+        "beach",
+        "nature",
+        "authentic",
+        "sunset"
+      ],
+      "trip_relevance_tags": [
+        "beach",
+        "nature",
+        "authentic",
+        "sunset"
+      ],
+      "bias_index": 0.2,
+      "local_percentage": 70,
+      "media_mentions": 12,
+      "estimated_cost": 0,
+      "is_free_entry": true,
+      "accessibility_tags": [
+        "uneven-terrain"
+      ],
+      "etiquette_tag": null,
+      "temporarily_unavailable": false,
+      "grade": "B",
+      "crowd_level": "low",
+      "energy_requirement": "medium",
+      "dwell_time_typical": 50,
+      "wikipedia_extract": "Tannirbhavi Beach is a quieter beach on the Netravati river mouth, popular with locals in the evenings.",
+      "wikidata_facts": {},
+      "food_notes": null,
+      "opening_hours": null,
+      "address": "Tannirbhavi, Mangaluru",
+      "bias_recommendation": "keep",
+      "source": "sample"
+    },
+    {
+      "place_id": "gz_sultan",
+      "name": "Sultan Battery",
+      "category": "EXPLORE",
+      "subcategory": "watchtower",
+      "lat": 12.9083,
+      "lng": 74.8098,
+      "city": "Mangalore",
+      "tags": [
+        "history",
+        "heritage",
+        "architecture"
+      ],
+      "trip_relevance_tags": [
+        "history",
+        "heritage",
+        "architecture"
+      ],
+      "bias_index": 0.3,
+      "local_percentage": 50,
+      "media_mentions": 35,
+      "estimated_cost": 20,
+      "is_free_entry": false,
+      "accessibility_tags": [
+        "stairs"
+      ],
+      "etiquette_tag": null,
+      "temporarily_unavailable": false,
+      "grade": "B",
+      "crowd_level": "low",
+      "energy_requirement": "medium",
+      "dwell_time_typical": 30,
+      "wikipedia_extract": "Sultan Battery is a watchtower built by Tipu Sultan in 1784 to prevent warships from entering the Gurupura river. It is built of black stone.",
+      "wikidata_facts": {
+        "inception": "1784"
+      },
+      "food_notes": null,
+      "opening_hours": "Mo-Su 08:00-18:00",
+      "address": "Boloor, Mangaluru",
+      "bias_recommendation": "keep",
+      "source": "sample"
+    },
+    {
+      "place_id": "gz_pilikula",
+      "name": "Pilikula Nisargadhama",
+      "category": "NATURE",
+      "subcategory": "park",
+      "lat": 12.9247,
+      "lng": 74.8905,
+      "city": "Mangalore",
+      "tags": [
+        "nature",
+        "park",
+        "family"
+      ],
+      "trip_relevance_tags": [
+        "nature",
+        "park",
+        "family"
+      ],
+      "bias_index": 0.4,
+      "local_percentage": 45,
+      "media_mentions": 80,
+      "estimated_cost": 120,
+      "is_free_entry": false,
+      "accessibility_tags": [
+        "wheelchair-friendly"
+      ],
+      "etiquette_tag": null,
+      "temporarily_unavailable": false,
+      "grade": "A",
+      "crowd_level": "medium",
+      "energy_requirement": "medium",
+      "dwell_time_typical": 120,
+      "wikipedia_extract": "Pilikula Nisargadhama is a biological park with a zoo, botanical garden and lake.",
+      "wikidata_facts": {},
+      "food_notes": null,
+      "opening_hours": "Tu-Su 09:30-17:30",
+      "address": "Vamanjoor, Mangaluru",
+      "bias_recommendation": "keep",
+      "source": "sample"
+    },
+    {
+      "place_id": "gz_falnir",
+      "name": "Falnir Bazaar",
+      "category": "SHOPPING",
+      "subcategory": "market",
+      "lat": 12.8686,
+      "lng": 74.8493,
+      "city": "Mangalore",
+      "tags": [
+        "shopping",
+        "local-life",
+        "authentic"
+      ],
+      "trip_relevance_tags": [
+        "shopping",
+        "local-life",
+        "authentic"
+      ],
+      "bias_index": 0.1,
+      "local_percentage": 90,
+      "media_mentions": 3,
+      "estimated_cost": 100,
+      "is_free_entry": false,
+      "accessibility_tags": [
+        "wheelchair-friendly"
+      ],
+      "etiquette_tag": null,
+      "temporarily_unavailable": false,
+      "grade": "B",
+      "crowd_level": "medium",
+      "energy_requirement": "medium",
+      "dwell_time_typical": 40,
+      "wikipedia_extract": "A busy neighbourhood bazaar with fruit sellers, tailors and spice shops.",
+      "wikidata_facts": {},
+      "food_notes": null,
+      "opening_hours": "Mo-Sa 09:00-20:00",
+      "address": "Falnir, Mangaluru",
+      "bias_recommendation": "keep",
+      "source": "sample"
+    },
+    {
+      "place_id": "gz_craft",
+      "name": "Clay Pot Painting Studio",
+      "category": "LOCAL_LIFE",
+      "subcategory": "craft workshop",
+      "lat": 12.8705,
+      "lng": 74.844,
+      "city": "Mangalore",
+      "tags": [
+        "crafts",
+        "artisan",
+        "authentic",
+        "local-life"
+      ],
+      "trip_relevance_tags": [
+        "crafts",
+        "artisan",
+        "authentic",
+        "local-life"
+      ],
+      "bias_index": 0.05,
+      "local_percentage": 100,
+      "media_mentions": 0,
+      "estimated_cost": 150,
+      "is_free_entry": false,
+      "accessibility_tags": [
+        "wheelchair-friendly"
+      ],
+      "etiquette_tag": null,
+      "temporarily_unavailable": false,
+      "grade": "B",
+      "crowd_level": "low",
+      "energy_requirement": "low",
+      "dwell_time_typical": 40,
+      "wikipedia_extract": "A small studio run by a veteran potter who teaches clay pot painting.",
+      "wikidata_facts": {},
+      "food_notes": null,
+      "opening_hours": "Mo-Sa 10:00-20:00",
+      "address": "Bendore, Mangaluru",
+      "bias_recommendation": "keep",
+      "source": "sample"
+    },
+    {
+      "place_id": "gz_hospital",
+      "name": "City Hospital (sample)",
+      "category": "EMERGENCY",
+      "subcategory": "hospital",
+      "lat": 12.874,
+      "lng": 74.842,
+      "city": "Mangalore",
+      "tags": [
+        "emergency"
+      ],
+      "trip_relevance_tags": [
+        "emergency"
+      ],
+      "bias_index": 0.0,
+      "local_percentage": 100,
+      "media_mentions": 0,
+      "estimated_cost": 0,
+      "is_free_entry": true,
+      "accessibility_tags": [],
+      "etiquette_tag": null,
+      "temporarily_unavailable": false,
+      "grade": "B",
+      "crowd_level": "low",
+      "energy_requirement": "low",
+      "dwell_time_typical": 5,
+      "wikipedia_extract": "Multi-speciality hospital.",
+      "wikidata_facts": {},
+      "food_notes": null,
+      "opening_hours": "24/7",
+      "address": "Hampankatta, Mangaluru",
+      "bias_recommendation": "keep",
+      "source": "sample"
+    },
+    {
+      "place_id": "gz_police",
+      "name": "Police Station (sample)",
+      "category": "EMERGENCY",
+      "subcategory": "police",
+      "lat": 12.87,
+      "lng": 74.846,
+      "city": "Mangalore",
+      "tags": [
+        "emergency"
+      ],
+      "trip_relevance_tags": [
+        "emergency"
+      ],
+      "bias_index": 0.0,
+      "local_percentage": 100,
+      "media_mentions": 0,
+      "estimated_cost": 0,
+      "is_free_entry": true,
+      "accessibility_tags": [],
+      "etiquette_tag": null,
+      "temporarily_unavailable": false,
+      "grade": "B",
+      "crowd_level": "low",
+      "energy_requirement": "low",
+      "dwell_time_typical": 5,
+      "wikipedia_extract": "City police station.",
+      "wikidata_facts": {},
+      "food_notes": null,
+      "opening_hours": "24/7",
+      "address": "Mangaluru",
+      "bias_recommendation": "keep",
+      "source": "sample"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+data_output/*.db
+data_output/*.db-journal
+data_output/*.db-wal
+data_output/*.db-shm
+.pytest_cache/
+*.egg-info/

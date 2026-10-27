@@ -1,0 +1,27 @@
+{
+  "profile_id": "asha_demo",
+  "device_id": "device-demo-1",
+  "purpose": "cultural",
+  "energy_band": "medium",
+  "crowd_tolerance": "fine",
+  "budget": 1500,
+  "dietary_flags": [
+    "veg"
+  ],
+  "group_config": "couple",
+  "group_session_id": null,
+  "curiosity_text": "I want to see old churches and eat authentic Mangalorean food, not touristy restaurants.",
+  "curiosity_vector": [
+    "heritage",
+    "churches",
+    "local-food",
+    "authentic"
+  ],
+  "trip_duration_hours": 8,
+  "start_time_preference": "mid_morning",
+  "accessibility_flags": [],
+  "companion_language": "en",
+  "voice_personality": "warm",
+  "return_visitor_exclusions": [],
+  "created_at": "2026-09-22T03:30:00+00:00"
+}

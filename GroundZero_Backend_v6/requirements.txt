@@ -1,0 +1,44 @@
+fastapi==0.116.1  # bumped from 0.115.0: live_events/ (Live Mangaluru Events, 2026-09-24 no-seed rebuild) requires >=0.116
+uvicorn[standard]==0.35.0  # bumped from 0.34.0: live_events/ requires >=0.35
+pydantic==2.11.7  # bumped from 2.9.2: live_events/ requires >=2.11
+pydantic-settings==2.7.1  # kept for shared/config.py's own Settings; live_events/ no longer uses pydantic-settings (plain os.getenv now)
+sqlalchemy[asyncio]==2.0.35
+asyncpg==0.31.0
+alembic==1.13.3
+geoalchemy2==0.15.2
+redis==5.0.8
+httpx==0.28.1  # bumped from 0.27.2: live_events/ requires >=0.28; audited — no proxies=/app= usage anywhere in this repo, safe bump
+feedparser==6.0.11
+opening-hours-py==2.1.4
+python-dotenv==1.0.1
+slowapi==0.1.9
+osmium==4.3.1  # offline .osm/.osm.pbf extract reading — zero network, zero rate limit
+tzdata==2025.2  # Windows ships no IANA tz database; zoneinfo.ZoneInfo("Asia/Kolkata") needs this package there
+
+# Layer 3 (Context Engine + Silence Filter + Ask Engine) — see layer3/requirements.txt.
+# Every one of its pins (fastapi>=0.110, pydantic>=2.6, SQLAlchemy>=2.0, httpx>=0.27,
+# python-dotenv>=1.0, redis>=5.0, tzdata>=2024.1, uvicorn>=0.29, pytest>=8.0) is already
+# satisfied by the versions above — nothing additional needed for Layer 3 itself.
+
+# Live Mangaluru Events (live_events/) — see live_events/requirements.txt for its full pin set.
+# 2026-09-24: rebuilt as a no-seed module (real adapters + collector.py,
+# no bundled verified_seed.json) — python-dateutil replaced by dateparser
+# (more permissive natural-language date parsing for the JSON-LD it
+# scrapes), and psycopg added as an optional sync Postgres driver for
+# EVENTS_DATABASE_URL if you point it at Postgres instead of the sqlite
+# default (see live_events/.env.example) — not required for the default
+# sqlite setup, only installed here so it's available if you switch.
+apscheduler==3.11.0
+beautifulsoup4==4.13.3
+dateparser==1.2.0
+psycopg[binary]==3.2.3
+
+# testing
+pytest==8.4.2
+pytest-asyncio==1.4.0
+astral>=3.2,<4
+
+# Photos, story videos and natural voice
+pillow>=10.4
+imageio-ffmpeg>=0.5.1
+edge-tts>=6.1.12

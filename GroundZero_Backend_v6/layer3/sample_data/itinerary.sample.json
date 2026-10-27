@@ -1,0 +1,71 @@
+{
+  "itinerary_id": "demo",
+  "days": [
+    {
+      "day_number": 1,
+      "slots": [
+        {
+          "slot_role": "GROUNDING",
+          "recommendation": {
+            "place_id": "gz_janata",
+            "place_name": "Janata Idli Shop"
+          },
+          "time_window": "09:00-09:40"
+        },
+        {
+          "slot_role": "PERSONAL",
+          "recommendation": {
+            "place_id": "gz_milagres",
+            "place_name": "Milagres Church"
+          },
+          "time_window": "09:50-10:15"
+        },
+        {
+          "slot_role": "PERSONAL",
+          "recommendation": {
+            "place_id": "gz_stann",
+            "place_name": "St. Ann's Hilltop Chapel"
+          },
+          "time_window": "10:30-11:00"
+        },
+        {
+          "slot_role": "ANCHOR",
+          "recommendation": null,
+          "time_window": "12:30-13:15"
+        },
+        {
+          "slot_role": "LOCAL_SECRET",
+          "recommendation": {
+            "place_id": "gz_lobo",
+            "place_name": "Mrs. Lobo's Home Kitchen"
+          },
+          "time_window": "13:15-14:00"
+        },
+        {
+          "slot_role": "WILDCARD",
+          "recommendation": {
+            "place_id": "gz_craft",
+            "place_name": "Clay Pot Painting Studio"
+          },
+          "time_window": "15:00-15:40"
+        },
+        {
+          "slot_role": "SIGNATURE",
+          "recommendation": {
+            "place_id": "gz_tanni",
+            "place_name": "Tannirbhavi Beach"
+          },
+          "time_window": "16:30-17:30"
+        }
+      ],
+      "alternatives": [
+        {
+          "slot_role": "PERSONAL",
+          "recommendation": {
+            "place_id": "gz_rosario"
+          }
+        }
+      ]
+    }
+  ]
+}
