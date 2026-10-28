@@ -123,20 +123,30 @@ def _to_place_out(place: Place) -> PlaceOut:
     )
 
 
+
 @router.get("", response_model=list[PlaceOut])
 async def list_places(
     category: str | None = None,
     repo: PlaceRepository = Depends(get_place_repository),
 ) -> list[PlaceOut]:
-    places = await repo.list_all(category=category)
-    # SECURITY FIX (final-release-hardening pass, Oct 2026): a pending
-    # (unreviewed) tourist-added place (see CustomPlaceService's module
-    # docstring) is real data the tourist who added it can still reach —
-    # by place_id, or pinned into their own itinerary — but this is
-    # general public discovery, the same list every other tourist sees,
-    # so it stays "verified only" until an admin reviews it.
-    places = [p for p in places if p.verification_status == "verified"]
-    return [_to_place_out(p) for p in places]
+    logger.info("GET places started: category=%r", category)
+
+    try:
+        places = await repo.list_all(category=category)
+        logger.info("GET places database query succeeded: count=%d", len(places))
+
+        places = [
+            p for p in places
+            if p.verification_status == "verified"
+        ]
+        result = [_to_place_out(p) for p in places]
+
+        logger.info("GET places response conversion succeeded: count=%d", len(result))
+        return result
+
+    except Exception:
+        logger.exception("GET places failed: category=%r", category)
+        raise
 
 
 @router.get("/nearby", response_model=list[PlaceOut])
