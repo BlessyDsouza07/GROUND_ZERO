@@ -9,6 +9,20 @@
   <meta name="theme-color" content="#071B20">
   <title>GroundZero — Mangaluru</title>
   <link rel="manifest" href="manifest.json">
+  <script>
+    // Phones and small tablets: lay the page out at laptop width (1100px) and let
+    // the browser shrink it to fit the screen, so the app shows the exact same
+    // desktop design on every device. Laptops/desktops are not touched.
+    (function () {
+      var small = Math.min(screen.width, screen.height) < 900;
+      if (!small) return;
+      var vp = document.querySelector('meta[name=viewport]');
+      vp.setAttribute('content', 'width=1100, user-scalable=no');
+    })();
+  </script>
+  <style>
+    html, body { margin: 0; background: #071B20; overscroll-behavior: none; }
+  </style>
 </head>
 <body>
   <script src="flutter_bootstrap.js" async></script>
