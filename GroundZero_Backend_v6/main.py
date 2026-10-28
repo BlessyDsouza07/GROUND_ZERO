@@ -326,3 +326,13 @@ async def health() -> dict:
         "layer3_available": layer3_available,
         "live_events_available": events_available,
     }
+
+@app.get("/")
+async def root() -> dict:
+    return {
+        "service": "Ground Zero",
+        "status": "ok",
+        "message": "GroundZero backend is running",
+        "health": "/health",
+        "docs": "/docs",
+    }
