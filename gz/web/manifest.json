@@ -6,5 +6,5 @@
   "background_color": "#071B20",
   "theme_color": "#071B20",
   "description": "Your personal travel companion for Mangaluru.",
-  "orientation": "portrait-primary"
+  "orientation": "any"
 }
