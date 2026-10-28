@@ -278,16 +278,38 @@ class PostgresPlaceRepository(PlaceRepository):
         await self.session.commit()
         return stored
 
+    
     async def list_all(self, category: Optional[str] = None) -> list[Place]:
-        stmt = select(PlaceModel).options(selectinload(PlaceModel.bias_signals))
+        stmt = select(PlaceModel).options(
+            selectinload(PlaceModel.bias_signals)
+        )
+
         if category:
             stmt = stmt.where(PlaceModel.category == category)
-        result = await self.session.execute(stmt)
-        places = []
-        for model in result.scalars().all():
-            lat, lon = await self._lat_lon(model)
-            places.append(_model_to_place(model, lat, lon))
-        return places
+
+        try:
+            result = await self.session.execute(stmt)
+            models = result.scalars().all()
+
+            places = []
+            for model in models:
+                lat, lon = await self._lat_lon(model)
+                places.append(_model_to_place(model, lat, lon))
+
+            logger.info(
+                "list_all succeeded: category=%r, count=%d",
+                category,
+                len(places),
+            )
+            return places
+
+        except Exception:
+            logger.exception(
+                "list_all failed: category=%r",
+                category,
+            )
+            raise
+
 
     async def list_stale(self, older_than_days: int) -> list[Place]:
         cutoff = datetime.now(timezone.utc).timestamp() - older_than_days * 86400
