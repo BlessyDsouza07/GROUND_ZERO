@@ -42,3 +42,4 @@ astral>=3.2,<4
 pillow>=10.4
 imageio-ffmpeg>=0.5.1
 edge-tts>=6.1.12
+psycopg2-binary
